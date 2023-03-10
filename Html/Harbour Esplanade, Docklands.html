@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Harbour Esplanade, Docklands</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Harbour Esplanade, Docklands</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Harbour Esplanade is a waterfront street and thoroughfare in Docklands , Australia .
+It runs roughly north - south from Navigation Drive in the south to Docklands Drive in the north .
+The road also forms the eastern boundary of the Victoria Harbour inlet and is adjacent to Victoria Dock .
+The esplanade is a core element of the Docklands urban renewal precinct and is known for housing Docklands Stadium and several converted dock buildings that now serve as pubs and function spaces .
+Harbour Esplanade is also the location of office buildings and restaurants , whilst the Capital City Trail runs parallel along some of its length .
+It has been described as Melbourne 's waterfront boulevard and its future potential is compared to the successful Circular Quay in Sydney .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.609<br> Recall: 0.933<br> F1 Score: 0.737 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 28</h4>
+      <p>                locatedintheadministrativeterritorialentity(sydney, australia)<br>                country(docklands, australia)<br>                locatedintheadministrativeterritorialentity(victoriadock, australia)<br>                locatedintheadministrativeterritorialentity(capitalcitytrail, australia)<br>                country(victoriadock, australia)<br>                locatedintheadministrativeterritorialentity(circularquay, australia)<br>                locatedintheadministrativeterritorialentity(docklands, australia)<br>                locatedintheadministrativeterritorialentity(melbourne, australia)<br>                locatedintheadministrativeterritorialentity(docklandsstadium, docklands)<br>                locatedintheadministrativeterritorialentity(capitalcitytrail, melbourne)<br>                locatedintheadministrativeterritorialentity(victoriadock, melbourne)<br>                country(capitalcitytrail, australia)<br>                country(navigationdrive, australia)<br>                locatedintheadministrativeterritorialentity(docklands, melbourne)<br>                country(victoriaharbour, australia)<br>                locatedintheadministrativeterritorialentity(harbouresplanade, melbourne)<br>                locatedintheadministrativeterritorialentity(victoriaharbour, australia)<br>                country(melbourne, australia)<br>                country(sydney, australia)<br>                locatedintheadministrativeterritorialentity(harbouresplanade, docklands)<br>                locatedintheadministrativeterritorialentity(navigationdrive, australia)<br>                locatedintheadministrativeterritorialentity(harbouresplanade, australia)<br>                locatedintheadministrativeterritorialentity(docklandsstadium, melbourne)<br>                country(docklandsstadium, australia)<br>                country(harbouresplanade, australia)<br>                country(circularquay, australia)<br>                locatedintheadministrativeterritorialentity(circularquay, sydney)<br>                locatedintheadministrativeterritorialentity(docklandsstadium, australia)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 18</h4>
+      <p>                participantof(docklandsstadium, victoriaharbour)<br>                dateofdeath(harbouresplanade, australia)<br>                country(victoriadock, navigationdrive)<br>                participantof(harbouresplanade, victoriaharbour)<br>                locatedintheadministrativeterritorialentity(docklandsstadium, navigationdrive)<br>                militarybranch(harbouresplanade, docklandsstadium)<br>                conflict(harbouresplanade, victoriaharbour)<br>                country(docklandsstadium, navigationdrive)<br>                country(victoriaharbour, navigationdrive)<br>                conflict(docklandsstadium, victoriaharbour)<br>                participant(victoriaharbour, docklandsstadium)<br>                participant(victoriaharbour, harbouresplanade)<br>                dateofbirth(harbouresplanade, docklands)<br>                locatedintheadministrativeterritorialentity(circularquay, melbourne)<br>                locatedintheadministrativeterritorialentity(sydney, navigationdrive)<br>                countryofcitizenship(harbouresplanade, navigationdrive)<br>                country(sydney, navigationdrive)<br>                locatedintheadministrativeterritorialentity(victoriadock, navigationdrive)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 2</h4>
+      <p>                basincountry(victoriaharbour, australia)<br>                locatedinornexttobodyofwater(melbourne, victoriaharbour)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">locatedintheadministrativeterritorialentity(victoriaharbour, melbourne)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">country(melbourne, australia), country(victoriaharbour, australia)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">locatedintheadministrativeterritorialentity(victoriadock, docklands)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">country(docklands, australia), country(victoriadock, australia)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

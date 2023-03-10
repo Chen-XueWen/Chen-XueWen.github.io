@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Grand Wing Servo-Tech</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Grand Wing Servo-Tech</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Grand Wing Servo - Tech Co. , Ltd. or GWS is a Taiwanese manufacturer of foam radio controlled aircraft and accessories , including their own line of electric motors , servos , radio systems and gyros .
+In the U.S. , the company is known as Grand Wing System with headquarters in City of Industry , California .
+GWS was founded in 1993 and has quickly risen to become one of the leading manufacturers of RC products with sales in 2004 of more than US$ 12,000,000 .
+The company designs and manufactures all of its own products in their own factories in both Taiwan and China , while mainly in China by now .
+This allows GWS to be an original equipment manufacturer as well , with custom tooling and development available .
+GWS USA , LLC was established in January 2004 to improve distribution of GWS products in North America .
+The division handles sales , warranty , claims and partial repairs for the entire North American market as well .
+GWS headquarters in Taiwan and subsidiary GWS China take care of claims for the rest of the world .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.867<br> Recall: 0.812<br> F1 Score: 0.839 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 13</h4>
+      <p>                inception(gwsusa, ent_2004)<br>                inception(grandwingservotechcoltd, ent_1993)<br>                continent(us, northamerica)<br>                locatedintheadministrativeterritorialentity(cityofindustry, us)<br>                headquarterslocation(grandwingservotechcoltd, cityofindustry)<br>                containsadministrativeterritorialentity(us, california)<br>                locatedintheadministrativeterritorialentity(california, us)<br>                haspart(northamerica, us)<br>                parentorganization(gwschina, grandwingservotechcoltd)<br>                country(cityofindustry, us)<br>                country(california, us)<br>                locatedintheadministrativeterritorialentity(cityofindustry, california)<br>                partof(us, northamerica)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 2</h4>
+      <p>                country(grandwingservotechcoltd, taiwanese)<br>                locatedintheadministrativeterritorialentity(grandwingservotechcoltd, taiwanese)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 3</h4>
+      <p>                ownedby(gwschina, grandwingservotechcoltd)<br>                continent(california, northamerica)<br>                subsidiary(grandwingservotechcoltd, gwschina)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">subsidiary(grandwingservotechcoltd, gwschina)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">parentorganization(gwschina, grandwingservotechcoltd)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">locatedintheadministrativeterritorialentity(grandwingservotechcoltd, us)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">headquarterslocation(grandwingservotechcoltd, cityofindustry), country(cityofindustry, us)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

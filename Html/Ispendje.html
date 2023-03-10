@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ispendje</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Ispendje</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>İspençe was a tax levied on non - Muslims in the Ottoman Empire .
+İspençe was a land - tax on non - Muslims in parts of the Ottoman Empire ; its counterpart , for Muslim taxpayers , was the resm - i çift - which was set at slightly lower rate .
+The treasury was well aware of the difference in tax takes , and the incentive to convert ; the legal reforms of Bayezid II halved some criminal penalties on nonmuslim taxpayers " so that the taxpayers shall not vanish " ; this rule was reconfimed , a century later , in 1587 .
+In other cases , local taxes were imposed on nonmuslims specifically to encourage conversion .
+İspençe had existed in the Balkans before the Ottoman conquest ; the Ottoman Empire typically adapted local taxes and institutions in each conquered area , leading to a patchwork of different taxes and rates .
+The concept of İspençe , theoretically a payment in lieu of corvee labour , was derived from the Byzantine " zeugaratikion " , a land tax based on the zeugarion - the area of farmland which could be ploughed by a pair of oxen .
+The zeugarion itself was taken up as the Ottoman " çift " , a word meaning " pair " .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.1<br> Recall: 0.25<br> F1 Score: 0.143 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 3</h4>
+      <p>                country(spene, ottomanempire)<br>                country(spene, ottoman)<br>                countryofcitizenship(bayezidii, ottomanempire)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 27</h4>
+      <p>                locatedintheadministrativeterritorialentity(spene, ent_1587)<br>                locatedintheadministrativeterritorialentity(muslims, ent_1587)<br>                locatedintheadministrativeterritorialentity(ottomanempire, bayezidii)<br>                containsadministrativeterritorialentity(ent_1587, bayezidii)<br>                country(spene, balkans)<br>                locatedintheadministrativeterritorialentity(bayezidii, ent_1587)<br>                countryofcitizenship(bayezidii, ottoman)<br>                country(ottomanempire, balkans)<br>                country(bayezidii, balkans)<br>                instanceof(spene, muslims)<br>                replacedby(ottoman, ottomanempire)<br>                locatedintheadministrativeterritorialentity(ent_1587, balkans)<br>                locatedintheadministrativeterritorialentity(muslims, balkans)<br>                containsadministrativeterritorialentity(balkans, ent_1587)<br>                locatedintheadministrativeterritorialentity(bayezidii, balkans)<br>                locatedintheadministrativeterritorialentity(spene, ottomanempire)<br>                appliestojurisdiction(bayezidii, ottomanempire)<br>                locatedintheadministrativeterritorialentity(ottomanempire, balkans)<br>                locatedintheadministrativeterritorialentity(spene, bayezidii)<br>                locatedintheadministrativeterritorialentity(spene, balkans)<br>                locatedintheadministrativeterritorialentity(spene, ottoman)<br>                basincountry(balkans, ottomanempire)<br>                containsadministrativeterritorialentity(ent_1587, ottomanempire)<br>                locatedintheadministrativeterritorialentity(ottomanempire, ent_1587)<br>                country(ent_1587, balkans)<br>                containsadministrativeterritorialentity(bayezidii, ottomanempire)<br>                country(muslims, balkans)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 9</h4>
+      <p>                country(ottoman, ottomanempire)<br>                follows(ottomanempire, byzantine)<br>                country(balkans, ottomanempire)<br>                followedby(byzantine, ottomanempire)<br>                locatedintheadministrativeterritorialentity(balkans, ottoman)<br>                appliestojurisdiction(spene, ottomanempire)<br>                locatedintheadministrativeterritorialentity(balkans, ottomanempire)<br>                country(balkans, ottoman)<br>                locatedintheadministrativeterritorialentity(ottoman, ottomanempire)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">locatedonterrainfeature(ottomanempire, balkans)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">basincountry(balkans, ottomanempire)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

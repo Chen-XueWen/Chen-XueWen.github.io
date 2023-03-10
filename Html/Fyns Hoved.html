@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fyns Hoved</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Fyns Hoved</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Fyns Hoved is a bight of northeastern Funen , Denmark , curving south to form the approach to Odense Fjord .
+It is the northernmost point of Hindsholm and is thus Funen 's northernmost point , dividing the Kattegat and the Great Belt .
+The eastern side of the bight between Fyns Hoved and Skoven , to the south , is irregular , with a beach and hills behind it , and to the south of the bight is a small , shallow bay , Korshavn Bay , with the Korshavn Light in the vicinity .
+The bay is a natural harbour used by many yachtsmen .
+Fyns Hoved is located in the dry Great Belt region , where rainfall is about per year compared to the national average of per year .
+This makes it hospitable to plants that are more common in the dry areas of southern Europe .
+The area is frequented by many shore birds and is also a resting place for migrating birds , and harbour porpoises can be seen offshore .
+Numerous artists such as Theodor Philipsen , Johannes Larsen and Fritz Syberg have found inspiration in the light and the scenery .
+There are many stone walls in the area ; these date back to 1810 , when the seven farmers in the village of Nordskov decided to divide the area between them so that they would each have one northern and one southern strip of land .
+The seven cottagers had to content themselves with sharing one strip .
+During the German occupation , barracks , a radar installation and artillery on Fyns Hoved guarded the entrance to the Great Belt .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.778<br> Recall: 0.651<br> F1 Score: 0.709 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 28</h4>
+      <p>                country(funen, denmark)<br>                locatedintheadministrativeterritorialentity(fynshoved, denmark)<br>                country(kattegat, denmark)<br>                locatedintheadministrativeterritorialentity(fynshoved, funen)<br>                continent(kattegat, europe)<br>                country(fynshoved, denmark)<br>                locatedintheadministrativeterritorialentity(hindsholm, funen)<br>                continent(fynshoved, europe)<br>                locatedintheadministrativeterritorialentity(hindsholm, denmark)<br>                locatedintheadministrativeterritorialentity(korshavnlight, denmark)<br>                country(korshavnlight, denmark)<br>                locatedintheadministrativeterritorialentity(kattegat, denmark)<br>                country(greatbelt, denmark)<br>                locatedintheadministrativeterritorialentity(skoven, denmark)<br>                country(korshavnbay, denmark)<br>                country(skoven, denmark)<br>                basincountry(odensefjord, denmark)<br>                locatedintheadministrativeterritorialentity(greatbelt, denmark)<br>                containsadministrativeterritorialentity(denmark, funen)<br>                country(nordskov, denmark)<br>                continent(funen, europe)<br>                locatedintheadministrativeterritorialentity(funen, denmark)<br>                locatedintheadministrativeterritorialentity(nordskov, denmark)<br>                locatedintheadministrativeterritorialentity(korshavnbay, denmark)<br>                country(hindsholm, denmark)<br>                locatedintheadministrativeterritorialentity(odensefjord, denmark)<br>                country(odensefjord, denmark)<br>                continent(denmark, europe)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 8</h4>
+      <p>                continent(hindsholm, europe)<br>                continent(german, europe)<br>                countryofcitizenship(fritzsyberg, denmark)<br>                continent(skoven, europe)<br>                countryofcitizenship(johanneslarsen, denmark)<br>                locatedintheadministrativeterritorialentity(kattegat, funen)<br>                countryofcitizenship(theodorphilipsen, denmark)<br>                continent(odensefjord, europe)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 15</h4>
+      <p>                partof(fynshoved, funen)<br>                basincountry(kattegat, denmark)<br>                haspart(europe, denmark)<br>                haspart(funen, hindsholm)<br>                locatedonterrainfeature(hindsholm, funen)<br>                locatedintheadministrativeterritorialentity(skoven, funen)<br>                partof(hindsholm, funen)<br>                haspart(funen, fynshoved)<br>                containsadministrativeterritorialentity(denmark, hindsholm)<br>                locatedintheadministrativeterritorialentity(nordskov, funen)<br>                partof(denmark, europe)<br>                locatedonterrainfeature(fynshoved, hindsholm)<br>                locatedonterrainfeature(fynshoved, funen)<br>                locatedinornexttobodyofwater(funen, kattegat)<br>                continent(greatbelt, europe)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">locatedintheadministrativeterritorialentity(skoven, funen)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">country(funen, denmark), country(skoven, denmark)</div>
+<div class="panel-body">containsadministrativeterritorialentity(denmark, funen), country(skoven, denmark)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">locatedonterrainfeature(fynshoved, greatbelt)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(fynshoved, denmark), locatedintheadministrativeterritorialentity(greatbelt, denmark)</div>
+<div class="panel-body">country(fynshoved, denmark), locatedintheadministrativeterritorialentity(greatbelt, denmark)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Downy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Downy</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Downy ( Lenor in Europe , Russia and Japan ) is a brand name of fabric softener produced by Procter & Gamble and sold in the United States .
+It entered the U.S. test market in August 1960 and went nationwide in December 1961 .
+It was also sold in the Philippines , Malaysia , Indonesia , Singapore , Thailand , Vietnam , South Korea , Egypt , Kenya and Latin America .
+Lenor is a brand name of fabric softener and dryer sheets , also produced by Procter & Gamble , sold in Europe , Russia and Japan .
+Lenor fabric softener had entered China in 2007 but ceased later .
+Scent beads under the brand Downy have been sold in China since Dec. 2017 .
+Plans to rebrand Lenor as Downy in the UK were dropped in 2002 .
+Amy Sedaris and Tituss Burgess have been used to promote Downy / Lenor Unstoppables range in both the U.S. and the UK .
+The commercials were filmed by Grey Advertising .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.132<br> Recall: 0.625<br> F1 Score: 0.217 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 5</h4>
+      <p>                country(proctergamble, us)<br>                manufacturer(lenor, proctergamble)<br>                manufacturer(downylenorunstoppables, proctergamble)<br>                inception(lenor, august1960)<br>                locatedintheadministrativeterritorialentity(proctergamble, us)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 33</h4>
+      <p>                participantof(proctergamble, europe)<br>                locatedintheadministrativeterritorialentity(greyadvertising, us)<br>                participant(europe, thailand)<br>                notablework(malaysia, indonesia)<br>                participantof(thailand, europe)<br>                performer(southkorea, proctergamble)<br>                country(greyadvertising, us)<br>                countryofcitizenship(proctergamble, december1961)<br>                countryoforigin(indonesia, philippines)<br>                endtime(europe, russia)<br>                participantof(malaysia, europe)<br>                countryofcitizenship(proctergamble, august1960)<br>                performer(vietnam, thailand)<br>                performer(lenor, proctergamble)<br>                notablework(kenya, latinamerica)<br>                notablework(thailand, vietnam)<br>                countryofcitizenship(proctergamble, japan)<br>                performer(indonesia, malaysia)<br>                countryofcitizenship(malaysia, philippines)<br>                countryofcitizenship(kenya, august1960)<br>                continent(russia, europe)<br>                continent(philippines, europe)<br>                notablework(proctergamble, lenor)<br>                languagesspokenwrittenorsigned(malaysia, december1961)<br>                pointintime(europe, russia)<br>                participant(europe, malaysia)<br>                participant(europe, proctergamble)<br>                languagesspokenwrittenorsigned(proctergamble, december1961)<br>                countryofcitizenship(proctergamble, philippines)<br>                performer(latinamerica, kenya)<br>                countryofcitizenship(thailand, singapore)<br>                notablework(proctergamble, southkorea)<br>                publicationdate(lenor, russia)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 3</h4>
+      <p>                ownedby(lenor, proctergamble)<br>                ownedby(downylenorunstoppables, proctergamble)<br>                country(lenor, us)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">ownedby(lenor, proctergamble)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">manufacturer(lenor, proctergamble)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">country(lenor, us)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(proctergamble, us), manufacturer(lenor, proctergamble)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">countryoforigin(lenor, us)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">manufacturer(lenor, proctergamble), locatedintheadministrativeterritorialentity(proctergamble, us)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

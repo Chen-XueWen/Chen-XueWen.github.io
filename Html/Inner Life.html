@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Inner Life</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Inner Life</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Inner Life was an American club - oriented soul studio project formed in 1979 that enjoyed success with " I 'm Caught Up ( In a One Night Love Affair ) " ( 1979 ) and " Ai n't No Mountain High Enough " ( 1981 ) .
+Both tracks featured the vocals of Jocelyn Brown and Leroy Burgess ( formerly of Black Ivory ) .
+Produced and arranged by Patrick Adams and engineered by Bob Blank and Joe Arlotta , the album was originally produced for executive producer Greg Carmichael , whose Red Greg Records was an early and prolific disco label based in New York .
+They also had a minor hit on Salsoul Records in 1981 with " Knock Out ( Let 's Go Another Round ) " .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.588<br> Recall: 0.37<br> F1 Score: 0.455 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 10</h4>
+      <p>                publicationdate(imcaughtupinaonenightloveaffair, ent_1979)<br>                haspart(blackivory, leroyburgess)<br>                recordlabel(gregcarmichael, redgregrecords)<br>                publicationdate(aintnomountainhighenough, ent_1981)<br>                memberof(leroyburgess, blackivory)<br>                performer(aintnomountainhighenough, innerlife)<br>                inception(innerlife, ent_1979)<br>                notablework(patrickadams, aintnomountainhighenough)<br>                notablework(innerlife, aintnomountainhighenough)<br>                partof(leroyburgess, blackivory)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 7</h4>
+      <p>                partof(patrickadams, innerlife)<br>                notablework(innerlife, imcaughtupinaonenightloveaffair)<br>                haspart(innerlife, patrickadams)<br>                countryoforigin(imcaughtupinaonenightloveaffair, american)<br>                publicationdate(knockoutletsgoanotherround, ent_1981)<br>                followedby(imcaughtupinaonenightloveaffair, aintnomountainhighenough)<br>                recordlabel(knockoutletsgoanotherround, salsoulrecords)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 17</h4>
+      <p>                producer(innerlife, patrickadams)<br>                locatedintheadministrativeterritorialentity(redgregrecords, american)<br>                notablework(jocelynbrown, aintnomountainhighenough)<br>                performer(aintnomountainhighenough, jocelynbrown)<br>                haspart(innerlife, jocelynbrown)<br>                publicationdate(innerlife, ent_1979)<br>                recordlabel(innerlife, salsoulrecords)<br>                partof(leroyburgess, innerlife)<br>                locatedintheadministrativeterritorialentity(redgregrecords, newyork)<br>                countryoforigin(innerlife, american)<br>                country(newyork, american)<br>                countryoforigin(aintnomountainhighenough, american)<br>                locatedintheadministrativeterritorialentity(newyork, american)<br>                haspart(innerlife, leroyburgess)<br>                partof(jocelynbrown, innerlife)<br>                notablework(patrickadams, innerlife)<br>                producer(aintnomountainhighenough, patrickadams)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 3</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">follows(aintnomountainhighenough, imcaughtupinaonenightloveaffair)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">followedby(imcaughtupinaonenightloveaffair, aintnomountainhighenough)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">performer(imcaughtupinaonenightloveaffair, innerlife)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">notablework(innerlife, imcaughtupinaonenightloveaffair)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp2">publicationdate(aintnomountainhighenough, ent_1979)</a>
+      </h4>
+    </div>
+    <div id="tn2fp2" class="panel-collapse collapse">
+<div class="panel-body">inception(innerlife, ent_1979), notablework(innerlife, aintnomountainhighenough)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

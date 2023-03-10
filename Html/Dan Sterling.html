@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dan Sterling</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Dan Sterling</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Dan Sterling is an American screenwriter and television producer who has worked on many successful television shows , including King of the Hill , Kitchen Confidential , The Daily Show , South Park , The Sarah Silverman Program and The Office .
+Sterling 's recent work , The Interview , became famous after it was seen as an act of war by the supreme leader of the Democratic People 's Republic of Korea , Kim Jong - un .
+The Guardians of the Peace made terrorist threats of " a 9/11 style attack " against cinemas who planned to screen the film , and also threatened the safety of Sony Pictures employees and their families .
+As a result of these threats , Sony Pictures initially cancelled the release of The Interview , though it was later given a limited theatrical release , with broad digital release online through a Sony website , Google Play , Microsoft 's Xbox Video , and YouTube Movies .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.226<br> Recall: 0.5<br> F1 Score: 0.311 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 7</h4>
+      <p>                countryofcitizenship(kimjongun, democraticpeoplesrepublicofkorea)<br>                appliestojurisdiction(kimjongun, democraticpeoplesrepublicofkorea)<br>                developer(xboxvideo, microsoft)<br>                headofstate(democraticpeoplesrepublicofkorea, kimjongun)<br>                productioncompany(theinterview, sonypictures)<br>                countryofcitizenship(dansterling, american)<br>                screenwriter(theinterview, dansterling)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 24</h4>
+      <p>                continent(thesarahsilvermanprogram, youtubemovies)<br>                dateofdeath(sony, microsoft)<br>                residence(dansterling, theinterview)<br>                countryoforigin(kingofthehill, american)<br>                worklocation(dansterling, thesarahsilvermanprogram)<br>                countryofcitizenship(dansterling, kitchenconfidential)<br>                locatedintheadministrativeterritorialentity(theinterview, thesarahsilvermanprogram)<br>                dateofbirth(kimjongun, guardiansofthepeace)<br>                country(theinterview, southpark)<br>                countryofcitizenship(kimjongun, southpark)<br>                countryoforigin(kitchenconfidential, american)<br>                countryofcitizenship(dansterling, thedailyshow)<br>                dateofbirth(sony, googleplay)<br>                countryofcitizenship(sony, southpark)<br>                placeofbirth(dansterling, thedailyshow)<br>                locatedintheadministrativeterritorialentity(theinterview, southpark)<br>                locatedintheadministrativeterritorialentity(thesarahsilvermanprogram, southpark)<br>                continent(southpark, youtubemovies)<br>                dateofdeath(kimjongun, sonypictures)<br>                country(thesarahsilvermanprogram, southpark)<br>                countryofcitizenship(dansterling, southpark)<br>                locatedintheadministrativeterritorialentity(sonypictures, sony)<br>                dateofbirth(dansterling, american)<br>                dateofdeath(dansterling, kingofthehill)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 7</h4>
+      <p>                productormaterialproduced(microsoft, xboxvideo)<br>                parentorganization(sonypictures, sony)<br>                ownedby(sonypictures, sony)<br>                ownedby(xboxvideo, microsoft)<br>                subsidiary(sony, sonypictures)<br>                countryoforigin(theinterview, american)<br>                productioncompany(theinterview, sony)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">productormaterialproduced(microsoft, xboxvideo)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">developer(xboxvideo, microsoft)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">countryoforigin(theinterview, american)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">screenwriter(theinterview, dansterling), countryofcitizenship(dansterling, american)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 3</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">creator(kingofthehill, dansterling)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">countryoforigin(kingofthehill, american), countryofcitizenship(dansterling, american)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">country(sonypictures, sony)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(sonypictures, sony)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp2">screenwriter(kingofthehill, dansterling)</a>
+      </h4>
+    </div>
+    <div id="tn2fp2" class="panel-collapse collapse">
+<div class="panel-body">countryoforigin(kingofthehill, american), countryofcitizenship(dansterling, american)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

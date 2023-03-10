@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ici Paris</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Ici Paris</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Ici Paris is a French magazine , founded in 1941 .
+The magazine is owned by Lagardère .
+The publisher of the magazine , based in Paris , is Hachette Filipacchi Associes , SNC .
+It is published on a weekly basis and covers articles on celebrity and entertainment news .
+During World War II it was a journal of the resistance with editors such as Raymond Burgard , Émile Coornaert , Suzanne Feingold , Marietta Martin , Henri de Montfort and Paul Petit .
+In 1986 it had a circulation of 700,000 copies and in 2006 , a more modest circulation of 405,000 copies .
+The magazine is also sold in Algeria and at the beginning of the 1970s it was one of the best - selling weeklies in the country .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.52<br> Recall: 0.542<br> F1 Score: 0.531 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 13</h4>
+      <p>                participantof(paulpetit, worldwarii)<br>                conflict(paulpetit, worldwarii)<br>                countryoforigin(iciparis, french)<br>                participant(worldwarii, paulpetit)<br>                participantof(milecoornaert, worldwarii)<br>                participant(worldwarii, milecoornaert)<br>                participant(worldwarii, henridemontfort)<br>                conflict(henridemontfort, worldwarii)<br>                locatedintheadministrativeterritorialentity(paris, french)<br>                conflict(milecoornaert, worldwarii)<br>                ownedby(iciparis, lagardre)<br>                participantof(henridemontfort, worldwarii)<br>                inception(iciparis, ent_1941)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 12</h4>
+      <p>                publisher(iciparis, lagardre)<br>                locatedintheadministrativeterritorialentity(lagardre, french)<br>                participantof(raymondburgard, worldwarii)<br>                conflict(raymondburgard, worldwarii)<br>                country(iciparis, french)<br>                countryofcitizenship(raymondburgard, french)<br>                country(lagardre, french)<br>                countryofcitizenship(milecoornaert, french)<br>                ownedby(iciparis, hachettefilipacchiassocies)<br>                participant(worldwarii, raymondburgard)<br>                participant(worldwarii, suzannefeingold)<br>                conflict(suzannefeingold, worldwarii)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 11</h4>
+      <p>                locatedintheadministrativeterritorialentity(snc, paris)<br>                languagesspokenwrittenorsigned(milecoornaert, french)<br>                languagesspokenwrittenorsigned(raymondburgard, french)<br>                locatedintheadministrativeterritorialentity(snc, french)<br>                languagesspokenwrittenorsigned(henridemontfort, french)<br>                location(iciparis, paris)<br>                publisher(iciparis, hachettefilipacchiassocies)<br>                headquarterslocation(snc, paris)<br>                country(paris, french)<br>                headquarterslocation(hachettefilipacchiassocies, paris)<br>                publicationdate(iciparis, ent_1941)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">headquarterslocation(iciparis, paris)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(paris, french), countryoforigin(iciparis, french)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">participantof(suzannefeingold, worldwarii)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">participant(worldwarii, suzannefeingold)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

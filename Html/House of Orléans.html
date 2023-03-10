@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>House of Orléans</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>House of Orléans</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The 4th House of Orléans , sometimes called the House of Bourbon - Orléans ( ) to distinguish it , is the fourth holder of a surname previously used by several branches of the Royal House of France , all descended in the legitimate male line from the dynasty 's founder , Hugh Capet .
+The house was founded in 1661 by Prince Philippe , Duke of Anjou , younger son of king Louis XIII and younger brother of king Louis XIV , the " Sun King " .
+From 1709 until the French Revolution , the Orléans dukes were next in the order of succession to the French throne after members of the senior branch of the House of Bourbon , descended from king Louis XIV .
+Although Louis XIV 's direct descendants retained the throne , his brother Philippe 's descendants flourished until the end of the French monarchy .
+They held the Crown from 1830 to 1848 , and they still are pretenders to the French throne .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.462<br> Recall: 0.353<br> F1 Score: 0.4 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 12</h4>
+      <p>                father(louisxiv, louisxiii)<br>                sibling(louisxiv, princephilippe)<br>                location(frenchrevolution, french)<br>                locatedintheadministrativeterritorialentity(royalhouseoffrance, french)<br>                inception(houseoforlans, ent_1661)<br>                child(louisxiii, princephilippe)<br>                inception(houseofbourbonorlans, ent_1661)<br>                countryofcitizenship(louisxiv, french)<br>                child(louisxiii, louisxiv)<br>                sibling(princephilippe, louisxiv)<br>                country(frenchrevolution, french)<br>                father(princephilippe, louisxiii)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 14</h4>
+      <p>                dateofbirth(houseoforlans, houseofbourbonorlans)<br>                performer(houseofbourbon, houseoforlans)<br>                publicationdate(houseofbourbon, french)<br>                locatedintheadministrativeterritorialentity(princephilippe, hughcapet)<br>                father(louisxiv, hughcapet)<br>                placeofbirth(houseoforlans, ent_1661)<br>                containsadministrativeterritorialentity(princephilippe, ent_1661)<br>                containsadministrativeterritorialentity(hughcapet, princephilippe)<br>                country(ent_1661, princephilippe)<br>                locatedintheadministrativeterritorialentity(ent_1661, hughcapet)<br>                notablework(houseoforlans, houseofbourbon)<br>                country(princephilippe, hughcapet)<br>                locatedintheadministrativeterritorialentity(ent_1661, princephilippe)<br>                country(ent_1661, hughcapet)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 22</h4>
+      <p>                partof(houseofbourbonorlans, royalhouseoffrance)<br>                locatedintheadministrativeterritorialentity(orlans, french)<br>                countryofcitizenship(louisxiv, royalhouseoffrance)<br>                country(royalhouseoffrance, french)<br>                locatedintheadministrativeterritorialentity(houseoforlans, french)<br>                country(houseofbourbon, french)<br>                haspart(royalhouseoffrance, houseoforlans)<br>                partof(houseofbourbon, royalhouseoffrance)<br>                country(houseofbourbonorlans, french)<br>                country(houseoforlans, french)<br>                countryofcitizenship(princephilippe, french)<br>                partof(houseoforlans, royalhouseoffrance)<br>                country(orlans, french)<br>                foundedby(royalhouseoffrance, hughcapet)<br>                haspart(royalhouseoffrance, houseofbourbon)<br>                headofstate(french, louisxiv)<br>                countryofcitizenship(hughcapet, royalhouseoffrance)<br>                countryofcitizenship(louisxiii, french)<br>                locatedintheadministrativeterritorialentity(houseofbourbonorlans, french)<br>                locatedintheadministrativeterritorialentity(houseofbourbon, french)<br>                appliestojurisdiction(louisxiv, french)<br>                haspart(royalhouseoffrance, houseofbourbonorlans)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">country(royalhouseoffrance, french)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(royalhouseoffrance, french)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Financial District, Manhattan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Financial District, Manhattan</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The Financial District of Lower Manhattan , also known as FiDi , is a neighborhood located on the southern tip of Manhattan Island , where the City of New York itself originated in 1624 .
+The district comprises the offices and headquarters of many of the city 's major financial institutions , including the New York Stock Exchange and the Federal Reserve Bank of New York .
+Anchored on Wall Street in the Financial District , New York City has been called both the most financially powerful city and the leading financial center of the world , and the New York Stock Exchange is the world 's largest stock exchange by total market capitalization .
+Several other major exchanges have or had headquarters in the Financial District , including the New York Mercantile Exchange , NASDAQ , the New York Board of Trade , and the former American Stock Exchange .
+The neighborhood roughly overlaps with the boundaries of the New Amsterdam settlement in the late 17th century .
+The population of the Financial District has grown to an estimated 61,000 residents as of 2018 , up from 43,000 as of 2014 , which in turn was nearly double the 23,000 recorded at the 2000 Census .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.731<br> Recall: 0.432<br> F1 Score: 0.543 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 19</h4>
+      <p>                locatedintheadministrativeterritorialentity(financialdistrict, newyorkcity)<br>                locatedintheadministrativeterritorialentity(americanstockexchange, newyorkcity)<br>                locatedintheadministrativeterritorialentity(newyorkboardoftrade, cityofnewyork)<br>                locatedintheadministrativeterritorialentity(wallstreet, newyorkcity)<br>                locatedintheadministrativeterritorialentity(newyorkstockexchange, cityofnewyork)<br>                locatedintheadministrativeterritorialentity(federalreservebankofnewyork, cityofnewyork)<br>                locatedintheadministrativeterritorialentity(federalreservebankofnewyork, newyorkcity)<br>                locatedintheadministrativeterritorialentity(newyorkboardoftrade, newyorkcity)<br>                locatedintheadministrativeterritorialentity(newyorkstockexchange, newyorkcity)<br>                locatedintheadministrativeterritorialentity(financialdistrict, cityofnewyork)<br>                containsadministrativeterritorialentity(cityofnewyork, fidi)<br>                locatedintheadministrativeterritorialentity(newyorkmercantileexchange, cityofnewyork)<br>                inception(cityofnewyork, ent_1624)<br>                locatedintheadministrativeterritorialentity(fidi, newyorkcity)<br>                locatedintheadministrativeterritorialentity(manhattanisland, newyorkcity)<br>                locatedintheadministrativeterritorialentity(newyorkmercantileexchange, newyorkcity)<br>                locatedintheadministrativeterritorialentity(fidi, cityofnewyork)<br>                locatedonterrainfeature(fidi, manhattanisland)<br>                locatedintheadministrativeterritorialentity(nasdaq, newyorkcity)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 7</h4>
+      <p>                locatedinornexttobodyofwater(newyorkcity, wallstreet)<br>                locatedintheadministrativeterritorialentity(americanstockexchange, cityofnewyork)<br>                locatedonterrainfeature(cityofnewyork, manhattanisland)<br>                locatedonterrainfeature(wallstreet, manhattanisland)<br>                locatedintheadministrativeterritorialentity(financialdistrict, fidi)<br>                locatedintheadministrativeterritorialentity(cityofnewyork, newyorkcity)<br>                locatedinornexttobodyofwater(newyorkcity, manhattanisland)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 25</h4>
+      <p>                instanceof(fidi, financialdistrict)<br>                locationofformation(newyorkboardoftrade, newyorkcity)<br>                headquarterslocation(federalreservebankofnewyork, cityofnewyork)<br>                headquarterslocation(newyorkboardoftrade, newyorkcity)<br>                containsadministrativeterritorialentity(newyorkcity, fidi)<br>                inception(newyorkcity, ent_1624)<br>                headquarterslocation(newyorkstockexchange, newyorkcity)<br>                containsadministrativeterritorialentity(newyorkcity, manhattanisland)<br>                locatedonterrainfeature(financialdistrict, manhattanisland)<br>                containsadministrativeterritorialentity(cityofnewyork, manhattanisland)<br>                headquarterslocation(nasdaq, newyorkcity)<br>                headquarterslocation(americanstockexchange, newyorkcity)<br>                locatedintheadministrativeterritorialentity(manhattanisland, cityofnewyork)<br>                headquarterslocation(nasdaq, cityofnewyork)<br>                headquarterslocation(newyorkmercantileexchange, newyorkcity)<br>                headquarterslocation(newyorkstockexchange, cityofnewyork)<br>                locatedintheadministrativeterritorialentity(newyorkstockexchange, fidi)<br>                locatedintheadministrativeterritorialentity(newyorkstockexchange, manhattanisland)<br>                headquarterslocation(newyorkmercantileexchange, cityofnewyork)<br>                locationofformation(nasdaq, newyorkcity)<br>                locationofformation(newyorkmercantileexchange, newyorkcity)<br>                locatedintheadministrativeterritorialentity(fidi, manhattanisland)<br>                headquarterslocation(federalreservebankofnewyork, newyorkcity)<br>                headquarterslocation(americanstockexchange, cityofnewyork)<br>                headquarterslocation(newyorkboardoftrade, cityofnewyork)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">containsadministrativeterritorialentity(newyorkcity, fidi)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(fidi, newyorkcity)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(cityofnewyork, newyorkcity), locatedintheadministrativeterritorialentity(fidi, cityofnewyork)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

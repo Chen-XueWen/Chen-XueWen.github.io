@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Google Springboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Google Springboard</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Google Springboard is an AI - powered assistant which aid users to quickly find relevant information , as and when they need it across all associated Google apps , including ( but not restricted to ) Gmail , Google Docs , Google Drive , Google Calendar , Google Contacts and others alike .
+It also provides “ actionable information & recommendations ” to users based on statistical probability gathered using Machine Learning .
+Springboard also integrates with Google Sites – a tool for creating web pages .
+The updated app now supports collaboration between users and lets them add content from services like Google Docs , Calendar and Google Maps .
+Some of its applications could be to quickly build things like guides and how - to(s ) .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.875<br> Recall: 0.269<br> F1 Score: 0.412 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 7</h4>
+      <p>                developer(springboard, google)<br>                ownedby(gmail, google)<br>                ownedby(googledrive, google)<br>                developer(googlecontacts, google)<br>                ownedby(googlecontacts, google)<br>                developer(googlemaps, google)<br>                developer(googledocs, google)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 1</h4>
+      <p>                operator(googledocs, google)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 19</h4>
+      <p>                developer(calendar, google)<br>                developer(googlecalendar, google)<br>                haspart(google, gmail)<br>                productormaterialproduced(google, springboard)<br>                productormaterialproduced(google, googledrive)<br>                haspart(googledrive, googledocs)<br>                partof(googledocs, googledrive)<br>                developer(gmail, google)<br>                ownedby(googlecalendar, google)<br>                partof(gmail, google)<br>                ownedby(springboard, google)<br>                productormaterialproduced(google, googledocs)<br>                ownedby(calendar, google)<br>                ownedby(googlemaps, google)<br>                ownedby(googledocs, google)<br>                developer(googlesites, google)<br>                ownedby(googlesites, google)<br>                developer(googledrive, google)<br>                productormaterialproduced(google, gmail)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">ownedby(googledocs, google)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">operator(googledocs, google)</div>
+<div class="panel-body">developer(googledocs, google)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">developer(googledrive, google)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">ownedby(googledrive, google)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

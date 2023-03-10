@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Horst Eidenmüller</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Horst Eidenmüller</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Horst Eidenmüller ( born 23 October 1963 ) is the Freshfields Professor of Commercial Law in the Faculty of Law at the University of Oxford and a Fellow of St. Hugh ’s .
+Eidenmüller was born in Munich , Germany .
+He is a graduate of Ludwig Maximilian University of Munich and of Cambridge ( LLM 1989 ) .
+Prior to joining Oxford , Eidenmüller held professorships at the universities of Münster ( 1999 - 2003 ) and Munich ( 2003 - 2015 ) .
+He was visiting professor at Cambridge ( 2007 ) , Oxford ( 2009 - 2014 ) , Harvard ( 2011 ) , Tulane ( 2011 ) , NYU ( 2013 and 2015 ) , and Stanford ( 2015 ) , as well as fellow of the Institute for Advanced Study , Berlin ( 2008 - 2009 ) .
+Eidenmüller is a member of the Berlin - Brandenburg Academy of Sciences and Humanities ( since 2008 ) and of the European Academy of Sciences and Arts ( since 2016 ) .
+Eidenmüller ’s research focuses on commercial contracts , company law , insolvency law , and alternative dispute resolution .
+He is known for economic and empirical studies in these fields .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.793<br> Recall: 0.697<br> F1 Score: 0.742 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 23</h4>
+      <p>                country(berlin, germany)<br>                employer(eidenmller, universityofoxford)<br>                country(ludwigmaximilianuniversityofmunich, germany)<br>                educatedat(eidenmller, ludwigmaximilianuniversityofmunich)<br>                employer(eidenmller, mnster)<br>                placeofbirth(eidenmller, munich)<br>                country(berlinbrandenburgacademyofsciencesandhumanities, germany)<br>                country(munich, germany)<br>                locatedintheadministrativeterritorialentity(ludwigmaximilianuniversityofmunich, munich)<br>                locatedintheadministrativeterritorialentity(berlinbrandenburgacademyofsciencesandhumanities, germany)<br>                containsadministrativeterritorialentity(germany, berlin)<br>                countryofcitizenship(eidenmller, germany)<br>                dateofbirth(eidenmller, ent_23october1963)<br>                employer(eidenmller, stanford)<br>                memberof(eidenmller, sthugh)<br>                locatedintheadministrativeterritorialentity(ludwigmaximilianuniversityofmunich, germany)<br>                locatedintheadministrativeterritorialentity(munich, germany)<br>                headquarterslocation(ludwigmaximilianuniversityofmunich, munich)<br>                employer(eidenmller, harvard)<br>                haspart(universityofoxford, facultyoflaw)<br>                locatedintheadministrativeterritorialentity(berlin, germany)<br>                memberof(eidenmller, europeanacademyofsciencesandarts)<br>                memberof(eidenmller, berlinbrandenburgacademyofsciencesandhumanities)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 6</h4>
+      <p>                country(facultyoflaw, germany)<br>                worklocation(eidenmller, universityofoxford)<br>                locatedintheadministrativeterritorialentity(mnster, germany)<br>                locatedintheadministrativeterritorialentity(facultyoflaw, germany)<br>                country(europeanacademyofsciencesandarts, germany)<br>                containsadministrativeterritorialentity(germany, munich)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 10</h4>
+      <p>                worklocation(eidenmller, mnster)<br>                employer(eidenmller, tulane)<br>                locatedintheadministrativeterritorialentity(instituteforadvancedstudy, berlin)<br>                locatedintheadministrativeterritorialentity(instituteforadvancedstudy, germany)<br>                locatedintheadministrativeterritorialentity(berlinbrandenburgacademyofsciencesandhumanities, berlin)<br>                educatedat(eidenmller, cambridge)<br>                partof(facultyoflaw, universityofoxford)<br>                employer(eidenmller, munich)<br>                employer(eidenmller, nyu)<br>                worklocation(eidenmller, munich)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">country(mnster, germany)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">employer(eidenmller, mnster), countryofcitizenship(eidenmller, germany)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(mnster, germany)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">locatedintheadministrativeterritorialentity(europeanacademyofsciencesandarts, germany)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">country(europeanacademyofsciencesandarts, germany)</div>
+<div class="panel-body">countryofcitizenship(eidenmller, germany), memberof(eidenmller, europeanacademyofsciencesandarts)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

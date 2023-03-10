@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Flag of Prussia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Flag of Prussia</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The state of Prussia had its origins in the separate lands of the Margraviate of Brandenburg and of the Duchy of Prussia .
+The Margraviate of Brandenburg developed from the medieval Northern March of the Holy Roman Empire , passing to the House of Hohenzollern in 1415 .
+The Duchy of Prussia originated in 1525 when Albert of Brandenburg - Ansbach , a member of a cadet branch of the Hohenzollerns , secularized the eastern lands of the Teutonic Knights as a Polish fief .
+Prince - elector John Sigismund , Elector of Brandenburg , inherited the Duchy of Prussia in 1618 , thus uniting Brandenburg and Prussia under one ruler in a personal union ; the Elector 's state became known as Brandenburg - Prussia .
+The Kingdom of Prussia formed when Elector Frederick III assumed the title of Frederick I , King in Prussia , on 18 January 1701 .
+Hohenzollern monarchical rule of Prussia ceased in 1918 after the fall of the German Empire in the aftermath of World War I ; the Kingdom becoming instead the Free State of Prussia .
+The Allied Control Council decreed the formal abolition of the state of Prussia in 1947 following World War II .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.55<br> Recall: 0.324<br> F1 Score: 0.407 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 11</h4>
+      <p>                countryofcitizenship(fredericki, kingdomofprussia)<br>                countryofcitizenship(electorfrederickiii, kingdomofprussia)<br>                followedby(duchyofprussia, kingdomofprussia)<br>                locatedintheadministrativeterritorialentity(brandenburg, germanempire)<br>                locatedintheadministrativeterritorialentity(brandenburg, kingdomofprussia)<br>                inception(kingdomofprussia, ent_18january1701)<br>                country(brandenburg, kingdomofprussia)<br>                follows(kingdomofprussia, duchyofprussia)<br>                followedby(brandenburgprussia, kingdomofprussia)<br>                inception(duchyofprussia, ent_1525)<br>                dissolvedabolishedordemolished(germanempire, ent_1918)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 9</h4>
+      <p>                locatedintheadministrativeterritorialentity(margraviateofbrandenburg, germanempire)<br>                locatedintheadministrativeterritorialentity(margraviateofbrandenburg, kingdomofprussia)<br>                follows(worldwari, worldwarii)<br>                followedby(worldwarii, worldwari)<br>                appliestojurisdiction(fredericki, kingdomofprussia)<br>                countryofcitizenship(johnsigismund, kingdomofprussia)<br>                countryofcitizenship(johnsigismund, duchyofprussia)<br>                locatedintheadministrativeterritorialentity(margraviateofbrandenburg, holyromanempire)<br>                countryofcitizenship(johnsigismund, germanempire)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 23</h4>
+      <p>                follows(kingdomofprussia, holyromanempire)<br>                followedby(electorfrederickiii, kingdomofprussia)<br>                follows(brandenburgprussia, duchyofprussia)<br>                locatedintheadministrativeterritorialentity(northernmarch, holyromanempire)<br>                endtime(worldwari, ent_1918)<br>                followedby(worldwari, worldwarii)<br>                locatedintheadministrativeterritorialentity(brandenburg, brandenburgprussia)<br>                follows(kingdomofprussia, margraviateofbrandenburg)<br>                follows(worldwarii, worldwari)<br>                inception(brandenburgprussia, ent_1618)<br>                dissolvedabolishedordemolished(kingdomofprussia, ent_1918)<br>                country(brandenburg, germanempire)<br>                foundedby(duchyofprussia, albertofbrandenburgansbach)<br>                follows(kingdomofprussia, brandenburgprussia)<br>                followedby(duchyofprussia, brandenburgprussia)<br>                follows(kingdomofprussia, electorfrederickiii)<br>                dissolvedabolishedordemolished(hohenzollern, ent_1918)<br>                country(northernmarch, holyromanempire)<br>                dissolvedabolishedordemolished(kingdomofprussia, ent_1947)<br>                follows(germanempire, holyromanempire)<br>                followedby(holyromanempire, kingdomofprussia)<br>                followedby(holyromanempire, germanempire)<br>                followedby(margraviateofbrandenburg, kingdomofprussia)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">headofstate(kingdomofprussia, fredericki)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">appliestojurisdiction(fredericki, kingdomofprussia)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

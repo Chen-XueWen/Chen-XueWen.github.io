@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>German torpedo boat Kondor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>German torpedo boat Kondor</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Kondor was the fifth of six Type 23 torpedo boats built for the German Navy ( initially called the Reichsmarine and then renamed as the Kriegsmarine in 1935 ) .
+The boat made multiple non - intervention patrols during the Spanish Civil War in the late 1930s .
+During World War II , she played a minor role in the attack on Oslo , the capital of Norway , during the Norwegian Campaign of 1940 .
+Kondor spent the next several months escorting minelayers as they laid minefields and damaged heavy ships back to Germany before she was transferred to France around September .
+She started laying minefields herself that month and continued to do so for the rest of the war .
+The boat returned to France in 1942 and helped to escort blockade runners , commerce raiders and submarines through the English Channel and the Bay of Biscay .
+Damaged by a mine shortly before the Allied Invasion of Normandy in June 1944 , Kondor was under repair on the day of the landings .
+Recognizing that she could not be repaired quickly , the boat was decommissioned later that month and was then further damaged by British bombers so that she was declared a constructive total loss .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.684<br> Recall: 0.5<br> F1 Score: 0.578 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 26</h4>
+      <p>                starttime(norwegiancampaign, ent_1940)<br>                capitalof(oslo, norway)<br>                conflict(british, worldwarii)<br>                haspart(worldwarii, alliedinvasionofnormandy)<br>                locatedintheadministrativeterritorialentity(oslo, norway)<br>                conflict(germannavy, worldwarii)<br>                haspart(worldwarii, norwegiancampaign)<br>                partof(norwegiancampaign, worldwarii)<br>                partof(alliedinvasionofnormandy, worldwarii)<br>                participant(worldwarii, reichsmarine)<br>                participantof(reichsmarine, worldwarii)<br>                containsadministrativeterritorialentity(norway, oslo)<br>                starttime(alliedinvasionofnormandy, june1944)<br>                operator(reichsmarine, germannavy)<br>                country(germannavy, germany)<br>                conflict(reichsmarine, worldwarii)<br>                location(norwegiancampaign, oslo)<br>                country(reichsmarine, germany)<br>                locatedintheadministrativeterritorialentity(germannavy, germany)<br>                operator(kondor, germannavy)<br>                participantof(british, worldwarii)<br>                participantof(germannavy, worldwarii)<br>                participant(worldwarii, british)<br>                country(kondor, germany)<br>                capital(norway, oslo)<br>                participant(worldwarii, germannavy)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 12</h4>
+      <p>                country(englishchannel, france)<br>                participantof(british, alliedinvasionofnormandy)<br>                participantof(alliedinvasionofnormandy, worldwarii)<br>                locatedintheadministrativeterritorialentity(reichsmarine, germany)<br>                country(bayofbiscay, norway)<br>                country(bayofbiscay, france)<br>                locatedintheadministrativeterritorialentity(bayofbiscay, france)<br>                basincountry(bayofbiscay, france)<br>                locatedintheadministrativeterritorialentity(englishchannel, france)<br>                country(kondor, france)<br>                operator(kondor, reichsmarine)<br>                starttime(worldwarii, ent_1940)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 26</h4>
+      <p>                participant(spanishcivilwar, kondor)<br>                dissolvedabolishedordemolished(reichsmarine, ent_1935)<br>                endtime(norwegiancampaign, ent_1940)<br>                conflict(reichsmarine, spanishcivilwar)<br>                participantof(reichsmarine, spanishcivilwar)<br>                followedby(reichsmarine, germannavy)<br>                follows(worldwarii, spanishcivilwar)<br>                participantof(kondor, spanishcivilwar)<br>                pointintime(norwegiancampaign, ent_1940)<br>                participant(worldwarii, kondor)<br>                conflict(kondor, worldwarii)<br>                country(norwegiancampaign, norway)<br>                conflict(kondor, spanishcivilwar)<br>                participant(spanishcivilwar, germannavy)<br>                endtime(alliedinvasionofnormandy, june1944)<br>                participant(spanishcivilwar, reichsmarine)<br>                participantof(germannavy, spanishcivilwar)<br>                inception(reichsmarine, ent_1935)<br>                starttime(spanishcivilwar, ent_1930s)<br>                pointintime(alliedinvasionofnormandy, june1944)<br>                follows(germannavy, reichsmarine)<br>                country(oslo, norway)<br>                participantof(kondor, worldwarii)<br>                conflict(germannavy, spanishcivilwar)<br>                followedby(spanishcivilwar, worldwarii)<br>                location(norwegiancampaign, norway)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">participant(worldwarii, alliedinvasionofnormandy)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">participantof(alliedinvasionofnormandy, worldwarii)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Frédéric Talgorn</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Frédéric Talgorn</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Frédéric Talgorn ( born 2 July 1961 in Toulouse , France ) is a French composer for film and television .
+He studied music at the Paris Conservatoire where his teachers included Sabine Lacoraet and Yvonne Loriod , but he completed his studies on his own .
+In 1987 he moved to the United States where he began to compose film music .
+He also wrote the official music to accompany the Olympic flame for the 1992 Winter Olympic Games .
+Notable film scores include Edge of Sanity ( 1989 ) , ( 1990 ) , Robot Jox ( 1990 ) , Fortress ( 1992 ) and The Temp ( 1993 ) .
+He also has an extensive catalogue of concert music , and has often conducted his own works in concert and recording sessions .
+He has also conducted and recorded film scores of others with the Royal Scottish National Orchestra .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.667<br> Recall: 0.828<br> F1 Score: 0.738 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 24</h4>
+      <p>                placeofbirth(frdrictalgorn, toulouse)<br>                country(toulouse, france)<br>                countryofcitizenship(frdrictalgorn, french)<br>                countryofcitizenship(frdrictalgorn, france)<br>                country(parisconservatoire, france)<br>                composer(robotjox, frdrictalgorn)<br>                dateofbirth(frdrictalgorn, ent_2july1961)<br>                publicationdate(robotjox, ent_1990)<br>                locatedintheadministrativeterritorialentity(parisconservatoire, france)<br>                composer(fortress, frdrictalgorn)<br>                country(toulouse, french)<br>                notablework(frdrictalgorn, edgeofsanity)<br>                notablework(frdrictalgorn, fortress)<br>                locatedintheadministrativeterritorialentity(toulouse, france)<br>                notablework(frdrictalgorn, robotjox)<br>                composer(edgeofsanity, frdrictalgorn)<br>                locatedintheadministrativeterritorialentity(toulouse, french)<br>                composer(thetemp, frdrictalgorn)<br>                notablework(frdrictalgorn, thetemp)<br>                publicationdate(fortress, ent_1992)<br>                publicationdate(thetemp, ent_1993)<br>                educatedat(frdrictalgorn, parisconservatoire)<br>                publicationdate(edgeofsanity, ent_1989)<br>                instanceof(ent_1992winterolympicgames, olympic)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 12</h4>
+      <p>                participant(ent_1992winterolympicgames, frdrictalgorn)<br>                participantof(frdrictalgorn, ent_1992winterolympicgames)<br>                countryoforigin(fortress, theunitedstates)<br>                educatedat(yvonneloriod, parisconservatoire)<br>                countryoforigin(thetemp, france)<br>                countryoforigin(thetemp, theunitedstates)<br>                countryoforigin(fortress, france)<br>                countryoforigin(edgeofsanity, france)<br>                educatedat(sabinelacoraet, parisconservatoire)<br>                country(ent_1992winterolympicgames, france)<br>                country(ent_1992winterolympicgames, theunitedstates)<br>                countryoforigin(robotjox, france)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 5</h4>
+      <p>                country(parisconservatoire, french)<br>                inception(edgeofsanity, ent_1989)<br>                employer(sabinelacoraet, parisconservatoire)<br>                locatedintheadministrativeterritorialentity(parisconservatoire, french)<br>                employer(yvonneloriod, parisconservatoire)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">locatedintheadministrativeterritorialentity(parisconservatoire, toulouse)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">country(toulouse, france), country(parisconservatoire, france)</div>
+<div class="panel-body">placeofbirth(frdrictalgorn, toulouse), educatedat(frdrictalgorn, parisconservatoire)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">countryofcitizenship(yvonneloriod, france)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">educatedat(yvonneloriod, parisconservatoire), locatedintheadministrativeterritorialentity(parisconservatoire, france)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

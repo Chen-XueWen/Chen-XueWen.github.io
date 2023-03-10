@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Delia Gallagher</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Delia Gallagher</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Delia Buckley Gallagher ( born 11 March 1970 ) is an American journalist based in Rome who currently serves as the Senior Editor for Inside the Vatican magazine .
+She formerly served as CNN ’s Faith and Values Correspondent .
+Based in New York , Gallagher was a long time CNN Vatican Analyst , Vaticanologist , and religious journalist .
+Prior to joining CNN full time , she lived in Rome for 7 years .
+In Rome , she wrote a weekly column for Zenit News Agency and was a contributing editor for the magazine .
+The History Channel Documentary , " Angels and Demons Decoded " released by A & E Television Networks profiled Gallagher commenting on Dan Brown 's bestseller book which was made into a movie .
+Subsequently , Gallagher moderated the Angels and Demons movie press conference film debut in Rome on stage with Tom Hanks , Ron Howard and Dan Brown often speaking in Italian and English .
+She knows Pope Benedict XVI personally and travelled extensively with John Paul II , including his last trip to Poland .
+Upon the death of Pope John Paul II , she broadcast and commented for CNN Worldwide covering the unfolding event .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.538<br> Recall: 0.467<br> F1 Score: 0.5 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 7</h4>
+      <p>                countryofcitizenship(deliabuckleygallagher, american)<br>                originalnetwork(angelsanddemonsdecoded, historychannel)<br>                locatedintheadministrativeterritorialentity(cnn, american)<br>                dateofbirth(deliabuckleygallagher, ent_11march1970)<br>                country(cnn, american)<br>                worklocation(benedictxvi, rome)<br>                employer(deliabuckleygallagher, cnn)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 6</h4>
+      <p>                headofstate(benedictxvi, johnpaulii)<br>                officiallanguage(poland, italian)<br>                country(newyork, american)<br>                countryofcitizenship(johnpaulii, poland)<br>                locatedintheadministrativeterritorialentity(newyork, american)<br>                narrativelocation(angelsanddemonsdecoded, rome)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 8</h4>
+      <p>                castmember(angelsanddemonsdecoded, tomhanks)<br>                author(angelsanddemonsdecoded, danbrown)<br>                notablework(danbrown, angelsanddemonsdecoded)<br>                originalnetwork(angelsanddemonsdecoded, aetelevisionnetworks)<br>                languagesspokenwrittenorsigned(deliabuckleygallagher, english)<br>                ownedby(cnn, cnnworldwide)<br>                worklocation(johnpaulii, rome)<br>                languagesspokenwrittenorsigned(deliabuckleygallagher, italian)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">languagesspokenwrittenorsigned(johnpaulii, italian)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">officiallanguage(poland, italian), countryofcitizenship(johnpaulii, poland)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">headquarterslocation(cnn, newyork)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">country(newyork, american), locatedintheadministrativeterritorialentity(cnn, american)</div>
+<div class="panel-body">country(cnn, american), country(newyork, american)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

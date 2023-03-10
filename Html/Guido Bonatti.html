@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Guido Bonatti</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Guido Bonatti</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Guido Bonatti ( died between 1296 and 1300 ) was an Italian mathematician , astronomer and astrologer , who was the most celebrated astrologer of the 13th century .
+Bonatti was advisor of Frederick II , Holy Roman Emperor , Ezzelino da Romano III , Guido Novello da Polenta and Guido I da Montefeltro .
+He also served the communal governments of Florence , Siena and Forlì .
+His employers were all Ghibellines ( supporters of the Holy Roman Emperor ) , who were in conflict with the Guelphs ( supporters of the Pope ) , and all were excommunicated at some time or another .
+Bonatti 's astrological reputation was also criticised in Dante 's Divine Comedy , where he is depicted as residing in hell as punishment for his astrology .
+His most famous work was his Liber Astronomiae or ' Book of Astronomy ' , written around 1277 .
+This remained a classic astrology textbook for two centuries .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.13<br> Recall: 0.583<br> F1 Score: 0.212 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 7</h4>
+      <p>                notablework(guidobonatti, bookofastronomy)<br>                author(bookofastronomy, guidobonatti)<br>                author(liberastronomiae, guidobonatti)<br>                dateofdeath(guidobonatti, ent_1300)<br>                author(divinecomedy, dante)<br>                notablework(guidobonatti, liberastronomiae)<br>                countryofcitizenship(guidobonatti, italian)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 47</h4>
+      <p>                worklocation(guidobonatti, frederickii)<br>                participant(the13thcentury, guidoidamontefeltro)<br>                dateofdeath(guidobonatti, liberastronomiae)<br>                partof(italian, the13thcentury)<br>                countryofcitizenship(guidobonatti, guelphs)<br>                headofgovernment(guelphs, florence)<br>                countryofcitizenship(dante, italian)<br>                participantof(florence, the13thcentury)<br>                headofstate(guelphs, dante)<br>                headofgovernment(italian, guidoidamontefeltro)<br>                partof(guelphs, the13thcentury)<br>                appliestojurisdiction(florence, guelphs)<br>                participant(the13thcentury, florence)<br>                locatedintheadministrativeterritorialentity(ghibellines, guelphs)<br>                country(forl, italian)<br>                countryofcitizenship(guidoidamontefeltro, italian)<br>                conflict(dante, the13thcentury)<br>                country(ghibellines, guelphs)<br>                appliestojurisdiction(guidoidamontefeltro, guelphs)<br>                participantof(guidoidamontefeltro, the13thcentury)<br>                conflict(guidoidamontefeltro, the13thcentury)<br>                dateofbirth(guidobonatti, ent_1296)<br>                locatedintheadministrativeterritorialentity(frederickii, italian)<br>                haspart(the13thcentury, italian)<br>                locatedintheadministrativeterritorialentity(forl, italian)<br>                countryofcitizenship(guidoidamontefeltro, guelphs)<br>                conflict(florence, the13thcentury)<br>                country(siena, italian)<br>                appliestojurisdiction(guidoidamontefeltro, italian)<br>                headofgovernment(guelphs, dante)<br>                country(frederickii, guelphs)<br>                headofstate(guelphs, guidoidamontefeltro)<br>                locatedintheadministrativeterritorialentity(ghibellines, italian)<br>                headofgovernment(guelphs, guidoidamontefeltro)<br>                countryofcitizenship(florence, guelphs)<br>                locatedintheadministrativeterritorialentity(siena, italian)<br>                appliestojurisdiction(dante, guelphs)<br>                headofstate(italian, guidoidamontefeltro)<br>                locatedintheadministrativeterritorialentity(florence, italian)<br>                countryofcitizenship(dante, guelphs)<br>                haspart(the13thcentury, guelphs)<br>                participant(the13thcentury, guidobonatti)<br>                conflict(guidobonatti, the13thcentury)<br>                locatedintheadministrativeterritorialentity(frederickii, guelphs)<br>                country(ghibellines, italian)<br>                countryofcitizenship(florence, italian)<br>                country(florence, italian)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 5</h4>
+      <p>                presentinwork(guidobonatti, divinecomedy)<br>                dateofdeath(guidobonatti, ent_1296)<br>                characters(divinecomedy, guidobonatti)<br>                notablework(dante, divinecomedy)<br>                creator(divinecomedy, dante)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">notablework(dante, divinecomedy)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">author(divinecomedy, dante)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>
