@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Zakhary Lyapunov</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Zakhary Lyapunov</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Zakhary Petrovich Lyapunov ( ) ( ?
+- after 1612 ) was a Russian political figure of the early 17th century , brother of Prokopy Lyapunov .
+In 1605 , Zakhary Lyapunov took the side of False Dmitri I.
+Upon the latter 's death in 1606 , he took part in the Bolotnikov Uprising in 1606 – 1607 .
+In 1607 , he joined the ranks of Vasily Shuisky and became a commander of a unit of the Ryazan dvoryane during the struggle against the rebellious peasants and supporters of False Dmitri II .
+In July 1610 , Zachary Lyapunov took an active part in deposing Vasily Shuisky .
+In September 1610 , he was included in a diplomatic mission , sent to the outskirts of Smolensk to sign a treaty with the Polish king Sigismund III Vasa regarding the accession of his son Wladislaus to the Russian throne .
+Then he returned to Moscow and remained in the city until its liberation from the Polish invaders by the army of Kuzma Minin and Dmitry Pozharsky .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.81<br> Recall: 0.654<br> F1 Score: 0.723 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 17</h4>
+      <p>                country(ryazan, russian)<br>                countryofcitizenship(falsedmitriii, russian)<br>                countryofcitizenship(falsedmitri, russian)<br>                country(moscow, russian)<br>                endtime(bolotnikovuprising, ent_1607)<br>                locatedintheadministrativeterritorialentity(moscow, russian)<br>                country(smolensk, russian)<br>                child(sigismundiiivasa, wladislaus)<br>                dateofdeath(falsedmitri, ent_1606)<br>                starttime(bolotnikovuprising, ent_1606)<br>                locatedintheadministrativeterritorialentity(smolensk, russian)<br>                countryofcitizenship(dmitrypozharsky, russian)<br>                countryofcitizenship(vasilyshuisky, russian)<br>                countryofcitizenship(zakharypetrovichlyapunov, russian)<br>                father(wladislaus, sigismundiiivasa)<br>                countryofcitizenship(sigismundiiivasa, polish)<br>                pointintime(bolotnikovuprising, ent_1606)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 4</h4>
+      <p>                dateofdeath(zakharypetrovichlyapunov, ent_1612)<br>                countryofcitizenship(sigismundiiivasa, russian)<br>                countryofcitizenship(wladislaus, russian)<br>                dateofdeath(zakharypetrovichlyapunov, ent_1606)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 9</h4>
+      <p>                containsadministrativeterritorialentity(russian, moscow)<br>                participant(bolotnikovuprising, zakharypetrovichlyapunov)<br>                pointintime(bolotnikovuprising, ent_1607)<br>                conflict(zakharypetrovichlyapunov, bolotnikovuprising)<br>                languagesspokenwrittenorsigned(vasilyshuisky, russian)<br>                locatedintheadministrativeterritorialentity(ryazan, russian)<br>                countryofcitizenship(kuzmaminin, russian)<br>                countryofcitizenship(wladislaus, polish)<br>                participantof(zakharypetrovichlyapunov, bolotnikovuprising)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">locatedintheadministrativeterritorialentity(ryazan, russian)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">country(ryazan, russian)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 4</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">child(vasilyshuisky, wladislaus)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">countryofcitizenship(wladislaus, russian), countryofcitizenship(vasilyshuisky, russian)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">memberof(vasilyshuisky, ryazan)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">countryofcitizenship(vasilyshuisky, russian), country(ryazan, russian)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp2">endtime(bolotnikovuprising, ent_1606)</a>
+      </h4>
+    </div>
+    <div id="tn2fp2" class="panel-collapse collapse">
+<div class="panel-body">starttime(bolotnikovuprising, ent_1606)</div>
+<div class="panel-body">pointintime(bolotnikovuprising, ent_1606)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp3">child(zakharypetrovichlyapunov, wladislaus)</a>
+      </h4>
+    </div>
+    <div id="tn2fp3" class="panel-collapse collapse">
+<div class="panel-body">countryofcitizenship(wladislaus, russian), countryofcitizenship(zakharypetrovichlyapunov, russian)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>U.S. European Command State Partnership Program</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>U.S. European Command State Partnership Program</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The United States European Command State Partnership Program ( EUCOM SPP ) , according to its own mission , is a National Guard program that " links U.S. states with designated partner countries to ... support the command ’s security cooperation objectives . "
+Currently , 22 Partnerships exist " with former Soviet , Yugoslav and Warsaw Pact countries in the EUCOM Area of Responsibility . "
+Becoming independent on the dissolution of the Soviet Union on December 26 , 1991 , these countries shortly requested the advice and assistance of the United States in creating new self - defense forces .
+They had been acquired by the Soviet Union from the European Theatre of World War II .
+The requests began among the Baltic states , notably Latvia , which had approached NATO .
+It sent a delegation from five member countries , including the U.S. , which chose the National Guard Bureau as most appropriate spokesman , considering that Latvia could not afford a standing army .
+EUCOM thus became the first of the six geographic Combatant Commands that make up the
+" global SPP , " and the NG , which is divided into state - sized contingents , became the host of each state - sized new national force , typically , but not necessarily , one - to - one , totally voluntarily .
+A country member must begin by requesting membership .
+The very first Partnership Program was with Latvia .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.875<br> Recall: 0.412<br> F1 Score: 0.56 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 14</h4>
+      <p>                country(eucomspp, us)<br>                memberof(latvia, nato)<br>                country(eucomspp, theunitedstates)<br>                memberof(us, nato)<br>                country(nationalguardprogram, us)<br>                participantof(sovietunion, europeantheatreofworldwarii)<br>                participant(europeantheatreofworldwarii, sovietunion)<br>                dissolvedabolishedordemolished(sovietunion, december261991)<br>                locatedintheadministrativeterritorialentity(eucom, us)<br>                partof(latvia, baltic)<br>                country(nationalguardbureau, us)<br>                country(eucom, theunitedstates)<br>                country(eucom, us)<br>                haspart(baltic, latvia)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 2</h4>
+      <p>                location(europeantheatreofworldwarii, baltic)<br>                locatedintheadministrativeterritorialentity(nationalguardprogram, us)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 20</h4>
+      <p>                locatedintheadministrativeterritorialentity(eucom, theunitedstates)<br>                memberof(latvia, eucom)<br>                country(ng, theunitedstates)<br>                memberof(theunitedstates, nato)<br>                locatedintheadministrativeterritorialentity(nationalguardbureau, us)<br>                country(nationalguardbureau, theunitedstates)<br>                country(nationalguardprogram, theunitedstates)<br>                country(us, theunitedstates)<br>                memberof(sovietunion, warsawpact)<br>                inception(eucomspp, december261991)<br>                instanceof(eucom, combatantcommands)<br>                locatedintheadministrativeterritorialentity(ng, us)<br>                locatedintheadministrativeterritorialentity(ng, theunitedstates)<br>                basincountry(baltic, latvia)<br>                locatedintheadministrativeterritorialentity(theunitedstates, us)<br>                locatedintheadministrativeterritorialentity(nationalguardbureau, theunitedstates)<br>                country(theunitedstates, us)<br>                locatedintheadministrativeterritorialentity(us, theunitedstates)<br>                locatedonterrainfeature(latvia, baltic)<br>                country(ng, us)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 3</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">locatedintheadministrativeterritorialentity(eucom, theunitedstates)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">country(eucom, theunitedstates)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">locatedonterrainfeature(latvia, baltic)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">haspart(baltic, latvia)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp2">locatedintheadministrativeterritorialentity(nationalguardbureau, us)</a>
+      </h4>
+    </div>
+    <div id="fn2tp2" class="panel-collapse collapse">
+<div class="panel-body">country(nationalguardbureau, us)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

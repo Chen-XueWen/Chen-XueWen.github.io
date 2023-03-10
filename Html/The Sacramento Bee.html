@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Sacramento Bee</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>The Sacramento Bee</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The Sacramento Bee is a daily newspaper published in Sacramento , California , in the United States .
+Since its founding in 1857 , The Bee has become the largest newspaper in Sacramento , the fifth largest newspaper in California , and the 27th largest paper in the U.S.
+It is distributed in the upper Sacramento Valley , with a total circulation area that spans about : south to Stockton , California , north to the Oregon border , east to Reno , Nevada , and west to the San Francisco Bay Area .
+The Bee is the flagship of the nationwide McClatchy Company .
+Its " Scoopy Bee " mascot , created by Walt Disney in 1943 , has been used by all three Bee newspapers ( Sacramento , Modesto , and Fresno ) .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.789<br> Recall: 0.625<br> F1 Score: 0.698 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 30</h4>
+      <p>                country(sanfranciscobayarea, theunitedstates)<br>                locatedintheadministrativeterritorialentity(oregon, theunitedstates)<br>                country(mcclatchycompany, theunitedstates)<br>                locatedintheadministrativeterritorialentity(sanfranciscobayarea, theunitedstates)<br>                inception(thesacramentobee, ent_1857)<br>                locatedintheadministrativeterritorialentity(sacramentovalley, california)<br>                locatedintheadministrativeterritorialentity(sacramento, california)<br>                inception(scoopybee, ent_1943)<br>                locatedintheadministrativeterritorialentity(reno, theunitedstates)<br>                country(modesto, theunitedstates)<br>                locatedintheadministrativeterritorialentity(mcclatchycompany, theunitedstates)<br>                country(thesacramentobee, theunitedstates)<br>                locatedintheadministrativeterritorialentity(california, theunitedstates)<br>                containsadministrativeterritorialentity(theunitedstates, california)<br>                locatedintheadministrativeterritorialentity(stockton, theunitedstates)<br>                country(nevada, theunitedstates)<br>                creator(scoopybee, waltdisney)<br>                locatedintheadministrativeterritorialentity(sacramentovalley, theunitedstates)<br>                country(bee, theunitedstates)<br>                country(oregon, theunitedstates)<br>                country(sacramentovalley, theunitedstates)<br>                country(sacramento, theunitedstates)<br>                country(stockton, theunitedstates)<br>                country(fresno, theunitedstates)<br>                containsadministrativeterritorialentity(theunitedstates, nevada)<br>                locatedintheadministrativeterritorialentity(nevada, theunitedstates)<br>                country(reno, theunitedstates)<br>                country(california, theunitedstates)<br>                containsadministrativeterritorialentity(theunitedstates, oregon)<br>                locatedintheadministrativeterritorialentity(sacramento, theunitedstates)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 8</h4>
+      <p>                haspart(california, sacramentovalley)<br>                countryofcitizenship(waltdisney, theunitedstates)<br>                locatedintheadministrativeterritorialentity(bee, theunitedstates)<br>                locatedintheadministrativeterritorialentity(fresno, theunitedstates)<br>                locatedintheadministrativeterritorialentity(thesacramentobee, theunitedstates)<br>                locatedintheadministrativeterritorialentity(thesacramentobee, sacramento)<br>                locatedintheadministrativeterritorialentity(modesto, theunitedstates)<br>                locatedintheadministrativeterritorialentity(thesacramentobee, california)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 18</h4>
+      <p>                parentorganization(thesacramentobee, mcclatchycompany)<br>                capital(california, thesacramentobee)<br>                locatedintheadministrativeterritorialentity(sacramentovalley, sacramento)<br>                ownedby(thesacramentobee, mcclatchycompany)<br>                countryoforigin(thesacramentobee, theunitedstates)<br>                countryoforigin(bee, theunitedstates)<br>                subsidiary(mcclatchycompany, thesacramentobee)<br>                publisher(thesacramentobee, mcclatchycompany)<br>                location(thesacramentobee, sacramento)<br>                country(scoopybee, theunitedstates)<br>                foundedby(mcclatchycompany, waltdisney)<br>                ownedby(modesto, mcclatchycompany)<br>                locatedintheadministrativeterritorialentity(stockton, california)<br>                capitalof(thesacramentobee, california)<br>                containsadministrativeterritorialentity(california, sacramentovalley)<br>                containsadministrativeterritorialentity(california, sacramento)<br>                locatedintheadministrativeterritorialentity(sanfranciscobayarea, california)<br>                ownedby(fresno, mcclatchycompany)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">countryoforigin(thesacramentobee, theunitedstates)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">country(thesacramentobee, theunitedstates)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">countryoforigin(scoopybee, theunitedstates)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">countryofcitizenship(waltdisney, theunitedstates), creator(scoopybee, waltdisney)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">locatedintheadministrativeterritorialentity(thesacramentobee, sacramentovalley)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">country(sacramentovalley, theunitedstates), country(thesacramentobee, theunitedstates)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

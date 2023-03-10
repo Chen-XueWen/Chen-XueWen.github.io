@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Trane's Blues</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Trane's Blues</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Trane 's Blues is a compact disc credited to the jazz musician John Coltrane , released in 1999 on Blue Note Records , catalogue 98240 .
+It comprises recordings from sessions for Blue Note and United Artists Records as a sideman for Paul Chambers , Sonny Clark , Johnny Griffin , and Cecil Taylor that were issued respectively on their Whims of Chambers , Sonny 's Crib , A Blowin ' Session , and Hard Driving Jazz albums .
+Two selections are from Coltrane 's own 1957 Blue Train , and " One for Four " had been previously unissued .
+" Trane 's Blues " had been issued on the compilation High Step in 1975 , previously known as " John Paul Jones " and named after himself , the bass player Chambers , and the drummer Philly Joe Jones .
+Like Prestige Records before them , as Coltrane 's fame grew long after he had stopped recording for the label , Blue Note used varied recordings , often those where Coltrane had been merely a sideman , and reissued them as a new album with Coltrane 's name prominently displayed .
+In this case , the Big Four conglomerate EMI continued that earlier practice .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.722<br> Recall: 0.591<br> F1 Score: 0.65 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 26</h4>
+      <p>                performer(whimsofchambers, johncoltrane)<br>                performer(sonnyscrib, johncoltrane)<br>                recordlabel(tranesblues, bluenoterecords)<br>                recordlabel(sonnyclark, bluenoterecords)<br>                recordlabel(johncoltrane, prestigerecords)<br>                recordlabel(sonnyscrib, bluenoterecords)<br>                publicationdate(tranesblues, ent_1975)<br>                recordlabel(harddriving, bluenoterecords)<br>                publicationdate(tranesblues, ent_1999)<br>                recordlabel(johnnygriffin, bluenoterecords)<br>                notablework(johncoltrane, highstep)<br>                recordlabel(harddriving, unitedartistsrecords)<br>                recordlabel(ceciltaylor, bluenoterecords)<br>                publicationdate(highstep, ent_1975)<br>                notablework(johncoltrane, whimsofchambers)<br>                recordlabel(ablowinsession, bluenoterecords)<br>                notablework(johncoltrane, tranesblues)<br>                performer(tranesblues, johncoltrane)<br>                recordlabel(chambers, bluenoterecords)<br>                recordlabel(whimsofchambers, bluenoterecords)<br>                recordlabel(highstep, bluenoterecords)<br>                notablework(johncoltrane, bluetrain)<br>                performer(bluetrain, johncoltrane)<br>                partof(tranesblues, highstep)<br>                notablework(johncoltrane, sonnyscrib)<br>                recordlabel(johncoltrane, bluenoterecords)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 10</h4>
+      <p>                recordlabel(ceciltaylor, unitedartistsrecords)<br>                recordlabel(johncoltrane, emi)<br>                recordlabel(sonnyclark, unitedartistsrecords)<br>                recordlabel(johncoltrane, unitedartistsrecords)<br>                followedby(highstep, tranesblues)<br>                publicationdate(bluetrain, ent_1957)<br>                recordlabel(chambers, unitedartistsrecords)<br>                recordlabel(bigfour, emi)<br>                recordlabel(tranesblues, unitedartistsrecords)<br>                recordlabel(sonnyscrib, unitedartistsrecords)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 18</h4>
+      <p>                followedby(whimsofchambers, sonnyscrib)<br>                performer(tranesblues, chambers)<br>                notablework(sonnyclark, sonnyscrib)<br>                performer(whimsofchambers, chambers)<br>                follows(harddriving, ablowinsession)<br>                performer(sonnyscrib, sonnyclark)<br>                performer(ablowinsession, johncoltrane)<br>                notablework(chambers, highstep)<br>                notablework(chambers, whimsofchambers)<br>                notablework(chambers, tranesblues)<br>                recordlabel(bluetrain, bluenoterecords)<br>                notablework(johncoltrane, ablowinsession)<br>                performer(highstep, chambers)<br>                performer(highstep, johncoltrane)<br>                recordlabel(oneforfour, bluenoterecords)<br>                haspart(highstep, tranesblues)<br>                followedby(ablowinsession, harddriving)<br>                follows(sonnyscrib, whimsofchambers)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">haspart(highstep, tranesblues)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">partof(tranesblues, highstep)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">follows(tranesblues, highstep)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">followedby(highstep, tranesblues)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

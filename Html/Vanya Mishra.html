@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Vanya Mishra</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Vanya Mishra</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Vanya Mishra ( born 27 February 1992 ) is an Indian actress , engineer , entrepreneur and beauty pageant titleholder who was crowned Femina Miss India World in 2012 .
+Vanya was born in Jalandhar , Punjab , raised in Chandigarh and studied electrical engineering at Punjab Engineering College .
+She represented India at the Miss World 2012 event in China in August 2012 .
+She finished at 7th rank , and won the other two , Miss Social Media and Beauty with a Purpose titles .
+She was leading the scoreboard at the Miss World pageant after scoring one of the highest scores in the personal interview round and winning two sub - contests back - to - back unlike no pageant contestant before .
+Unlike most of her contemporaries , she chose to pursue her entrepreneurial dream , after declining various Bollywood and TV offers .
+She currently is the co - founder and managing director at her fashion discovery portal , SummerLabel , launched on Android .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.848<br> Recall: 0.718<br> F1 Score: 0.778 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 28</h4>
+      <p>                starttime(missworld2012event, august2012)<br>                country(jalandhar, india)<br>                participant(missworld2012event, vanyamishra)<br>                instanceof(missworld2012event, missworld)<br>                educatedat(vanyamishra, punjabengineeringcollege)<br>                locatedintheadministrativeterritorialentity(chandigarh, india)<br>                country(jalandhar, indian)<br>                locatedintheadministrativeterritorialentity(punjab, india)<br>                participantof(vanyamishra, missworld2012event)<br>                locatedintheadministrativeterritorialentity(punjabengineeringcollege, india)<br>                pointintime(missworld, ent_2012)<br>                locatedintheadministrativeterritorialentity(jalandhar, india)<br>                containsadministrativeterritorialentity(indian, punjab)<br>                country(punjab, india)<br>                countryofcitizenship(vanyamishra, india)<br>                participantof(vanyamishra, missworld)<br>                country(chandigarh, india)<br>                country(punjabengineeringcollege, india)<br>                placeofbirth(vanyamishra, jalandhar)<br>                awardreceived(vanyamishra, feminamissindiaworld)<br>                containsadministrativeterritorialentity(india, chandigarh)<br>                locatedintheadministrativeterritorialentity(jalandhar, punjab)<br>                dateofbirth(vanyamishra, ent_27february1992)<br>                country(feminamissindiaworld, india)<br>                participant(missworld, vanyamishra)<br>                locatedintheadministrativeterritorialentity(jalandhar, indian)<br>                containsadministrativeterritorialentity(india, punjab)<br>                countryofcitizenship(vanyamishra, indian)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 5</h4>
+      <p>                locatedintheadministrativeterritorialentity(punjabengineeringcollege, punjab)<br>                awardreceived(vanyamishra, beautywithapurposetitles)<br>                country(missworld2012event, china)<br>                locatedintheadministrativeterritorialentity(punjabengineeringcollege, chandigarh)<br>                awardreceived(vanyamishra, misssocialmedia)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 11</h4>
+      <p>                pointintime(missworld2012event, august2012)<br>                locatedintheadministrativeterritorialentity(chandigarh, indian)<br>                country(punjab, indian)<br>                endtime(missworld2012event, august2012)<br>                pointintime(missworld2012event, ent_2012)<br>                country(feminamissindiaworld, indian)<br>                locatedintheadministrativeterritorialentity(punjab, indian)<br>                starttime(missworld2012event, ent_2012)<br>                country(chandigarh, indian)<br>                instanceof(misssocialmedia, missworld)<br>                location(missworld2012event, china)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">pointintime(missworld2012event, august2012)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">starttime(missworld2012event, august2012)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">locatedintheadministrativeterritorialentity(punjab, indian)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">containsadministrativeterritorialentity(indian, punjab)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">containsadministrativeterritorialentity(punjab, chandigarh)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(chandigarh, india), country(punjab, india)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(chandigarh, india), locatedintheadministrativeterritorialentity(punjab, india)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">starttime(missworld, ent_2012)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">pointintime(missworld, ent_2012)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Two Doors Down</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Two Doors Down</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>" Two Doors Down " was a song written and performed by Dolly Parton , which provided a 1978 U.S. country and pop hit for her .
+The song was sung from the perspective of a woman who has just broken up with her boyfriend and is debating attending a party two doors down the hall from her apartment .
+She decides to go , meets a new man and returns with him to her own apartment " two doors down " .
+It was included on Parton 's 1977 Here You Come Again album , but before Parton could release it as the album 's second single in March 1978 , singer Zella Lehr released a cover version that became a top ten U.S. country hit .
+While Lehr 's version was on the country charts , the title cut of Here You Come Again was becoming a much bigger pop hit than Parton had anticipated .
+Wanting to capitalize on her newfound pop success ( and also not wanting to compete with Lehr 's country version of the song ) Parton rerecorded a more loose , pop - oriented version of " Two Doors Down " with a slight disco flavoring .
+She released the new version on a double - A - sided single , with the other side , " It 's All Wrong , but It 's All Right " intended for country airplay , and " Two Doors Down " intended for the pop airplay .
+The single topped the U.S. country charts , and was a top-20 pop hit for Parton , and went on to be one of her most popular hits .
+Also in 1978 Joe Thomas did his own disco cover of this song .
+Parton also had the new version of " Two Doors Down " ( which omitted the first verse , and included an upbeat " sing - along " bridge ) replace the previous version on all subsequent pressings of Here You Come Again , making the earlier version something of a collectors ' item among Parton 's fans .
+The original version of " Two Doors Down " was subsequently issued on CD in 2000 on the 3-CD Australian compilation Legendary Dolly Parton , which is now out of print .
+In 2009 , Jill Johnson recorded the song on the cover album Music Row II .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.609<br> Recall: 0.56<br> F1 Score: 0.583 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 14</h4>
+      <p>                haspart(hereyoucomeagain, twodoorsdown)<br>                notablework(zellalehr, twodoorsdown)<br>                countryofcitizenship(dollyparton, us)<br>                performer(itsallwrongbutitsallright, dollyparton)<br>                publicationdate(twodoorsdown, ent_1978)<br>                performer(twodoorsdown, dollyparton)<br>                notablework(dollyparton, hereyoucomeagain)<br>                countryoforigin(twodoorsdown, us)<br>                publicationdate(hereyoucomeagain, ent_1977)<br>                performer(twodoorsdown, zellalehr)<br>                notablework(dollyparton, itsallwrongbutitsallright)<br>                notablework(dollyparton, twodoorsdown)<br>                publicationdate(twodoorsdown, ent_1977)<br>                performer(hereyoucomeagain, dollyparton)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 9</h4>
+      <p>                performer(hereyoucomeagain, zellalehr)<br>                notablework(dollyparton, musicrowii)<br>                performer(musicrowii, dollyparton)<br>                notablework(zellalehr, musicrowii)<br>                performer(musicrowii, zellalehr)<br>                notablework(zellalehr, hereyoucomeagain)<br>                follows(twodoorsdown, hereyoucomeagain)<br>                notablework(dollyparton, ent_2009)<br>                publicationdate(hereyoucomeagain, ent_1978)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 11</h4>
+      <p>                countryofcitizenship(zellalehr, us)<br>                countryoforigin(itsallwrongbutitsallright, us)<br>                performer(musicrowii, jilljohnson)<br>                composer(twodoorsdown, dollyparton)<br>                publicationdate(itsallwrongbutitsallright, ent_1978)<br>                countryoforigin(hereyoucomeagain, us)<br>                notablework(jilljohnson, musicrowii)<br>                partof(twodoorsdown, hereyoucomeagain)<br>                publicationdate(musicrowii, ent_2009)<br>                haspart(hereyoucomeagain, itsallwrongbutitsallright)<br>                partof(itsallwrongbutitsallright, hereyoucomeagain)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 3</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">countryofcitizenship(zellalehr, us)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">notablework(zellalehr, twodoorsdown), countryoforigin(twodoorsdown, us)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">countryoforigin(itsallwrongbutitsallright, us)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">countryofcitizenship(dollyparton, us), notablework(dollyparton, itsallwrongbutitsallright)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp2">countryoforigin(hereyoucomeagain, us)</a>
+      </h4>
+    </div>
+    <div id="fn2tp2" class="panel-collapse collapse">
+<div class="panel-body">countryofcitizenship(dollyparton, us), notablework(dollyparton, hereyoucomeagain)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">performer(ent_2009, dollyparton)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">notablework(dollyparton, ent_2009)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tyche</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Tyche</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Tyche (; from , Túkhē , meaning " luck " ; Roman equivalent : Fortuna ) was the presiding tutelary deity who governed the fortune and prosperity of a city , its destiny .
+In Classical Greek mythology , she is the daughter of Aphrodite and Zeus or Hermes .
+In literature , she might be given various genealogies , as a daughter of Hermes and Aphrodite , or considered as one of the Oceanids , daughters of Oceanus , and Tethys , or of Zeus .
+She was connected with Nemesis and Agathos Daimon ( " good spirit " ) .
+The Greek historian Polybius believed that when no cause can be discovered to events such as floods , droughts , frosts , or even in politics , then the cause of these events may be fairly attributed to Tyche .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.65<br> Recall: 0.591<br> F1 Score: 0.619 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 13</h4>
+      <p>                child(aphrodite, tkh)<br>                child(hermes, tyche)<br>                child(oceanus, tyche)<br>                spouse(aphrodite, hermes)<br>                child(aphrodite, tyche)<br>                spouse(hermes, aphrodite)<br>                spouse(tethys, oceanus)<br>                mother(tyche, aphrodite)<br>                child(zeus, tyche)<br>                spouse(zeus, aphrodite)<br>                child(hermes, tkh)<br>                father(tyche, hermes)<br>                spouse(aphrodite, zeus)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 7</h4>
+      <p>                spouse(hermes, zeus)<br>                child(oceanus, tethys)<br>                spouse(zeus, hermes)<br>                child(hermes, zeus)<br>                positionheld(oceanus, oceanids)<br>                child(aphrodite, tethys)<br>                languagesspokenwrittenorsigned(polybius, greek)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 9</h4>
+      <p>                spouse(oceanus, tethys)<br>                instanceof(tyche, oceanids)<br>                child(tethys, tyche)<br>                child(tethys, oceanids)<br>                child(zeus, tkh)<br>                child(zeus, oceanids)<br>                father(oceanids, oceanus)<br>                child(oceanus, oceanids)<br>                father(tyche, zeus)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">spouse(oceanus, tethys)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">child(oceanus, tethys)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">sibling(zeus, hermes)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">spouse(zeus, hermes)</div>
+<div class="panel-body">child(hermes, zeus)</div>
+<div class="panel-body">child(zeus, tyche), child(hermes, tyche)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">spouse(aphrodite, oceanus)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">child(aphrodite, tethys), child(oceanus, tethys)</div>
+<div class="panel-body">child(aphrodite, tyche), child(oceanus, tyche)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

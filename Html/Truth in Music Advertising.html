@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Truth in Music Advertising</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Truth in Music Advertising</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The Truth in Music Advertising act or bill , also known as Truth in Music Performance Advertising or simply Truth in Music , is legislation , adopted into state law by most U.S. states , that aims to protect the trademark of musical recording artists .
+The legislation provides that the name of a famous musical group can not be used by a group of performers unless they include at least one member of the original group .
+The intent of the legislation is to prevent unfair or deceptive trade practices , and to protect the livelihood of musicians who were in famous musical groups .
+The legislation , co - authored by former Sha Na Na member Jon " Bowzer " Bauman and promoted by him and Mary Wilson of the Supremes , was not passed by the U.S. Congress , but has been enacted in 34 of the 50 states .
+The legislation has been tested in the U.S. Court of Appeals for the Third Circuit .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.55<br> Recall: 0.579<br> F1 Score: 0.564 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 11</h4>
+      <p>                locatedintheadministrativeterritorialentity(uscongress, us)<br>                legislativebody(us, uscongress)<br>                appliestojurisdiction(uscongress, us)<br>                locatedintheadministrativeterritorialentity(uscourtofappealsforthethirdcircuit, us)<br>                country(uscourtofappealsforthethirdcircuit, us)<br>                countryofcitizenship(marywilson, us)<br>                countryofcitizenship(jonbowzerbauman, us)<br>                locatedintheadministrativeterritorialentity(supremes, us)<br>                country(truthinmusicperformanceadvertising, us)<br>                country(supremes, us)<br>                country(uscongress, us)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 9</h4>
+      <p>                memberofpoliticalparty(jonbowzerbauman, shanana)<br>                memberofpoliticalparty(marywilson, shanana)<br>                locatedintheadministrativeterritorialentity(shanana, us)<br>                manufacturer(truthinmusicperformanceadvertising, us)<br>                countryoforigin(truthinmusicperformanceadvertising, shanana)<br>                country(us, shanana)<br>                chairperson(shanana, jonbowzerbauman)<br>                inception(truthinmusicperformanceadvertising, ent_34)<br>                locatedintheadministrativeterritorialentity(us, shanana)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 8</h4>
+      <p>                haspart(supremes, marywilson)<br>                partof(jonbowzerbauman, shanana)<br>                memberof(jonbowzerbauman, shanana)<br>                memberof(marywilson, supremes)<br>                appliestojurisdiction(truthinmusicperformanceadvertising, us)<br>                countryoforigin(truthinmusicperformanceadvertising, us)<br>                haspart(shanana, jonbowzerbauman)<br>                partof(marywilson, supremes)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 3</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">memberofpoliticalparty(jonbowzerbauman, supremes)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">country(supremes, us), countryofcitizenship(jonbowzerbauman, us)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">country(shanana, us)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">chairperson(shanana, jonbowzerbauman), countryofcitizenship(jonbowzerbauman, us)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(shanana, us)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp2">memberof(jonbowzerbauman, supremes)</a>
+      </h4>
+    </div>
+    <div id="tn2fp2" class="panel-collapse collapse">
+<div class="panel-body">countryofcitizenship(jonbowzerbauman, us), locatedintheadministrativeterritorialentity(supremes, us)</div>
+<div class="panel-body">countryofcitizenship(jonbowzerbauman, us), country(supremes, us)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

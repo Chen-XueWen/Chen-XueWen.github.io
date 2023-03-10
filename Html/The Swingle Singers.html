@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Swingle Singers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>The Swingle Singers</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The Swingles are a vocal group formed in 1962 in Paris , France by Ward Swingle with Anne Germain , Claude Germain , Jeanette Baucomont , Christiane Legrand , Claudine Meunier , Jean - Claude Briodin , and Jean Cussac .
+Until 2011 , the group consisted of eight voices : two sopranos , two altos , two tenors and two basses .
+The French group performed and recorded typically with only a double bass and drums as accompaniment .
+In 1973 , the original French group disbanded and Ward Swingle moved to London and hired members who debuted as Swingle II .
+The current group performs primarily a cappella .
+The group later performed and recorded under the name The Swingles , then The New Swingle Singers and The Swingle Singers before settling on The Swingles .
+The group has never disbanded .
+As individual members have left the group , remaining members have held auditions for replacements .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.379<br> Recall: 0.579<br> F1 Score: 0.458 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 11</h4>
+      <p>                countryofcitizenship(claudegermain, france)<br>                countryofcitizenship(claudinemeunier, france)<br>                countryofcitizenship(annegermain, france)<br>                locatedintheadministrativeterritorialentity(paris, france)<br>                inception(ent_0theswingles, ent_1962)<br>                countryofcitizenship(christianelegrand, france)<br>                countryofcitizenship(jeanclaudebriodin, france)<br>                locationofformation(ent_0theswingles, london)<br>                locationofformation(ent_0theswingles, paris)<br>                countryofcitizenship(jeancussac, france)<br>                country(paris, france)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 18</h4>
+      <p>                country(ent_0theswingles, paris)<br>                location(jeancussac, ent_2011)<br>                dissolvedabolishedordemolished(annegermain, claudinemeunier)<br>                countryofcitizenship(ent_0theswingles, france)<br>                haspart(ent_2011, eight)<br>                country(ent_0theswingles, jeanclaudebriodin)<br>                partof(eight, ent_2011)<br>                locationofformation(wardswingle, paris)<br>                memberof(paris, two)<br>                locatedintheadministrativeterritorialentity(london, paris)<br>                participantof(annegermain, jeancussac)<br>                memberof(eight, two)<br>                country(london, paris)<br>                haspart(ent_0theswingles, jeancussac)<br>                locatedonterrainfeature(eight, ent_2011)<br>                participant(jeancussac, annegermain)<br>                locatedintheadministrativeterritorialentity(ent_1962, paris)<br>                country(ent_1962, paris)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 8</h4>
+      <p>                foundedby(ent_0theswingles, wardswingle)<br>                languagesspokenwrittenorsigned(paris, france)<br>                country(ent_0theswingles, france)<br>                countryofcitizenship(jeanettebaucomont, france)<br>                locatedintheadministrativeterritorialentity(ent_0theswingles, france)<br>                memberof(wardswingle, ent_0theswingles)<br>                partof(wardswingle, ent_0theswingles)<br>                haspart(ent_0theswingles, wardswingle)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">partof(jeancussac, ent_0theswingles)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">haspart(ent_0theswingles, jeancussac)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

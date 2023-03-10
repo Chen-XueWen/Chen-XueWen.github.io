@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Stars and Stripes Forever (film)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Stars and Stripes Forever (film)</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Stars and Stripes Forever is a 1952 American Technicolor film biography of the late-19th-/early-20th - century composer and band leader John Philip Sousa .
+This 20th Century Fox feature was produced by Lamar Trotti , directed by Henry Koster , and stars Clifton Webb , Debra Paget , Robert Wagner , and Ruth Hussey .
+The film 's title is taken from Sousa 's " The Stars and Stripes Forever " , which has become the best known of his military marches .
+While the film 's storyline is loosely based on Sousa 's autobiography Marching Along , the film takes considerable liberties and dramatic license , often expanding and examining themes and passages from Sousa 's book .
+Two examples : In the film , Private Willie Little ( Robert Wagner ) , is credited with inventing the Sousaphone and naming it after his mentor , but in reality Sousa himself designed the instrument .
+The inspiration for the film 's title march is depicted in a scene with a voice over by Webb quoting Sousa 's actual description of its creation while he was aboard ship recovering from typhoid fever .
+In reality , having learned of the sudden death of his band 's manager , Sousa and his wife canceled their European vacation and were returning to the U.S. by steamship when the march came to him .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.905<br> Recall: 0.864<br> F1 Score: 0.884 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 19</h4>
+      <p>                author(marchingalong, johnphilipsousa)<br>                notablework(henrykoster, starsandstripesforever)<br>                countryofcitizenship(johnphilipsousa, american)<br>                castmember(starsandstripesforever, ruthhussey)<br>                castmember(starsandstripesforever, robertwagner)<br>                castmember(starsandstripesforever, cliftonwebb)<br>                performer(privatewillielittle, robertwagner)<br>                notablework(lamartrotti, starsandstripesforever)<br>                notablework(johnphilipsousa, marchingalong)<br>                notablework(johnphilipsousa, starsandstripesforever)<br>                castmember(starsandstripesforever, debrapaget)<br>                notablework(robertwagner, privatewillielittle)<br>                locatedintheadministrativeterritorialentity(ent_20thcenturyfox, american)<br>                publicationdate(starsandstripesforever, ent_1952)<br>                producer(starsandstripesforever, lamartrotti)<br>                director(starsandstripesforever, henrykoster)<br>                countryoforigin(starsandstripesforever, american)<br>                productioncompany(starsandstripesforever, ent_20thcenturyfox)<br>                country(ent_20thcenturyfox, american)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 2</h4>
+      <p>                countryofcitizenship(robertwagner, american)<br>                author(starsandstripesforever, johnphilipsousa)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 3</h4>
+      <p>                country(technicolor, american)<br>                composer(marchingalong, johnphilipsousa)<br>                composer(starsandstripesforever, johnphilipsousa)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">composer(starsandstripesforever, johnphilipsousa)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">notablework(johnphilipsousa, starsandstripesforever)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">countryofcitizenship(cliftonwebb, american)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">countryoforigin(starsandstripesforever, american), castmember(starsandstripesforever, cliftonwebb)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">countryoforigin(privatewillielittle, american)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">countryofcitizenship(robertwagner, american), notablework(robertwagner, privatewillielittle)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

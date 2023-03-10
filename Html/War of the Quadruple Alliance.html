@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>War of the Quadruple Alliance</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>War of the Quadruple Alliance</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The War of the Quadruple Alliance ( 1717 – 1720 ) was a result of the ambitions of Bourbon King Philip V of Spain , his wife , Elisabeth Farnese , and his chief minister Giulio Alberoni to retake territories in Italy lost to the Habsburgs in Vienna , and perhaps even to claim the French throne .
+It saw the defeat of Spain by an alliance of Britain , France , Austria ( then a state of the Holy Roman Empire ) , and the Dutch Republic .
+Savoy later joined the coalition as the fifth ally .
+Although fighting began as early as 1717 , war was not formally declared until December 1718 .
+It was brought to an end by the Treaty of The Hague in 1720 .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.733<br> Recall: 0.647<br> F1 Score: 0.688 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 22</h4>
+      <p>                spouse(philipvofspain, elisabethfarnese)<br>                starttime(warofthequadruplealliance, ent_1717)<br>                participantof(spain, warofthequadruplealliance)<br>                country(vienna, italy)<br>                participant(warofthequadruplealliance, dutchrepublic)<br>                headofstate(spain, philipvofspain)<br>                participant(warofthequadruplealliance, philipvofspain)<br>                pointintime(treatyofthehague, ent_1720)<br>                countryofcitizenship(giulioalberoni, spain)<br>                spouse(elisabethfarnese, philipvofspain)<br>                participantof(dutchrepublic, warofthequadruplealliance)<br>                participantof(giulioalberoni, warofthequadruplealliance)<br>                participant(warofthequadruplealliance, spain)<br>                participant(warofthequadruplealliance, giulioalberoni)<br>                countryofcitizenship(philipvofspain, spain)<br>                conflict(giulioalberoni, warofthequadruplealliance)<br>                locatedintheadministrativeterritorialentity(vienna, italy)<br>                locatedintheadministrativeterritorialentity(austria, holyromanempire)<br>                participant(warofthequadruplealliance, britain)<br>                appliestojurisdiction(philipvofspain, spain)<br>                containsadministrativeterritorialentity(italy, vienna)<br>                endtime(warofthequadruplealliance, ent_1720)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 8</h4>
+      <p>                country(habsburgs, italy)<br>                spouse(elisabethfarnese, giulioalberoni)<br>                locatedintheadministrativeterritorialentity(vienna, habsburgs)<br>                countryofcitizenship(giulioalberoni, italy)<br>                location(warofthequadruplealliance, treatyofthehague)<br>                endtime(warofthequadruplealliance, december1718)<br>                country(vienna, habsburgs)<br>                locatedintheadministrativeterritorialentity(habsburgs, italy)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 12</h4>
+      <p>                country(vienna, holyromanempire)<br>                participantof(britain, warofthequadruplealliance)<br>                participantof(philipvofspain, warofthequadruplealliance)<br>                participantof(austria, warofthequadruplealliance)<br>                conflict(philipvofspain, warofthequadruplealliance)<br>                countryofcitizenship(elisabethfarnese, spain)<br>                containsadministrativeterritorialentity(austria, vienna)<br>                participant(warofthequadruplealliance, austria)<br>                locatedintheadministrativeterritorialentity(vienna, holyromanempire)<br>                location(warofthequadruplealliance, vienna)<br>                participantof(holyromanempire, warofthequadruplealliance)<br>                participant(warofthequadruplealliance, holyromanempire)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">participantof(britain, warofthequadruplealliance)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">participant(warofthequadruplealliance, britain)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">countryofcitizenship(elisabethfarnese, spain)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">appliestojurisdiction(philipvofspain, spain), spouse(philipvofspain, elisabethfarnese)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 4</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">endtime(treatyofthehague, ent_1720)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">pointintime(treatyofthehague, ent_1720)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">containsadministrativeterritorialentity(habsburgs, vienna)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(vienna, habsburgs)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(vienna, italy), country(habsburgs, italy)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(vienna, italy), locatedintheadministrativeterritorialentity(habsburgs, italy)</div>
+<div class="panel-body">country(vienna, habsburgs)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp2">dissolvedabolishedordemolished(dutchrepublic, december1718)</a>
+      </h4>
+    </div>
+    <div id="tn2fp2" class="panel-collapse collapse">
+<div class="panel-body">participant(warofthequadruplealliance, dutchrepublic), endtime(warofthequadruplealliance, december1718)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp3">endtime(warofthequadruplealliance, ent_1717)</a>
+      </h4>
+    </div>
+    <div id="tn2fp3" class="panel-collapse collapse">
+<div class="panel-body">starttime(warofthequadruplealliance, ent_1717)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

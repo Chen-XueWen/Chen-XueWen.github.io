@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>WUIS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>WUIS</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>WUIS ( 91.9 FM ) , is the National Public Radio member station in Springfield , Illinois , United States .
+It primarily features National Public Radio news and talk programming .
+The station is owned by and based at the University of Illinois at Springfield .
+It operates a full - time satellite , WIPA in Pittsfield , Illinois .
+WIPA serves a small portion of the Quincy market .
+WUIS originally hit the airwaves on January 3 , 1975 as WSSR , operated by what was then Sangamon State University .
+It became WSSU in 1989 , and adopted its current calls when Sangamon State merged with the University of Illinois system in 1995 .
+WIPA was brought online in 1993 .
+In 2015 , the station rebranded as " NPR Illinois . "
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.707<br> Recall: 0.763<br> F1 Score: 0.734 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 29</h4>
+      <p>                country(illinois, unitedstates)<br>                country(nationalpublicradio, unitedstates)<br>                locatedintheadministrativeterritorialentity(sangamonstate, unitedstates)<br>                country(universityofillinois, unitedstates)<br>                country(wssu, unitedstates)<br>                locatedintheadministrativeterritorialentity(sangamonstate, illinois)<br>                locatedintheadministrativeterritorialentity(wipa, unitedstates)<br>                containsadministrativeterritorialentity(unitedstates, illinois)<br>                locatedintheadministrativeterritorialentity(universityofillinois, unitedstates)<br>                country(sangamonstateuniversity, unitedstates)<br>                locatedintheadministrativeterritorialentity(wssu, illinois)<br>                country(springfield, unitedstates)<br>                inception(wssr, january31975)<br>                locatedintheadministrativeterritorialentity(universityofillinois, illinois)<br>                locatedintheadministrativeterritorialentity(illinois, unitedstates)<br>                locatedintheadministrativeterritorialentity(wssr, unitedstates)<br>                locatedintheadministrativeterritorialentity(wssu, unitedstates)<br>                locatedintheadministrativeterritorialentity(nationalpublicradio, unitedstates)<br>                country(pittsfield, unitedstates)<br>                locatedintheadministrativeterritorialentity(pittsfield, unitedstates)<br>                country(wssr, unitedstates)<br>                locatedintheadministrativeterritorialentity(sangamonstateuniversity, illinois)<br>                country(sangamonstate, unitedstates)<br>                locatedintheadministrativeterritorialentity(quincy, unitedstates)<br>                country(wipa, unitedstates)<br>                country(quincy, unitedstates)<br>                locatedintheadministrativeterritorialentity(wssr, illinois)<br>                locatedintheadministrativeterritorialentity(sangamonstateuniversity, unitedstates)<br>                locatedintheadministrativeterritorialentity(springfield, unitedstates)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 12</h4>
+      <p>                partof(wssr, springfield)<br>                notablework(nationalpublicradio, springfield)<br>                performer(springfield, nationalpublicradio)<br>                continent(sangamonstate, january31975)<br>                haspart(january31975, sangamonstate)<br>                haspart(springfield, wssr)<br>                performer(wssr, nationalpublicradio)<br>                notablework(nationalpublicradio, wssr)<br>                countryoforigin(springfield, sangamonstate)<br>                publicationdate(wssr, universityofillinois)<br>                officiallanguage(sangamonstate, ent_1989)<br>                partof(sangamonstate, january31975)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 9</h4>
+      <p>                dissolvedabolishedordemolished(sangamonstate, ent_1995)<br>                locatedintheadministrativeterritorialentity(wipa, illinois)<br>                inception(wipa, ent_1993)<br>                parentorganization(sangamonstateuniversity, universityofillinois)<br>                subsidiary(universityofillinois, sangamonstateuniversity)<br>                locatedintheadministrativeterritorialentity(pittsfield, illinois)<br>                inception(wssu, ent_1989)<br>                locatedintheadministrativeterritorialentity(universityofillinois, springfield)<br>                ownedby(wssr, universityofillinois)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">locatedintheadministrativeterritorialentity(pittsfield, illinois)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">country(illinois, unitedstates), country(pittsfield, unitedstates)</div>
+<div class="panel-body">containsadministrativeterritorialentity(unitedstates, illinois), country(pittsfield, unitedstates)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

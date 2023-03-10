@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Virgin and Child with St Anne and St John the Baptist</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>The Virgin and Child with St Anne and St John the Baptist</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The Virgin and Child with St Anne and St John the Baptist , sometimes called The Burlington House Cartoon , is a drawing by Leonardo da Vinci .
+The drawing is in charcoal and black and white chalk , on eight sheets of paper glued together .
+Because of its large size and format the drawing is presumed to be a cartoon for a painting .
+No painting by Leonardo exists that is based directly on this cartoon .
+The drawing depicts the Virgin Mary seated on the knees of her mother , St Anne , while holding the Child Jesus as Jesus ' young cousin , St. John the Baptist , stands to the right .
+It currently hangs in the National Gallery in London .
+It was either executed in around 1499 – 1500 , at the end of the artist 's first Milanese period , or around 1506 – 1508 , when he was shuttling between Florence and Milan .
+The majority of scholars prefer the latter date , although the National Gallery and others prefer the former .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.139<br> Recall: 0.417<br> F1 Score: 0.208 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 5</h4>
+      <p>                notablework(leonardodavinci, virginandchildwithstanneandstjohnthebaptist)<br>                child(stanne, virginmary)<br>                creator(virginandchildwithstanneandstjohnthebaptist, leonardodavinci)<br>                locatedintheadministrativeterritorialentity(nationalgallery, london)<br>                location(virginandchildwithstanneandstjohnthebaptist, nationalgallery)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 31</h4>
+      <p>                placeofbirth(virginandchildwithstanneandstjohnthebaptist, ent_1508)<br>                locatedintheadministrativeterritorialentity(ent_1499, jesus)<br>                dateofdeath(virginandchildwithstanneandstjohnthebaptist, childjesus)<br>                headquarterslocation(nationalgallery, london)<br>                country(nationalgallery, stjohnthebaptist)<br>                countryofcitizenship(virginandchildwithstanneandstjohnthebaptist, jesus)<br>                country(milan, jesus)<br>                country(milan, stjohnthebaptist)<br>                mother(childjesus, virginmary)<br>                child(stanne, childjesus)<br>                dateofbirth(virginandchildwithstanneandstjohnthebaptist, ent_1506)<br>                placeofdeath(virginandchildwithstanneandstjohnthebaptist, ent_1499)<br>                locatedintheadministrativeterritorialentity(nationalgallery, stjohnthebaptist)<br>                dateofbirth(virginandchildwithstanneandstjohnthebaptist, stanne)<br>                locatedintheadministrativeterritorialentity(nationalgallery, jesus)<br>                child(virginmary, childjesus)<br>                child(jesus, childjesus)<br>                spouse(jesus, virginmary)<br>                locatedintheadministrativeterritorialentity(milan, jesus)<br>                country(ent_1499, jesus)<br>                country(nationalgallery, jesus)<br>                containsadministrativeterritorialentity(jesus, ent_1508)<br>                spouse(virginmary, stanne)<br>                officiallanguage(jesus, leonardodavinci)<br>                dateofdeath(virginandchildwithstanneandstjohnthebaptist, florence)<br>                languagesspokenwrittenorsigned(virginandchildwithstanneandstjohnthebaptist, leonardodavinci)<br>                locatedintheadministrativeterritorialentity(ent_1508, jesus)<br>                country(ent_1508, jesus)<br>                father(childjesus, jesus)<br>                country(nationalgallery, london)<br>                locatedintheadministrativeterritorialentity(milan, stjohnthebaptist)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 7</h4>
+      <p>                worklocation(leonardodavinci, milan)<br>                mother(virginmary, stanne)<br>                worklocation(leonardodavinci, florence)<br>                child(virginmary, jesus)<br>                mother(jesus, virginmary)<br>                worklocation(leonardodavinci, milanese)<br>                inception(virginandchildwithstanneandstjohnthebaptist, ent_1499)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">mother(virginmary, stanne)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">child(stanne, virginmary)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">mother(childjesus, stanne)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">child(stanne, childjesus)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Toyota Avalon</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Toyota Avalon</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The Toyota Avalon is a full - size car produced by Toyota in the United States , and is Toyota 's largest front - wheel - drive sedan in the United States , Canada , Puerto Rico , and the Middle East .
+It was also produced in Australia from April 2000 until June 2005 , when it was replaced in November 2006 by the Toyota Aurion .
+The first production Avalon rolled off the TMMK assembly line in Georgetown , Kentucky , in September 1994 .
+A second - generation model was released in the United States and Japan in 1999 .
+Toyota marketed the Avalon as a replacement for the Toyota Cressida , a model discontinued for the American market in 1992 .
+While the Cressida was an upper - level midsize rear - wheel - drive car with a straight - six engine , the Avalon is front - wheel - drive , powered by a V6 engine .
+In recent years , there has been considerable overlapping with its platform mates , the Toyota Camry V6 and the Lexus ES , although the third - generation Avalon was distinguished by offering extra legroom .
+For its fourth generation , the Avalon was introduced on a platform that is shared with the Lexus ES .
+As of 2013 , the Toyota Avalon is available in the United States , Canada , Puerto Rico , South Korea , and the Middle East .
+Avalon is a legendary island featured in the Arthurian legend , fitting it in with Toyota 's tradition of naming their sedans the word for " crown " in various languages ( Crown , Corona , Camry , Corolla ) , types of crowns ( Tiara ) , or other things associated with royalty ( Scepter ) .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.76<br> Recall: 0.655<br> F1 Score: 0.704 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 19</h4>
+      <p>                locatedintheadministrativeterritorialentity(kentucky, american)<br>                locatedintheadministrativeterritorialentity(georgetown, american)<br>                country(tmmk, american)<br>                country(kentucky, american)<br>                country(toyota, japan)<br>                manufacturer(toyotaaurion, toyota)<br>                manufacturer(toyotacamryv6, toyota)<br>                manufacturer(toyotacressida, toyota)<br>                country(toyota, american)<br>                locatedintheadministrativeterritorialentity(tmmk, american)<br>                manufacturer(toyotaavalon, toyota)<br>                followedby(toyotacressida, toyotaavalon)<br>                manufacturer(scepter, toyota)<br>                manufacturer(lexuses, toyota)<br>                containsadministrativeterritorialentity(american, kentucky)<br>                manufacturer(crown, toyota)<br>                country(georgetown, american)<br>                locatedintheadministrativeterritorialentity(toyota, american)<br>                manufacturer(tiara, toyota)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 6</h4>
+      <p>                manufacturer(v6, toyota)<br>                ownedby(toyotacamryv6, toyota)<br>                countryoforigin(toyotaavalon, american)<br>                inception(toyotaavalon, april2000)<br>                manufacturer(tmmk, toyota)<br>                platform(toyotaavalon, toyotaaurion)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 10</h4>
+      <p>                ownedby(tmmk, toyota)<br>                locatedintheadministrativeterritorialentity(tmmk, kentucky)<br>                follows(toyotaavalon, toyotacressida)<br>                manufacturer(toyotaavalon, tmmk)<br>                country(toyotaavalon, american)<br>                locatedintheadministrativeterritorialentity(toyota, japan)<br>                followedby(toyotaavalon, toyotaaurion)<br>                manufacturer(avalon, toyota)<br>                inception(toyotaavalon, september1994)<br>                follows(toyotaaurion, toyotaavalon)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">locatedintheadministrativeterritorialentity(toyota, japan)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">country(toyota, japan)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 4</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">developer(toyotacressida, toyota)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">manufacturer(toyotacressida, toyota)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">developer(crown, toyota)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">manufacturer(crown, toyota)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp2">ownedby(crown, toyota)</a>
+      </h4>
+    </div>
+    <div id="tn2fp2" class="panel-collapse collapse">
+<div class="panel-body">manufacturer(crown, toyota)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp3">developer(lexuses, toyota)</a>
+      </h4>
+    </div>
+    <div id="tn2fp3" class="panel-collapse collapse">
+<div class="panel-body">manufacturer(lexuses, toyota)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>
