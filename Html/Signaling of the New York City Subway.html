@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Signaling of the New York City Subway</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Signaling of the New York City Subway</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>In the New York metropolitan area , the Metropolitan Transportation Authority ( MTA ) runs the New York City Subway , which is mostly manually operated .
+The subway system currently uses Automatic Block Signaling with fixed wayside signals and automatic train stops .
+Many portions of the signaling system were installed between the 1930s and 1960s .
+Because of the age of the subway system , some replacement parts must be custom built for the MTA , as they are otherwise unavailable from signaling suppliers .
+Additionally , some subway services have reached their train capacity limits and can not operate extra trains with the current system .
+There are two different schemes of signaling in the system .
+The most used scheme is found on all of the B Division , which consists of lines originally built to the Brooklyn – Manhattan Transit Corporation ( BMT ) and Independent Subway System ( IND ) 's wider specifications , as well as on most of the A Division , which consists of lines built to the narrower specifications of the Interborough Rapid Transit Company ( IRT ) .
+An older system was used on all of the A Division , but with the conversion of the IRT Dyre Avenue Line signals to the B Division scheme , this system is no longer in use .
+As part of the modernization of the New York City Subway , the MTA has plans to upgrade much of the system with communications - based train control ( CBTC ) technology , which will control the speed and starting and stopping of subway trains .
+The CBTC system is mostly automated and uses a moving block system – which reduces headways between trains , increases train frequencies and capacities , and relays the trains ' positions to a control room – rather than a fixed block system .
+This will require new rolling stock to be built for the subway system , as only newer trains can use CBTC .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.45<br> Recall: 0.375<br> F1 Score: 0.409 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 9</h4>
+      <p>                locatedintheadministrativeterritorialentity(metropolitantransportationauthority, newyork)<br>                partof(adivision, newyorkcitysubway)<br>                partof(bdivision, newyorkcitysubway)<br>                locationofformation(metropolitantransportationauthority, newyork)<br>                haspart(newyorkcitysubway, bdivision)<br>                haspart(newyorkcitysubway, adivision)<br>                locatedintheadministrativeterritorialentity(newyorkcitysubway, newyork)<br>                haspart(newyorkcitysubway, irtdyreavenueline)<br>                partof(irtdyreavenueline, newyorkcitysubway)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 11</h4>
+      <p>                participantof(newyork, irtdyreavenueline)<br>                subclassof(irtdyreavenueline, automaticblocksignaling)<br>                dateofbirth(newyork, metropolitantransportationauthority)<br>                participant(irtdyreavenueline, newyork)<br>                endtime(irtdyreavenueline, irt)<br>                instanceof(irtdyreavenueline, automaticblocksignaling)<br>                follows(newyorkcitysubway, metropolitantransportationauthority)<br>                location(irtdyreavenueline, communicationsbasedtraincontrol)<br>                countryofcitizenship(newyork, newyorkcitysubway)<br>                location(irtdyreavenueline, bdivision)<br>                starttime(irtdyreavenueline, irt)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 15</h4>
+      <p>                ownedby(irt, newyork)<br>                haspart(newyorkcitysubway, automaticblocksignaling)<br>                operator(irtdyreavenueline, metropolitantransportationauthority)<br>                ownedby(ind, newyork)<br>                partof(automaticblocksignaling, newyorkcitysubway)<br>                operator(newyorkcitysubway, metropolitantransportationauthority)<br>                operator(automaticblocksignaling, metropolitantransportationauthority)<br>                ownedby(irtdyreavenueline, newyork)<br>                operator(adivision, metropolitantransportationauthority)<br>                operator(newyorkcitysubway, bmt)<br>                locationofformation(bmt, newyork)<br>                operator(newyorkcitysubway, irt)<br>                headquarterslocation(metropolitantransportationauthority, newyork)<br>                operator(bdivision, metropolitantransportationauthority)<br>                ownedby(bmt, newyork)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">operator(newyorkcitysubway, metropolitantransportationauthority)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(newyorkcitysubway, newyork), locatedintheadministrativeterritorialentity(metropolitantransportationauthority, newyork)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

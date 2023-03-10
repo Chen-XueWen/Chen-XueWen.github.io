@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Silvan Elves</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Silvan Elves</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Silvan ( wood elves ) are a type of Elves in J.R.R.
+Tolkien 's fictional universe of Middle - earth , mainly the Elves of Mirkwood and Lothlórien .
+They are commonly known as Wood - elves .
+In the First Age the Elves of Ossiriand , or Laiquendi , were also referred to as wood - elves .
+Silvan Elves are mainly Nandor in descent but also mixed with Avari .
+Many of them were later ruled over by a small population of social elites who were Sindar ( Grey Elves ) or even Noldor ( High Elves ) .
+For example , Thranduil king of northern Mirkwood , as well as his son Legolas , were Sindarin Elves who ruled over a primarily Silvan population .
+Similarly Amdír and his son Amroth , the last Sindarin prince of Lorien , were Sindar .
+After Amroth was lost at sea , Galadriel and Celeborn came to rule over Lórien .
+Galadriel was a High Elf who belonged to the House of Finarfin , though she was actually of mixed Vanyar / Noldor / Telerin parentage , while Celeborn was also Sindarin ( Sindar being a subset of the Teleri ) .
+Silvan Elves are described as being less wise than other Eldar , and some of them are almost indistinguishable from the Avari , those who never joined the Great Journey .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.667<br> Recall: 0.162<br> F1 Score: 0.261 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 12</h4>
+      <p>                father(amroth, amdr)<br>                father(amdr, amroth)<br>                creator(thranduil, tolkien)<br>                creator(galadriel, jrr)<br>                creator(celeborn, tolkien)<br>                creator(ossiriand, tolkien)<br>                child(thranduil, legolas)<br>                creator(legolas, tolkien)<br>                creator(amdr, tolkien)<br>                father(legolas, thranduil)<br>                creator(galadriel, tolkien)<br>                creator(amroth, tolkien)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 6</h4>
+      <p>                haspart(tolkien, elves)<br>                partof(elves, tolkien)<br>                parenttaxon(silvan, jrr)<br>                child(galadriel, legolas)<br>                haspart(elves, mirkwood)<br>                continent(elves, tolkien)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 62</h4>
+      <p>                creator(middleearth, tolkien)<br>                haspart(middleearth, lothlrien)<br>                haspart(elves, avari)<br>                creator(eldar, tolkien)<br>                haspart(telerin, greyelves)<br>                creator(elves, tolkien)<br>                creator(middleearth, jrr)<br>                countryofcitizenship(galadriel, lrien)<br>                spouse(celeborn, galadriel)<br>                creator(highelves, tolkien)<br>                creator(highelves, jrr)<br>                partof(greyelves, telerin)<br>                creator(avari, jrr)<br>                subclassof(avari, greatjourney)<br>                creator(greyelves, jrr)<br>                creator(eldar, jrr)<br>                creator(celeborn, jrr)<br>                creator(silvan, jrr)<br>                ethnicgroup(galadriel, highelves)<br>                characters(middleearth, silvan)<br>                instanceof(houseoffinarfin, elves)<br>                headofstate(mirkwood, thranduil)<br>                creator(mirkwood, tolkien)<br>                creator(silvan, tolkien)<br>                ethnicgroup(galadriel, houseoffinarfin)<br>                partof(avari, elves)<br>                subclassof(silvan, elves)<br>                creator(laiquendi, tolkien)<br>                creator(telerin, tolkien)<br>                creator(avari, tolkien)<br>                countryofcitizenship(celeborn, lrien)<br>                presentinwork(amroth, middleearth)<br>                locatedonterrainfeature(lrien, middleearth)<br>                creator(elves, jrr)<br>                creator(thranduil, jrr)<br>                ethnicgroup(houseoffinarfin, highelves)<br>                spouse(galadriel, celeborn)<br>                countryofcitizenship(amroth, lrien)<br>                memberof(galadriel, highelves)<br>                subclassof(greyelves, telerin)<br>                appliestojurisdiction(thranduil, mirkwood)<br>                countryofcitizenship(amdr, lrien)<br>                creator(laiquendi, jrr)<br>                partof(mirkwood, middleearth)<br>                creator(greyelves, tolkien)<br>                partof(lothlrien, middleearth)<br>                creator(nandor, tolkien)<br>                creator(amdr, jrr)<br>                creator(legolas, jrr)<br>                creator(lothlrien, jrr)<br>                creator(lrien, jrr)<br>                creator(mirkwood, jrr)<br>                creator(ossiriand, jrr)<br>                creator(nandor, jrr)<br>                creator(lrien, tolkien)<br>                child(amdr, amroth)<br>                child(amroth, amdr)<br>                presentinwork(silvan, middleearth)<br>                creator(amroth, jrr)<br>                creator(lothlrien, tolkien)<br>                countryofcitizenship(thranduil, mirkwood)<br>                haspart(middleearth, mirkwood)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">father(legolas, galadriel)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">child(galadriel, legolas)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

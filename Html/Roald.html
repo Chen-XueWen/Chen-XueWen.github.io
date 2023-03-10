@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Roald</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Roald</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Roald is a village in Giske Municipality in Møre og Romsdal county , Norway .
+The village is located on the northern part of the island Vigra .
+Roald is about north of the city centre of Ålesund , connected via two undersea tunnels which opened in 1987 ( and will be going through extensive upgrades starting in 2008 ) .
+Ålesund Airport , Vigra is south of the village of Roald .
+Vigra Church is located a short distance south of Roald .
+The village of Roald has a population ( 2013 ) of 808 , giving the village a population density of .
+The village of Roald was the administrative centre of the old Roald Municipality that existed from 1890 until 1964 .
+The former municipality was later renamed Vigra Municipality .
+Since 1964 , it has been a part of Giske Municipality .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.969<br> Recall: 0.738<br> F1 Score: 0.838 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 31</h4>
+      <p>                locatedintheadministrativeterritorialentity(roald, roaldmunicipality)<br>                country(roald, norway)<br>                country(vigrachurch, norway)<br>                locatedintheadministrativeterritorialentity(lesundairport, norway)<br>                country(lesundairport, norway)<br>                containsadministrativeterritorialentity(mreogromsdal, giskemunicipality)<br>                locatedintheadministrativeterritorialentity(vigrachurch, mreogromsdal)<br>                country(mreogromsdal, norway)<br>                locatedintheadministrativeterritorialentity(roald, giskemunicipality)<br>                locatedintheadministrativeterritorialentity(roald, mreogromsdal)<br>                country(roaldmunicipality, norway)<br>                locatedintheadministrativeterritorialentity(vigrachurch, norway)<br>                locatedintheadministrativeterritorialentity(vigrachurch, giskemunicipality)<br>                locatedintheadministrativeterritorialentity(vigrachurch, roald)<br>                locatedintheadministrativeterritorialentity(mreogromsdal, norway)<br>                locatedintheadministrativeterritorialentity(vigra, mreogromsdal)<br>                locatedintheadministrativeterritorialentity(roald, norway)<br>                locatedintheadministrativeterritorialentity(roaldmunicipality, norway)<br>                locatedintheadministrativeterritorialentity(vigrachurch, roaldmunicipality)<br>                locatedintheadministrativeterritorialentity(lesund, mreogromsdal)<br>                locatedintheadministrativeterritorialentity(giskemunicipality, norway)<br>                country(giskemunicipality, norway)<br>                locatedintheadministrativeterritorialentity(giskemunicipality, mreogromsdal)<br>                locatedintheadministrativeterritorialentity(lesundairport, vigra)<br>                locatedintheadministrativeterritorialentity(lesund, norway)<br>                containsadministrativeterritorialentity(norway, mreogromsdal)<br>                country(lesund, norway)<br>                locatedintheadministrativeterritorialentity(vigra, norway)<br>                containsadministrativeterritorialentity(mreogromsdal, roaldmunicipality)<br>                country(vigra, norway)<br>                locatedintheadministrativeterritorialentity(lesundairport, mreogromsdal)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 1</h4>
+      <p>                locatedintheadministrativeterritorialentity(roald, vigra)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 11</h4>
+      <p>                locatedintheadministrativeterritorialentity(lesundairport, lesund)<br>                locatedintheadministrativeterritorialentity(vigrachurch, vigra)<br>                locatedintheadministrativeterritorialentity(roaldmunicipality, giskemunicipality)<br>                locatedintheadministrativeterritorialentity(lesund, giskemunicipality)<br>                containsadministrativeterritorialentity(mreogromsdal, lesund)<br>                locatedonterrainfeature(lesundairport, vigra)<br>                dissolvedabolishedordemolished(roaldmunicipality, ent_1964)<br>                inception(roaldmunicipality, ent_1890)<br>                locatedintheadministrativeterritorialentity(vigra, giskemunicipality)<br>                locatedintheadministrativeterritorialentity(lesundairport, giskemunicipality)<br>                locatedintheadministrativeterritorialentity(roaldmunicipality, mreogromsdal)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">locatedintheadministrativeterritorialentity(vigrachurch, vigra)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">country(vigra, norway), country(vigrachurch, norway)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">locatedintheadministrativeterritorialentity(roaldmunicipality, mreogromsdal)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">containsadministrativeterritorialentity(mreogromsdal, roaldmunicipality)</div>
+<div class="panel-body">country(mreogromsdal, norway), country(roaldmunicipality, norway)</div>
+<div class="panel-body">containsadministrativeterritorialentity(norway, mreogromsdal), country(roaldmunicipality, norway)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">containsadministrativeterritorialentity(mreogromsdal, vigra)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(vigra, mreogromsdal)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(vigra, norway), country(mreogromsdal, norway)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(vigra, norway), locatedintheadministrativeterritorialentity(mreogromsdal, norway)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">containsadministrativeterritorialentity(norway, roaldmunicipality)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(roaldmunicipality, norway)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(roald, roaldmunicipality), country(roald, norway)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(vigrachurch, roaldmunicipality), country(vigrachurch, norway)</div>
+<div class="panel-body">country(roaldmunicipality, norway)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

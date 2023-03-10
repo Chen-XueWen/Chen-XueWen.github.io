@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Peadar Bracken</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Peadar Bracken</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Peadar Bracken ( 23 January 1887 – January 19 , 1961 ) was an Irish freedom fighter during Ireland 's War of Independence .
+In 1914 he was elected Captain by the men of the Tullamore Company Irish Volunteers , before later being appointed Commandant of the Athlone Brigade area by Padraig Pearse .
+Bracken , alongside his comrade Seamus Brennan are credited with firing the first ever shots in the 1916 rising in Tullamore .
+Bracken was under order from Padraig Pearse and took command off him for the duration of the 1916 rising .
+He commanded the critical GPO garrison outpost at O'Connell Bridge , Dublin during the Easter Rising .
+Later on in his career , in 1920 , he was a senior officer in the Irish Republican Brotherhood branch in Tullamore , and commanding officer in chief of the Athlone Brigade .
+Bracken died in January 19 , 1961 .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.86<br> Recall: 0.771<br> F1 Score: 0.813 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 37</h4>
+      <p>                locatedintheadministrativeterritorialentity(oconnellbridge, irish)<br>                country(oconnellbridge, irish)<br>                containsadministrativeterritorialentity(irish, dublin)<br>                participant(warofindependence, peadarbracken)<br>                conflict(irishvolunteers, warofindependence)<br>                country(tullamore, irish)<br>                countryofcitizenship(padraigpearse, irish)<br>                participantof(padraigpearse, warofindependence)<br>                country(irishvolunteers, irish)<br>                locatedintheadministrativeterritorialentity(tullamorecompany, irish)<br>                locatedintheadministrativeterritorialentity(oconnellbridge, dublin)<br>                locatedintheadministrativeterritorialentity(tullamore, irish)<br>                countryofcitizenship(peadarbracken, irish)<br>                conflict(peadarbracken, warofindependence)<br>                participantof(peadarbracken, warofindependence)<br>                locatedintheadministrativeterritorialentity(irishvolunteers, irish)<br>                participant(warofindependence, irishvolunteers)<br>                haspart(warofindependence, easterrising)<br>                participant(warofindependence, seamusbrennan)<br>                countryofcitizenship(seamusbrennan, irish)<br>                dateofbirth(peadarbracken, ent_23january1887)<br>                conflict(padraigpearse, warofindependence)<br>                participant(warofindependence, padraigpearse)<br>                participantof(seamusbrennan, warofindependence)<br>                dateofdeath(peadarbracken, january191961)<br>                partof(easterrising, warofindependence)<br>                participant(warofindependence, athlonebrigade)<br>                conflict(athlonebrigade, warofindependence)<br>                locatedintheadministrativeterritorialentity(athlonebrigade, irish)<br>                country(tullamorecompany, irish)<br>                country(athlonebrigade, irish)<br>                locatedintheadministrativeterritorialentity(dublin, irish)<br>                country(dublin, irish)<br>                conflict(seamusbrennan, warofindependence)<br>                locatedintheadministrativeterritorialentity(irishrepublicanbrotherhood, irish)<br>                participantof(athlonebrigade, warofindependence)<br>                country(irishrepublicanbrotherhood, irish)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 6</h4>
+      <p>                participantof(irish, warofindependence)<br>                conflict(gpo, warofindependence)<br>                participantof(gpo, warofindependence)<br>                starttime(warofindependence, ent_1916)<br>                participant(warofindependence, gpo)<br>                participant(warofindependence, irish)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 11</h4>
+      <p>                conflict(tullamorecompany, warofindependence)<br>                languagesspokenwrittenorsigned(padraigpearse, irish)<br>                participantof(tullamorecompany, warofindependence)<br>                participantof(irishvolunteers, warofindependence)<br>                country(easterrising, irish)<br>                militarybranch(peadarbracken, irishvolunteers)<br>                memberof(peadarbracken, irishrepublicanbrotherhood)<br>                participant(warofindependence, tullamorecompany)<br>                location(warofindependence, irish)<br>                memberof(padraigpearse, irishrepublicanbrotherhood)<br>                location(easterrising, dublin)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">militarybranch(peadarbracken, irishvolunteers)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(irishvolunteers, irish), countryofcitizenship(peadarbracken, irish)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">country(gpo, irish)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">participant(warofindependence, gpo), participantof(irish, warofindependence)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">locatedintheadministrativeterritorialentity(oconnellbridge, tullamore)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">country(tullamore, irish), country(oconnellbridge, irish)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

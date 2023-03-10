@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Skylake (microarchitecture)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Skylake (microarchitecture)</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Skylake is the codename used by Intel for a processor microarchitecture that was launched in August 2015 succeeding the Broadwell microarchitecture .
+Skylake is a microarchitecture redesign using the same 14   nm manufacturing process technology as its predecessor , serving as a " tock " in Intel 's " tick - tock " manufacturing and design model .
+According to Intel , the redesign brings greater CPU and GPU performance and reduced power consumption .
+Skylake CPUs share its microarchitecture with Kaby Lake , Coffee Lake and Cannon Lake CPUs .
+Skylake is the last Intel platform on which Windows earlier than Windows 10 will be officially supported by Microsoft , although enthusiast - created modifications exist that allow Windows 8.1 and earlier to continue to receive updates on later platforms .
+Some of the processors based on the Skylake microarchitecture are marketed as " 6th - generation Core " .
+On October 8 , 2018 , Intel announced new 9th gen Core X 98xx/99xx series CPUs , with the Core i9 - 9980XE Extreme Edition leading the launch .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.474<br> Recall: 0.281<br> F1 Score: 0.353 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 9</h4>
+      <p>                subclassof(windows81, windows)<br>                developer(skylakecpus, intel)<br>                inception(skylakecpus, august2015)<br>                productormaterialproduced(microsoft, windows)<br>                developer(windows, microsoft)<br>                series(windows81, windows)<br>                developer(windows81, microsoft)<br>                developer(windows10, microsoft)<br>                subclassof(windows10, windows)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 10</h4>
+      <p>                follows(windows81, windows10)<br>                productormaterialproduced(intel, windows)<br>                followedby(windows10, windows81)<br>                continent(broadwell, intel)<br>                follows(coffeelake, ent_14nm)<br>                continent(august2015, intel)<br>                subsidiary(microsoft, intel)<br>                follows(windows, windows10)<br>                followedby(windows10, windows)<br>                productormaterialproduced(intel, microsoft)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 23</h4>
+      <p>                publicationdate(skylakecpus, august2015)<br>                manufacturer(gpu, intel)<br>                developer(kabylake, intel)<br>                developer(cannonlakecpus, intel)<br>                manufacturer(windows10, microsoft)<br>                series(ent_9thgencorex98xx99xxseriescpus, intel)<br>                manufacturer(cannonlakecpus, intel)<br>                developer(corei99980xeextremeedition, intel)<br>                haspart(windows, windows81)<br>                developer(ent_6thgenerationcore, intel)<br>                follows(skylakecpus, broadwell)<br>                manufacturer(corei99980xeextremeedition, intel)<br>                haspart(windows, windows10)<br>                followedby(broadwell, skylakecpus)<br>                manufacturer(kabylake, intel)<br>                manufacturer(coffeelake, intel)<br>                series(windows10, windows)<br>                developer(broadwell, intel)<br>                manufacturer(windows81, microsoft)<br>                developer(gpu, intel)<br>                haspart(intel, ent_9thgencorex98xx99xxseriescpus)<br>                manufacturer(broadwell, intel)<br>                developer(coffeelake, intel)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">haspart(windows, windows81)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">series(windows81, windows)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 3</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">productormaterialproduced(microsoft, windows10)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">developer(windows10, microsoft)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">developer(windows81, intel)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">productormaterialproduced(intel, windows), subclassof(windows81, windows)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp2">developer(windows, intel)</a>
+      </h4>
+    </div>
+    <div id="tn2fp2" class="panel-collapse collapse">
+<div class="panel-body">productormaterialproduced(intel, windows)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

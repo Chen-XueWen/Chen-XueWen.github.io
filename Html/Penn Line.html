@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Penn Line</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Penn Line</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The Penn Line is a MARC commuter rail service running from Union Station in Washington , D.C. to Perryville , Maryland via Baltimore 's Penn Station on Amtrak 's Northeast Corridor .
+It is MARC 's busiest and only electric line .
+Currently the line is the fastest commuter rail line in the country , with trains running at speeds of up to .
+The service is operated under contract by Amtrak which supplies employees to operate trains , and maintains the right - of - way and MARC 's electric locomotives and passenger cars .
+The line is administered by MARC , a service of the Maryland Transit Administration ( MTA ) .
+The Penn Line is the successor to commuter services provided by the Pennsylvania Railroad ( PRR ) , Penn Central , and Conrail as long ago as the mid-19th century .
+Additionally , Amtrak operated a commuter service named the Chesapeake between 1978 – 1983 .
+In 1983 , Maryland , along with a number of other Northeastern states , took control of its commuter railroads and the " MARC " ( Maryland Area Regional Commuter ) service name was established .
+The Penn Line became the replacement for Amtrak 's Chesapeake as well as the minimal former PRR commuter service between Washington and Baltimore .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.378<br> Recall: 0.5<br> F1 Score: 0.43 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 17</h4>
+      <p>                locatedintheadministrativeterritorialentity(perryville, maryland)<br>                locatedintheadministrativeterritorialentity(pennline, washington)<br>                containsadministrativeterritorialentity(maryland, baltimore)<br>                locatedintheadministrativeterritorialentity(pennstation, baltimore)<br>                operator(pennline, amtrak)<br>                locatedintheadministrativeterritorialentity(marc, maryland)<br>                operator(pennline, marylandtransitadministration)<br>                operator(northeastcorridor, amtrak)<br>                ownedby(pennstation, amtrak)<br>                locatedintheadministrativeterritorialentity(pennstation, maryland)<br>                operator(pennstation, amtrak)<br>                operator(pennline, marc)<br>                locatedintheadministrativeterritorialentity(baltimore, maryland)<br>                locatedintheadministrativeterritorialentity(pennline, maryland)<br>                locatedintheadministrativeterritorialentity(northeastcorridor, maryland)<br>                locatedintheadministrativeterritorialentity(unionstation, washington)<br>                operator(chesapeake, amtrak)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 28</h4>
+      <p>                creator(pennline, washington)<br>                follows(amtrak, pennline)<br>                locatedintheadministrativeterritorialentity(unionstation, maryland)<br>                screenwriter(pennline, washington)<br>                parentorganization(marc, amtrak)<br>                followedby(amtrak, marylandtransitadministration)<br>                notablework(washington, pennline)<br>                followedby(pennline, amtrak)<br>                containsadministrativeterritorialentity(maryland, washington)<br>                appliestojurisdiction(marylandtransitadministration, maryland)<br>                castmember(pennline, unionstation)<br>                follows(marylandtransitadministration, pennline)<br>                publicationdate(marylandtransitadministration, pennsylvaniarailroad)<br>                publicationdate(amtrak, northeastcorridor)<br>                screenwriter(amtrak, washington)<br>                followedby(pennline, marylandtransitadministration)<br>                operator(marc, amtrak)<br>                screenwriter(marylandtransitadministration, washington)<br>                publicationdate(pennline, pennstation)<br>                subsidiary(pennsylvaniarailroad, amtrak)<br>                operator(pennline, pennsylvaniarailroad)<br>                castmember(amtrak, unionstation)<br>                locatedintheadministrativeterritorialentity(marc, washington)<br>                follows(marylandtransitadministration, amtrak)<br>                castmember(marylandtransitadministration, unionstation)<br>                ownedby(unionstation, amtrak)<br>                locatedintheadministrativeterritorialentity(pennstation, washington)<br>                screenwriter(pennline, unionstation)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 17</h4>
+      <p>                locatedintheadministrativeterritorialentity(marylandtransitadministration, maryland)<br>                ownedby(chesapeake, amtrak)<br>                followedby(pennsylvaniarailroad, penncentral)<br>                haspart(northeastern, maryland)<br>                ownedby(pennstation, pennsylvaniarailroad)<br>                ownedby(pennstation, marylandtransitadministration)<br>                dissolvedabolishedordemolished(chesapeake, ent_1983)<br>                ownedby(pennline, marylandtransitadministration)<br>                follows(penncentral, pennsylvaniarailroad)<br>                ownedby(marc, marylandtransitadministration)<br>                ownedby(northeastcorridor, amtrak)<br>                locatedintheadministrativeterritorialentity(chesapeake, maryland)<br>                inception(chesapeake, ent_1978)<br>                ownedby(unionstation, marylandtransitadministration)<br>                inception(marc, ent_1983)<br>                ownedby(pennline, amtrak)<br>                partof(maryland, northeastern)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">operator(unionstation, amtrak)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">ownedby(unionstation, amtrak)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">subsidiary(amtrak, marc)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">parentorganization(marc, amtrak)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

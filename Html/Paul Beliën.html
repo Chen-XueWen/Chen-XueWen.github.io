@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Paul Beliën</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Paul Beliën</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Paul Beliën ( born 1959 ) , is a Flemish Belgian journalist , author and founder of the far - right blog The Brussels Journal .
+Beliën is a master of law with specialisations in European and social security law from the University of Ghent and has a PhD in international studies from the University of Buckingham .
+He is vice president of the International Free Press Society and a senior editor at the Hudson Institute .
+He has written in a large number of international publications .
+He is an advocate of Flemish independence , free trade and is an opponent of abortion , euthanasia and gay marriage .
+He is a strong Americophile and has been actively opposed to immigration into Europe by Islamic fundamentalists .
+Beliën published a book about the political history of Belgium , and what he sees as parallels in the creation of the European Union in A Throne in Brussels .
+Beliën is married to Alexandra Colen , a former member of the Belgian Federal Parliament , and the political party Vlaams Belang .
+They have homeschooled all of their children .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.457<br> Recall: 0.656<br> F1 Score: 0.538 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 21</h4>
+      <p>                spouse(paulbelin, alexandracolen)<br>                continent(belgium, european)<br>                continent(flemishbelgian, europe)<br>                countryofcitizenship(paulbelin, belgium)<br>                appliestojurisdiction(belgianfederalparliament, flemishbelgian)<br>                country(belgianfederalparliament, belgium)<br>                locatedintheadministrativeterritorialentity(vlaamsbelang, belgium)<br>                educatedat(paulbelin, universityofghent)<br>                continent(belgium, europe)<br>                dateofbirth(paulbelin, ent_1959)<br>                spouse(alexandracolen, paulbelin)<br>                locatedintheadministrativeterritorialentity(belgianfederalparliament, belgium)<br>                legislativebody(flemishbelgian, belgianfederalparliament)<br>                memberof(belgium, europeanunion)<br>                continent(europeanunion, europe)<br>                memberof(paulbelin, internationalfreepresssociety)<br>                appliestojurisdiction(belgianfederalparliament, belgium)<br>                legislativebody(belgium, belgianfederalparliament)<br>                countryofcitizenship(alexandracolen, belgium)<br>                country(vlaamsbelang, belgium)<br>                educatedat(paulbelin, universityofbuckingham)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 25</h4>
+      <p>                countryofcitizenship(paulbelin, flemishbelgian)<br>                author(european, thebrusselsjournal)<br>                country(vlaamsbelang, flemishbelgian)<br>                locatedintheadministrativeterritorialentity(vlaamsbelang, flemishbelgian)<br>                publicationdate(european, universityofghent)<br>                author(universityofbuckingham, thebrusselsjournal)<br>                notablework(thebrusselsjournal, universityofbuckingham)<br>                pointintime(european, universityofghent)<br>                continent(europeanunion, european)<br>                notablework(thebrusselsjournal, european)<br>                inception(european, universityofghent)<br>                country(universityofghent, belgium)<br>                author(universityofbuckingham, paulbelin)<br>                memberof(flemishbelgian, europeanunion)<br>                author(universityofbuckingham, flemishbelgian)<br>                country(belgianfederalparliament, flemishbelgian)<br>                followedby(european, universityofbuckingham)<br>                locatedintheadministrativeterritorialentity(universityofghent, belgium)<br>                foundedby(europeanunion, belgium)<br>                containsadministrativeterritorialentity(europeanunion, belgium)<br>                country(flemishbelgian, belgium)<br>                country(flemish, belgium)<br>                follows(universityofbuckingham, european)<br>                notablework(flemishbelgian, universityofbuckingham)<br>                author(european, flemishbelgian)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 11</h4>
+      <p>                notablework(paulbelin, athroneinbrussels)<br>                containsadministrativeterritorialentity(belgium, flemish)<br>                memberof(alexandracolen, vlaamsbelang)<br>                containsadministrativeterritorialentity(belgium, flemishbelgian)<br>                continent(european, europe)<br>                memberofpoliticalparty(alexandracolen, vlaamsbelang)<br>                locatedintheadministrativeterritorialentity(flemishbelgian, belgium)<br>                employer(paulbelin, hudsoninstitute)<br>                author(athroneinbrussels, paulbelin)<br>                continent(flemish, europe)<br>                country(athroneinbrussels, belgium)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">memberof(alexandracolen, vlaamsbelang)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">countryofcitizenship(alexandracolen, belgium), locatedintheadministrativeterritorialentity(vlaamsbelang, belgium)</div>
+<div class="panel-body">countryofcitizenship(alexandracolen, belgium), country(vlaamsbelang, belgium)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 4</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">locatedintheadministrativeterritorialentity(belgianfederalparliament, flemishbelgian)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">country(belgianfederalparliament, flemishbelgian)</div>
+<div class="panel-body">country(flemishbelgian, belgium), country(belgianfederalparliament, belgium)</div>
+<div class="panel-body">appliestojurisdiction(belgianfederalparliament, flemishbelgian)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">containsadministrativeterritorialentity(europeanunion, flemishbelgian)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">memberof(flemishbelgian, europeanunion)</div>
+<div class="panel-body">continent(europeanunion, europe), continent(flemishbelgian, europe)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp2">locatedintheadministrativeterritorialentity(flemish, belgium)</a>
+      </h4>
+    </div>
+    <div id="tn2fp2" class="panel-collapse collapse">
+<div class="panel-body">country(flemish, belgium)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp3">appliestojurisdiction(belgianfederalparliament, flemish)</a>
+      </h4>
+    </div>
+    <div id="tn2fp3" class="panel-collapse collapse">
+<div class="panel-body">country(belgianfederalparliament, belgium), country(flemish, belgium)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

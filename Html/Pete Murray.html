@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pete Murray</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Pete Murray</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Peter Kenneth Murray ( born 14 October 1969 ) is an Australian singer - songwriter whose first three full - length albums reached number 1 on the Australian music charts .
+He has been nominated several times at the ARIAs and has had several songs reach the top forty in Australia .
+His first LP , Feeler , reached number 1 a few months after its mid-2003 release , and his follow - up record , See The Sun , had a similar level of success , with all of the singles receiving widespread airplay .
+His third studio album , Summer At Eureka , was released in May 2008 .
+To date , Murray has sold over 1 million records .
+Some of the greatest influences on his career are Nick Drake , Neil Young and Bob Dylan .
+In November 2013 , Murray toured Canada with Paul Langlois and Rob Baker of The Tragically Hip .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.87<br> Recall: 0.714<br> F1 Score: 0.784 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 20</h4>
+      <p>                performer(summerateureka, peterkennethmurray)<br>                countryofcitizenship(peterkennethmurray, australia)<br>                publicationdate(summerateureka, may2008)<br>                countryofcitizenship(paullanglois, canada)<br>                haspart(thetragicallyhip, robbaker)<br>                country(arias, australia)<br>                notablework(peterkennethmurray, feeler)<br>                performer(feeler, peterkennethmurray)<br>                followedby(seethesun, summerateureka)<br>                notablework(peterkennethmurray, seethesun)<br>                countryofcitizenship(peterkennethmurray, australian)<br>                memberof(robbaker, thetragicallyhip)<br>                follows(summerateureka, seethesun)<br>                follows(seethesun, feeler)<br>                dateofbirth(peterkennethmurray, ent_14october1969)<br>                performer(seethesun, peterkennethmurray)<br>                notablework(peterkennethmurray, summerateureka)<br>                publicationdate(feeler, mid2003)<br>                followedby(feeler, seethesun)<br>                partof(robbaker, thetragicallyhip)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 3</h4>
+      <p>                locatedintheadministrativeterritorialentity(arias, australia)<br>                follows(summerateureka, feeler)<br>                followedby(feeler, summerateureka)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 8</h4>
+      <p>                country(thetragicallyhip, canada)<br>                haspart(thetragicallyhip, paullanglois)<br>                countryoforigin(seethesun, australia)<br>                partof(paullanglois, thetragicallyhip)<br>                countryofcitizenship(robbaker, canada)<br>                memberof(paullanglois, thetragicallyhip)<br>                ethnicgroup(australia, australian)<br>                locatedintheadministrativeterritorialentity(thetragicallyhip, canada)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">countryoforigin(seethesun, australia)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">countryofcitizenship(peterkennethmurray, australia), notablework(peterkennethmurray, seethesun)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">countryoforigin(feeler, australia)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">countryofcitizenship(peterkennethmurray, australia), notablework(peterkennethmurray, feeler)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

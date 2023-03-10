@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ost Autobahn</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Ost Autobahn</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The ( Austrian ) Ost Autobahn A4 or " Eastern Motorway " is part of the European route E60 and goes from Vienna to the town of Nickelsdorf , on the Hungarian border .
+The road begins at the A23 at the Prater junction in Vienna , travels through Simmering , Schwechat , Vienna International Airport , Fischamend , Bruck an der Leitha , Parndorf , Weiden am See and Mönchhof to the border town of Nickelsdorf .
+Crossing the border into Hegyeshalom , the road becomes the Hungarian M1 motorway which then continues on to Budapest .
+The road is 66   km long .
+During the overflow of asylum seekers traveling from Hungary during September 2015 , the highway was closed intermittently preventing the traffic between Hungary and Austria , and it was reported that Austrian army was deployed on the border .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.775<br> Recall: 0.62<br> F1 Score: 0.689 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 31</h4>
+      <p>                country(mnchhof, austrian)<br>                country(schwechat, austrian)<br>                country(simmering, hungarian)<br>                locatedintheadministrativeterritorialentity(budapest, hungarian)<br>                containsadministrativeterritorialentity(austrian, vienna)<br>                locatedintheadministrativeterritorialentity(viennainternationalairport, austrian)<br>                locatedintheadministrativeterritorialentity(hungarianm1, hungarian)<br>                locatedintheadministrativeterritorialentity(europeanroutee60, austrian)<br>                country(budapest, hungarian)<br>                locatedintheadministrativeterritorialentity(simmering, austrian)<br>                locatedintheadministrativeterritorialentity(schwechat, austrian)<br>                country(ostautobahna4, hungarian)<br>                country(ostautobahna4, austrian)<br>                country(vienna, austrian)<br>                locatedintheadministrativeterritorialentity(prater, vienna)<br>                locatedintheadministrativeterritorialentity(mnchhof, austrian)<br>                locatedintheadministrativeterritorialentity(fischamend, austrian)<br>                locatedintheadministrativeterritorialentity(ostautobahna4, austrian)<br>                country(hungarianm1, hungarian)<br>                locatedintheadministrativeterritorialentity(hegyeshalom, hungarian)<br>                locatedintheadministrativeterritorialentity(ostautobahna4, hungarian)<br>                locatedintheadministrativeterritorialentity(ostautobahna4, vienna)<br>                locatedintheadministrativeterritorialentity(viennainternationalairport, vienna)<br>                country(prater, austrian)<br>                locatedintheadministrativeterritorialentity(vienna, austrian)<br>                country(hegyeshalom, hungarian)<br>                country(fischamend, austrian)<br>                country(simmering, austrian)<br>                locatedintheadministrativeterritorialentity(prater, austrian)<br>                country(viennainternationalairport, austrian)<br>                containsadministrativeterritorialentity(hungarian, budapest)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 9</h4>
+      <p>                country(viennainternationalairport, hungarian)<br>                locatedintheadministrativeterritorialentity(viennainternationalairport, hungarian)<br>                haspart(europeanroutee60, ostautobahna4)<br>                containsadministrativeterritorialentity(hungarian, vienna)<br>                partof(ostautobahna4, europeanroutee60)<br>                locatedintheadministrativeterritorialentity(a23, hungarian)<br>                locatedintheadministrativeterritorialentity(nickelsdorf, hungarian)<br>                country(nickelsdorf, hungarian)<br>                containsadministrativeterritorialentity(hungarian, hegyeshalom)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 19</h4>
+      <p>                locatedintheadministrativeterritorialentity(bruckanderleitha, austrian)<br>                country(bruckanderleitha, austrian)<br>                locatedintheadministrativeterritorialentity(simmering, vienna)<br>                locatedintheadministrativeterritorialentity(schwechat, hungarian)<br>                country(schwechat, hungarian)<br>                country(europeanroutee60, hungarian)<br>                locatedintheadministrativeterritorialentity(a23, vienna)<br>                locatedintheadministrativeterritorialentity(parndorf, austrian)<br>                locatedintheadministrativeterritorialentity(nickelsdorf, austrian)<br>                locatedintheadministrativeterritorialentity(europeanroutee60, vienna)<br>                country(europeanroutee60, austrian)<br>                country(a23, austrian)<br>                locatedintheadministrativeterritorialentity(a23, austrian)<br>                country(weidenamsee, austrian)<br>                country(parndorf, austrian)<br>                locatedintheadministrativeterritorialentity(simmering, hungarian)<br>                locatedintheadministrativeterritorialentity(weidenamsee, austrian)<br>                country(nickelsdorf, austrian)<br>                locatedintheadministrativeterritorialentity(europeanroutee60, hungarian)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">locatedintheadministrativeterritorialentity(simmering, hungarian)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">country(simmering, hungarian)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">locatedintheadministrativeterritorialentity(hungarianm1, budapest)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">country(budapest, hungarian), country(hungarianm1, hungarian)</div>
+<div class="panel-body">containsadministrativeterritorialentity(hungarian, budapest), country(hungarianm1, hungarian)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

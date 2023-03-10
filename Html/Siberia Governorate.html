@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Siberia Governorate</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Siberia Governorate</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Siberia Governorate ( ) was an administrative division ( a guberniya ) of the Tsardom of Russia and then the Russian Empire , which existed from 1708 until 1782 .
+Its seat was in Tobolsk ( initially spelt as Tobolesk ) .
+The governorate was located in the east of Russian Empire and bordered China in the south , Kazan Governorate in the southwest , and Archangelgorod Governorate in the northwest .
+In the north and the east , the governorate was limited by the seas of the Arctic and Pacific Oceans .
+In therms of the area , Siberia Governorate was by far the biggest among all the governorates , as it included areas in the Urals , Siberia , and the Russian Far East some of which were not yet even settled by Russians at the time .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.967<br> Recall: 0.659<br> F1 Score: 0.784 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 29</h4>
+      <p>                containsadministrativeterritorialentity(russia, kazangovernorate)<br>                locatedintheadministrativeterritorialentity(urals, russianempire)<br>                locatedintheadministrativeterritorialentity(tobolsk, russia)<br>                locatedintheadministrativeterritorialentity(tobolsk, russianempire)<br>                country(siberiagovernorate, russianempire)<br>                capitalof(tobolsk, siberiagovernorate)<br>                locatedintheadministrativeterritorialentity(russianfareast, russianempire)<br>                country(kazangovernorate, russia)<br>                country(tobolsk, russianempire)<br>                containsadministrativeterritorialentity(russia, siberiagovernorate)<br>                locatedintheadministrativeterritorialentity(siberia, russia)<br>                locatedintheadministrativeterritorialentity(archangelgorodgovernorate, russia)<br>                dissolvedabolishedordemolished(siberiagovernorate, ent_1782)<br>                country(urals, russia)<br>                locatedintheadministrativeterritorialentity(tobolsk, siberiagovernorate)<br>                country(siberiagovernorate, russia)<br>                locatedintheadministrativeterritorialentity(kazangovernorate, russianempire)<br>                locatedintheadministrativeterritorialentity(siberiagovernorate, russianempire)<br>                country(tobolsk, russia)<br>                containsadministrativeterritorialentity(russianempire, siberiagovernorate)<br>                locatedintheadministrativeterritorialentity(siberiagovernorate, russia)<br>                locatedintheadministrativeterritorialentity(kazangovernorate, russia)<br>                locatedintheadministrativeterritorialentity(urals, russia)<br>                basincountry(pacificoceans, russia)<br>                locatedintheadministrativeterritorialentity(russianfareast, russia)<br>                dissolvedabolishedordemolished(russianempire, ent_1782)<br>                country(archangelgorodgovernorate, russia)<br>                containsadministrativeterritorialentity(russia, archangelgorodgovernorate)<br>                country(siberia, russia)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 1</h4>
+      <p>                containsadministrativeterritorialentity(siberiagovernorate, tobolsk)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 15</h4>
+      <p>                containsadministrativeterritorialentity(russianempire, kazangovernorate)<br>                containsadministrativeterritorialentity(russianempire, archangelgorodgovernorate)<br>                locatedintheadministrativeterritorialentity(siberia, russianempire)<br>                country(russianfareast, russianempire)<br>                locatedintheadministrativeterritorialentity(archangelgorodgovernorate, russianempire)<br>                country(kazangovernorate, russianempire)<br>                capital(siberiagovernorate, tobolsk)<br>                country(russianfareast, russia)<br>                locatedinornexttobodyofwater(siberiagovernorate, pacificoceans)<br>                country(urals, russianempire)<br>                containsadministrativeterritorialentity(russia, siberia)<br>                country(archangelgorodgovernorate, russianempire)<br>                inception(siberiagovernorate, ent_1708)<br>                containsadministrativeterritorialentity(russia, tobolsk)<br>                country(siberia, russianempire)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 6</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">containsadministrativeterritorialentity(russianempire, kazangovernorate)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(kazangovernorate, russianempire)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">capital(siberiagovernorate, tobolsk)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">capitalof(tobolsk, siberiagovernorate)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp2">country(kazangovernorate, russianempire)</a>
+      </h4>
+    </div>
+    <div id="fn2tp2" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(kazangovernorate, russianempire)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp3">country(russianfareast, russia)</a>
+      </h4>
+    </div>
+    <div id="fn2tp3" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(russianfareast, russia)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp4">country(russianfareast, russianempire)</a>
+      </h4>
+    </div>
+    <div id="fn2tp4" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(russianfareast, russianempire)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp5">containsadministrativeterritorialentity(russia, tobolsk)</a>
+      </h4>
+    </div>
+    <div id="fn2tp5" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(tobolsk, russia)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(siberiagovernorate, russia), locatedintheadministrativeterritorialentity(tobolsk, siberiagovernorate)</div>
+<div class="panel-body">country(tobolsk, russia)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

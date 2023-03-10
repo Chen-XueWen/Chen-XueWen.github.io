@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quokka</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Quokka</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The quokka ( , Setonix brachyurus ) , the only member of the genus Setonix , is a small macropod about the size of a domestic cat .
+Like other marsupials in the macropod family ( such as kangaroos and wallabies ) , the quokka is herbivorous and mainly nocturnal .
+Quokkas are found on some smaller islands off the coast of Western Australia , particularly Rottnest Island , just off Perth , and also Bald Island near Albany , and in isolated scattered populations in forest and coastal heath between Perth and Albany .
+A small colony exists at the eastern limit of their range in a protected area of Two Peoples Bay Nature Reserve , where they co - exist with the critically endangered Gilbert 's potoroo .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.429<br> Recall: 0.75<br> F1 Score: 0.545 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 6</h4>
+      <p>                locatedintheadministrativeterritorialentity(rottnestisland, westernaustralia)<br>                containsadministrativeterritorialentity(westernaustralia, perth)<br>                locatedintheadministrativeterritorialentity(albany, westernaustralia)<br>                locatedintheadministrativeterritorialentity(peoplesbaynaturereserve, westernaustralia)<br>                locatedintheadministrativeterritorialentity(perth, westernaustralia)<br>                locatedintheadministrativeterritorialentity(baldisland, westernaustralia)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 8</h4>
+      <p>                recordlabel(perth, baldisland)<br>                notablework(perth, westernaustralia)<br>                recordlabel(westernaustralia, baldisland)<br>                recordlabel(gilbert, baldisland)<br>                publicationdate(westernaustralia, albany)<br>                countryofcitizenship(perth, rottnestisland)<br>                publicationdate(westernaustralia, peoplesbaynaturereserve)<br>                performer(westernaustralia, perth)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 2</h4>
+      <p>                containsadministrativeterritorialentity(westernaustralia, albany)<br>                containsadministrativeterritorialentity(westernaustralia, rottnestisland)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">containsadministrativeterritorialentity(westernaustralia, albany)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(albany, westernaustralia)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

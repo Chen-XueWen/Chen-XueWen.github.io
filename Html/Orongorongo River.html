@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Orongorongo River</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Orongorongo River</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The Orongorongo River runs for southwest through the Orongorongo Valley in the southern Rimutaka Ranges of the North Island of New Zealand .
+The river and its associated catchments lie within the bounds of the Rimutaka Forest Park , which is administered by the Department of Conservation .
+Orongorongo River is the main artery of the Rimutaka Range , draining an area with rainfall of up to a year , which is twice as much as the rainfall at the mouth of the river at Cook Strait .
+For much of its course the river is a braided river , with a wide bed of greywacke shingle and gravel and a number of streams of water .
+The gravel bed can be seen as light - coloured areas of varying width in the adjacent image .
+Because the rainfall in the Rimutaka Range often comes in high - intensity rainstorms , the river is prone to violent floods .
+The most severe of these floods sweep away most of the river 's vegetated islands every 15 to 20 years .
+Between these floods , the shingle islands are gradually colonised by various low growing plants , followed by a host of native shrubs such as tauhinu and manuka , and eventually small trees .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.85<br> Recall: 0.773<br> F1 Score: 0.81 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 17</h4>
+      <p>                locatedonterrainfeature(rimutakarange, northisland)<br>                locatedintheadministrativeterritorialentity(rimutakaforestpark, newzealand)<br>                locatedintheadministrativeterritorialentity(cookstrait, newzealand)<br>                country(cookstrait, newzealand)<br>                locatedintheadministrativeterritorialentity(rimutakarange, newzealand)<br>                locatedintheadministrativeterritorialentity(orongorongoriver, newzealand)<br>                country(departmentofconservation, newzealand)<br>                locatedintheadministrativeterritorialentity(departmentofconservation, newzealand)<br>                containsadministrativeterritorialentity(newzealand, northisland)<br>                locatedintheadministrativeterritorialentity(northisland, newzealand)<br>                country(rimutakaranges, newzealand)<br>                country(rimutakaforestpark, newzealand)<br>                locatedintheadministrativeterritorialentity(rimutakaranges, newzealand)<br>                country(northisland, newzealand)<br>                country(rimutakarange, newzealand)<br>                locatedonterrainfeature(orongorongoriver, rimutakarange)<br>                country(orongorongoriver, newzealand)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 3</h4>
+      <p>                locatedonterrainfeature(orongorongoriver, rimutakaranges)<br>                locatedonterrainfeature(orongorongoriver, northisland)<br>                locatedintheadministrativeterritorialentity(orongorongoriver, rimutakaranges)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 5</h4>
+      <p>                mouthofthewatercourse(orongorongoriver, cookstrait)<br>                operator(rimutakaforestpark, departmentofconservation)<br>                locatedonterrainfeature(rimutakaranges, northisland)<br>                appliestojurisdiction(departmentofconservation, newzealand)<br>                basincountry(cookstrait, newzealand)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">containsadministrativeterritorialentity(newzealand, cookstrait)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(cookstrait, newzealand)</div>
+<div class="panel-body">country(cookstrait, newzealand)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nonconformist</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Nonconformist</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>In English church history , a nonconformist was a Protestant who did not " conform " to the governance and usages of the established Church of England .
+Broad use of the term was precipitated after the Restoration of the British monarchy in 1660 , when the Act of Uniformity 1662 re - established the opponents of reform within the Church of England .
+By the late 19th century the term specifically included the Reformed Christians ( Presbyterians , Congregationalists and other Calvinist sects ) , plus the Baptists and Methodists .
+The English Dissenters such as the Puritans who violated the Act of Uniformity 1559—typically by practising radical , sometimes separatist , dissent — were retrospectively labelled as nonconformists .
+By law and social custom , nonconformists were restricted from many spheres of public life — not least , from access to public office , civil service careers , or degrees at university — and were referred to as suffering from civil disabilities .
+In England and Wales in the late 19th century the new terms " free churchman " and " Free Church " started to replace " dissenter " or " Nonconformist " .
+One influential nonconformist minister was Matthew Henry , who beginning in 1710 published his multi - volume Commentary that is still used and available in the 21st century .
+Isaac Watts is an equally recognized nonconformist minister whose hymns are still sung by Christians worldwide .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.161<br> Recall: 0.192<br> F1 Score: 0.175 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 5</h4>
+      <p>                religion(isaacwatts, protestant)<br>                religion(matthewhenry, protestant)<br>                locatedintheadministrativeterritorialentity(churchofengland, british)<br>                religion(churchofengland, protestant)<br>                notablework(matthewhenry, commentary)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 26</h4>
+      <p>                countryofcitizenship(methodists, english)<br>                appliestojurisdiction(freechurchman, english)<br>                countryofcitizenship(wales, english)<br>                locatedintheadministrativeterritorialentity(wales, english)<br>                inception(churchofengland, christians)<br>                locatedintheadministrativeterritorialentity(england, english)<br>                countryofcitizenship(methodists, churchofengland)<br>                headofstate(english, freechurchman)<br>                locatedintheadministrativeterritorialentity(englishdissenters, commentary)<br>                countryofcitizenship(methodists, commentary)<br>                locatedintheadministrativeterritorialentity(churchofengland, english)<br>                inception(english, one)<br>                locatedintheadministrativeterritorialentity(protestant, english)<br>                locatedintheadministrativeterritorialentity(protestant, ent_1660)<br>                locatedintheadministrativeterritorialentity(protestant, commentary)<br>                appliestojurisdiction(churchofengland, england)<br>                locatedintheadministrativeterritorialentity(englishdissenters, english)<br>                followedby(churchofengland, english)<br>                pointintime(actofuniformity1662, ent_1660)<br>                country(englishdissenters, english)<br>                followedby(england, english)<br>                country(england, english)<br>                notablework(isaacwatts, commentary)<br>                follows(english, churchofengland)<br>                dissolvedabolishedordemolished(commentary, ent_1710)<br>                countryofcitizenship(freechurchman, english)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 21</h4>
+      <p>                subclassof(congregationalists, christians)<br>                subclassof(presbyterians, calvinist)<br>                locatedintheadministrativeterritorialentity(england, british)<br>                subclassof(presbyterians, christians)<br>                author(commentary, matthewhenry)<br>                religion(isaacwatts, christians)<br>                subclassof(baptists, protestant)<br>                religion(british, protestant)<br>                country(churchofengland, british)<br>                subclassof(congregationalists, protestant)<br>                subclassof(calvinist, protestant)<br>                containsadministrativeterritorialentity(british, english)<br>                subclassof(presbyterians, protestant)<br>                subclassof(protestant, christians)<br>                country(england, british)<br>                subclassof(methodists, protestant)<br>                subclassof(calvinist, christians)<br>                subclassof(congregationalists, calvinist)<br>                subclassof(puritans, protestant)<br>                religion(englishdissenters, protestant)<br>                appliestojurisdiction(churchofengland, english)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">country(churchofengland, british)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(churchofengland, british)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">country(churchofengland, english)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(england, english), appliestojurisdiction(churchofengland, england)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(churchofengland, english)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

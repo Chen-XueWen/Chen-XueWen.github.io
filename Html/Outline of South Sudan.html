@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Outline of South Sudan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Outline of South Sudan</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The following outline is provided as an overview of and topical guide to South Sudan :
+South Sudan – landlocked country in east - central Africa that is part of the United Nations subregion of Eastern Africa .
+It previously known as Southern Sudan .
+It is located south of Sudan , and includes the vast swamp region of the Sudd , formed by the White Nile and known locally as the Bahr al Jabal .
+South Sudan became an independent state on 9 July 2011 , following a referendum that passed with 98.83 % of the vote .
+It is a United Nations member state , a member state of the African Union , and a member state of the Intergovernmental Authority on Development .
+In July 2012 , South Sudan signed the Geneva Conventions .
+Its current capital is Juba , which is also its largest city .
+The capital city is planned to be changed to the more centrally located Ramciel in the future .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.879<br> Recall: 0.674<br> F1 Score: 0.763 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 29</h4>
+      <p>                continent(juba, africa)<br>                continent(southsudan, africa)<br>                country(juba, southsudan)<br>                memberof(southsudan, unitednations)<br>                locatedintheadministrativeterritorialentity(sudd, southsudan)<br>                country(juba, sudan)<br>                country(ramciel, southsudan)<br>                locatedintheadministrativeterritorialentity(ramciel, southsudan)<br>                memberof(sudan, unitednations)<br>                locatedintheadministrativeterritorialentity(whitenile, southsudan)<br>                haspart(easternafrica, sudan)<br>                partof(southsudan, easternafrica)<br>                country(sudd, southsudan)<br>                haspart(easternafrica, southsudan)<br>                continent(sudan, africa)<br>                locatedintheadministrativeterritorialentity(juba, sudan)<br>                locatedintheadministrativeterritorialentity(juba, southsudan)<br>                partof(sudan, easternafrica)<br>                country(whitenile, sudan)<br>                country(whitenile, southsudan)<br>                continent(easternafrica, africa)<br>                continent(whitenile, africa)<br>                capital(southsudan, juba)<br>                memberof(southsudan, africanunion)<br>                locatedintheadministrativeterritorialentity(whitenile, sudan)<br>                haspart(africa, sudan)<br>                capitalof(juba, southsudan)<br>                continent(ramciel, africa)<br>                inception(southsudan, ent_9july2011)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 4</h4>
+      <p>                locatedintheadministrativeterritorialentity(sudd, sudan)<br>                country(sudd, sudan)<br>                locatedonterrainfeature(southsudan, easternafrica)<br>                subsidiary(unitednations, africanunion)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 14</h4>
+      <p>                partof(sudan, africa)<br>                memberof(sudan, africanunion)<br>                memberof(southsudan, intergovernmentalauthorityondevelopment)<br>                haspart(africa, southsudan)<br>                locatedintheadministrativeterritorialentity(sudan, southsudan)<br>                containsadministrativeterritorialentity(southsudan, juba)<br>                partof(southsudan, africa)<br>                haspart(unitednations, southsudan)<br>                continent(southsudan, easternafrica)<br>                pointintime(genevaconventions, july2012)<br>                partof(southsudan, unitednations)<br>                country(sudan, southsudan)<br>                continent(sudd, africa)<br>                continent(africanunion, africa)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 3</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">partof(sudan, africa)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">haspart(africa, sudan)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">continent(southsudan, easternafrica)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">locatedonterrainfeature(southsudan, easternafrica)</div>
+<div class="panel-body">haspart(easternafrica, southsudan)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp2">continent(sudd, africa)</a>
+      </h4>
+    </div>
+    <div id="fn2tp2" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(sudd, sudan), haspart(africa, sudan)</div>
+<div class="panel-body">country(sudd, sudan), haspart(africa, sudan)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

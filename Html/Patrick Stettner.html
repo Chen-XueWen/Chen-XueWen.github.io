@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Patrick Stettner</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Patrick Stettner</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Patrick Stettner is an American film director and writer .
+His first film , Flux , was released in 1996 as a short , and starred Allison Janney in an early role .
+He went on to direct and write the screenplay for The Business of Strangers in 2001 , which earned him a Grand Jury Prize nomination at the Sundance Film Festival of that year and earned lead actress Stockard Channing an AFI nomination for Best Female Actress .
+In 2006 , he then wrote and directed The Night Listener , an adaptation of Armistead Maupin 's eponymous semi - autobiographical 2000 novel , which landed less than stellar reviews from critics .
+He has not directed any films since The Night Listener .
+He is an alumnus of Columbia University School of the Arts ' Film division .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.515<br> Recall: 0.773<br> F1 Score: 0.618 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 17</h4>
+      <p>                awardreceived(stockardchanning, bestfemaleactress)<br>                notablework(patrickstettner, flux)<br>                notablework(patrickstettner, thebusinessofstrangers)<br>                countryofcitizenship(patrickstettner, american)<br>                director(flux, patrickstettner)<br>                castmember(thebusinessofstrangers, stockardchanning)<br>                publicationdate(thebusinessofstrangers, ent_2001)<br>                educatedat(patrickstettner, columbiauniversityschoolofthearts)<br>                publicationdate(flux, ent_1996)<br>                director(thenightlistener, patrickstettner)<br>                castmember(flux, allisonjanney)<br>                haspart(afi, bestfemaleactress)<br>                screenwriter(thebusinessofstrangers, patrickstettner)<br>                publicationdate(thenightlistener, ent_2006)<br>                notablework(patrickstettner, thenightlistener)<br>                instanceof(grandjuryprize, sundancefilmfestival)<br>                partof(bestfemaleactress, afi)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 16</h4>
+      <p>                dateofdeath(sundancefilmfestival, ent_2006)<br>                dateofdeath(patrickstettner, ent_1996)<br>                countryofcitizenship(patrickstettner, allisonjanney)<br>                locatedintheadministrativeterritorialentity(columbiauniversityschoolofthearts, american)<br>                locatedintheadministrativeterritorialentity(flux, allisonjanney)<br>                castmember(thebusinessofstrangers, allisonjanney)<br>                instanceof(bestfemaleactress, sundancefilmfestival)<br>                dateofbirth(patrickstettner, american)<br>                awardreceived(patrickstettner, bestfemaleactress)<br>                memberof(thebusinessofstrangers, ent_2001)<br>                castmember(thenightlistener, stockardchanning)<br>                instanceof(bestfemaleactress, grandjuryprize)<br>                castmember(flux, stockardchanning)<br>                dateofdeath(thebusinessofstrangers, bestfemaleactress)<br>                country(flux, allisonjanney)<br>                placeofbirth(patrickstettner, flux)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 5</h4>
+      <p>                screenwriter(thenightlistener, patrickstettner)<br>                instanceof(bestfemaleactress, afi)<br>                director(thebusinessofstrangers, patrickstettner)<br>                screenwriter(flux, patrickstettner)<br>                pointintime(sundancefilmfestival, ent_2001)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">director(thebusinessofstrangers, patrickstettner)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">notablework(patrickstettner, thebusinessofstrangers)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">instanceof(bestfemaleactress, afi)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">haspart(afi, bestfemaleactress)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

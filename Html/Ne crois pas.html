@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ne crois pas</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Ne crois pas</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>" Ne crois pas " ( , Do n't believe ) is a song that was performed in the Eurovision Song Contest 1956 by French singer Michèle Arnaud .
+It was the first of two Luxembourgish entry in the contest and was performed in French .
+In contrast to most of the other entries of this Contest , the song is an up - tempo number , with Arnaud telling a friend or lover that the fact that he looks good at the moment is largely meaningless .
+She tells him that his looks are due to his youth and that , as for the rest of humanity , he will lose his hair , gain weight and possibly lose his teeth as well .
+Thus , she tells him that he should " take advantage of it " , rather than simply enjoying his looks at the time .
+The song was performed sixth on the night ( following France 's Mathé Altéry with " Le temps perdu " and preceding Italy 's Franca Raimondi with " Aprite le finestre " ) .
+As the scoreboard of this Contest has never been released , definitive statements about scores and positions are impossible to make , however the song did not win .
+The song was accompanied at the 1956 contest by Arnaud with " Les amants de minuit " and was succeeded as Luxembourgish representative at the 1957 contest by Danièle Dupré with " Amours mortes ( tant de peine ) " .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.769<br> Recall: 0.69<br> F1 Score: 0.727 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 20</h4>
+      <p>                countryofcitizenship(francaraimondi, italy)<br>                performer(letempsperdu, mathaltry)<br>                notablework(michlearnaud, lesamantsdeminuit)<br>                languagesspokenwrittenorsigned(mathaltry, french)<br>                participant(eurovisionsongcontest, michlearnaud)<br>                countryofcitizenship(michlearnaud, french)<br>                participant(eurovisionsongcontest, francaraimondi)<br>                notablework(michlearnaud, necroispas)<br>                participant(eurovisionsongcontest, mathaltry)<br>                performer(necroispas, michlearnaud)<br>                performer(apritelefinestre, francaraimondi)<br>                performer(lesamantsdeminuit, michlearnaud)<br>                notablework(mathaltry, letempsperdu)<br>                countryofcitizenship(michlearnaud, france)<br>                participantof(francaraimondi, eurovisionsongcontest)<br>                pointintime(eurovisionsongcontest, ent_1956)<br>                notablework(francaraimondi, apritelefinestre)<br>                participantof(mathaltry, eurovisionsongcontest)<br>                participantof(michlearnaud, eurovisionsongcontest)<br>                countryofcitizenship(mathaltry, france)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 6</h4>
+      <p>                endtime(eurovisionsongcontest, ent_1956)<br>                countryofcitizenship(michlearnaud, luxembourgish)<br>                countryofcitizenship(daniledupr, luxembourgish)<br>                performer(amoursmortestantdepeine, daniledupr)<br>                publicationdate(necroispas, ent_1956)<br>                notablework(daniledupr, amoursmortestantdepeine)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 9</h4>
+      <p>                officiallanguage(luxembourgish, french)<br>                countryoforigin(letempsperdu, france)<br>                participant(eurovisionsongcontest, daniledupr)<br>                officiallanguage(france, french)<br>                participantof(lesamantsdeminuit, eurovisionsongcontest)<br>                countryofcitizenship(mathaltry, french)<br>                participantof(daniledupr, eurovisionsongcontest)<br>                participant(eurovisionsongcontest, lesamantsdeminuit)<br>                languagesspokenwrittenorsigned(michlearnaud, french)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">languagesspokenwrittenorsigned(michlearnaud, french)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">countryofcitizenship(michlearnaud, french)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">countryoforigin(letempsperdu, france)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">countryofcitizenship(mathaltry, france), notablework(mathaltry, letempsperdu)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

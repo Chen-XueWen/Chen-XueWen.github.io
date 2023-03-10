@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Olympic National Park</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Olympic National Park</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Olympic National Park is an American national park located in the State of Washington , on the Olympic Peninsula .
+The park has four regions : the Pacific coastline , alpine areas , the west side temperate rainforest and the forests of the drier east side .
+Within the park there are three distinct ecosystems which are subalpine forest and wildflower meadow , temperate forest , and the rugged Pacific coast .
+President Theodore Roosevelt originally designated Mount Olympus National Monument on 2 March 1909 .
+The monument was redesignated as a national park by Congress and President Franklin Roosevelt on June 29 , 1938 .
+In 1976 , Olympic National Park was designated by UNESCO as an International Biosphere Reserve , and in 1981 as a World Heritage Site .
+In 1988 , Congress designated 95 percent of the park as the Olympic Wilderness .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.906<br> Recall: 0.744<br> F1 Score: 0.817 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 29</h4>
+      <p>                country(stateofwashington, american)<br>                locatedintheadministrativeterritorialentity(olympicwilderness, stateofwashington)<br>                locatedinornexttobodyofwater(olympicpeninsula, pacific)<br>                countryofcitizenship(franklinroosevelt, american)<br>                locatedintheadministrativeterritorialentity(stateofwashington, american)<br>                country(mountolympusnationalmonument, american)<br>                countryofcitizenship(theodoreroosevelt, american)<br>                legislativebody(american, congress)<br>                country(olympicnationalpark, american)<br>                appliestojurisdiction(congress, american)<br>                locatedintheadministrativeterritorialentity(olympicpeninsula, american)<br>                locatedintheadministrativeterritorialentity(mountolympusnationalmonument, american)<br>                appliestojurisdiction(congress, stateofwashington)<br>                country(congress, american)<br>                appliestojurisdiction(franklinroosevelt, american)<br>                country(olympicpeninsula, american)<br>                locatedintheadministrativeterritorialentity(mountolympusnationalmonument, stateofwashington)<br>                containsadministrativeterritorialentity(american, stateofwashington)<br>                country(olympicwilderness, american)<br>                inception(mountolympusnationalmonument, ent_2march1909)<br>                locatedintheadministrativeterritorialentity(olympicnationalpark, stateofwashington)<br>                locatedintheadministrativeterritorialentity(olympicwilderness, american)<br>                locatedintheadministrativeterritorialentity(olympicnationalpark, american)<br>                locatedintheadministrativeterritorialentity(congress, american)<br>                headofgovernment(american, theodoreroosevelt)<br>                appliestojurisdiction(theodoreroosevelt, american)<br>                locatedinornexttobodyofwater(stateofwashington, pacific)<br>                locatedintheadministrativeterritorialentity(olympicpeninsula, stateofwashington)<br>                headofgovernment(american, franklinroosevelt)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 3</h4>
+      <p>                inception(olympicnationalpark, ent_2march1909)<br>                locatedintheadministrativeterritorialentity(pacific, american)<br>                country(pacific, american)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 10</h4>
+      <p>                legislativebody(stateofwashington, congress)<br>                inception(olympicwilderness, ent_1988)<br>                memberof(olympicnationalpark, internationalbiospherereserve)<br>                replaces(olympicnationalpark, mountolympusnationalmonument)<br>                basincountry(pacific, american)<br>                locatedinornexttobodyofwater(american, pacific)<br>                memberof(mountolympusnationalmonument, internationalbiospherereserve)<br>                replacedby(mountolympusnationalmonument, olympicnationalpark)<br>                starttime(mountolympusnationalmonument, ent_2march1909)<br>                inception(olympicnationalpark, june291938)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

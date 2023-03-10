@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Newsnight</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Newsnight</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Newsnight is a weekday BBC Television current affairs programme which specialises in analysis and often robust cross - examination of senior politicians .
+The programme 's regular presenters are currently Kirsty Wark and Emily Maitlis .
+Several of the programme 's editors over the years have gone on to senior positions within the BBC and elsewhere .
+Newsnight has been broadcast on BBC Two since 1980 .
+It goes out on weekday evenings between 10:30pm and 11:15pm .
+Occasionally it may have an extended edition if there is an especially significant event in the news – as happened on 7 July 2011 , when the closure of the News of the World led to a programme which continued until 11:35 pm .
+Recent editions are available to view and download for a limited time through the BBC iPlayer .
+A weekly 26-minute digest edition of Newsnight is screened on the corporation 's international channel , BBC World News .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.486<br> Recall: 0.531<br> F1 Score: 0.507 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 17</h4>
+      <p>                operator(bbctwo, bbctelevision)<br>                ownedby(bbctwo, bbc)<br>                subsidiary(bbc, bbctelevision)<br>                parentorganization(bbctelevision, bbc)<br>                ownedby(bbctelevision, bbc)<br>                employer(emilymaitlis, bbc)<br>                productioncompany(newsnight, bbctelevision)<br>                originalnetwork(newsnight, bbctwo)<br>                subsidiary(bbc, bbctwo)<br>                operator(bbcworldnews, bbctelevision)<br>                subsidiary(bbctelevision, bbctwo)<br>                ownedby(bbcworldnews, bbc)<br>                operator(bbctwo, bbc)<br>                parentorganization(bbctwo, bbc)<br>                ownedby(bbcworldnews, bbctelevision)<br>                originalnetwork(newsnight, bbctelevision)<br>                employer(kirstywark, bbc)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 18</h4>
+      <p>                dateofbirth(newsnight, bbctelevision)<br>                originalnetwork(newsnight, bbcworldnews)<br>                locatedintheadministrativeterritorialentity(bbc, kirstywark)<br>                notablework(newsnight, bbciplayer)<br>                originalnetwork(bbctwo, bbc)<br>                publicationdate(ent_1135pm, newsoftheworld)<br>                castmember(ent_1135pm, newsnight)<br>                countryofcitizenship(newsnight, kirstywark)<br>                notablework(newsnight, emilymaitlis)<br>                performer(emilymaitlis, newsnight)<br>                haspart(ent_1135pm, bbciplayer)<br>                castmember(ent_1135pm, ent_7july2011)<br>                originalnetwork(newsnight, bbc)<br>                castmember(bbctwo, newsnight)<br>                castmember(ent_1135pm, ent_1115pm)<br>                performer(bbciplayer, newsnight)<br>                presentinwork(emilymaitlis, bbctwo)<br>                country(bbc, kirstywark)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 15</h4>
+      <p>                subsidiary(bbc, bbcworldnews)<br>                starttime(newsnight, ent_1980)<br>                employer(kirstywark, bbctelevision)<br>                operator(bbcworldnews, bbc)<br>                ownedby(newsnight, bbc)<br>                ownedby(bbctwo, bbctelevision)<br>                parentorganization(bbctwo, bbctelevision)<br>                subsidiary(bbctelevision, bbcworldnews)<br>                employer(emilymaitlis, bbctelevision)<br>                parentorganization(bbcworldnews, bbc)<br>                castmember(newsnight, emilymaitlis)<br>                parentorganization(bbcworldnews, bbctelevision)<br>                dissolvedabolishedordemolished(newsoftheworld, ent_7july2011)<br>                developer(bbciplayer, bbc)<br>                ownedby(newsnight, bbctelevision)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">ownedby(bbctwo, bbctelevision)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">originalnetwork(newsnight, bbctwo), originalnetwork(newsnight, bbctelevision)</div>
+<div class="panel-body">operator(bbctwo, bbctelevision)</div>
+<div class="panel-body">subsidiary(bbctelevision, bbctwo)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">castmember(newsnight, emilymaitlis)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">employer(emilymaitlis, bbc), originalnetwork(newsnight, bbc)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">castmember(newsnight, kirstywark)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">employer(kirstywark, bbc), originalnetwork(newsnight, bbc)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

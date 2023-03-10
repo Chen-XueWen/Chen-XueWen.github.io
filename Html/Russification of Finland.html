@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Russification of Finland</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Russification of Finland</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The policy of Russification of Finland ( Finnish : sortokaudet / sortovuodet - times / years of oppression ) was a governmental policy of the Russian Empire aimed at limiting the special status of the Grand Duchy of Finland and possibly the termination of its political autonomy and cultural uniqueness in 1899 – 1905 and in 1908 – 1917 .
+It was a part of a larger policy of Russification pursued by late 19th – early 20th century Russian governments which tried to abolish cultural and administrative autonomy of non - Russian minorities within the empire .
+The two Russification campaigns evoked widespread Finnish resistance , starting with petitions and escalating to strikes , passive resistance ( including draft resistance ) and eventually active resistance .
+Finnish opposition to Russification was one of the main factors that ultimately led to Finland 's declaration of independence in 1917 .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.375<br> Recall: 0.3<br> F1 Score: 0.333 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 3</h4>
+      <p>                officiallanguage(finland, finnish)<br>                replacedby(grandduchyoffinland, finland)<br>                officiallanguage(grandduchyoffinland, finnish)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 5</h4>
+      <p>                country(russificationoffinland, russianempire)<br>                country(grandduchyoffinland, finland)<br>                officiallanguage(russianempire, finnish)<br>                inception(grandduchyoffinland, ent_1899)<br>                dissolvedabolishedordemolished(finland, ent_1917)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 7</h4>
+      <p>                dissolvedabolishedordemolished(grandduchyoffinland, ent_1917)<br>                country(grandduchyoffinland, russianempire)<br>                replaces(finland, grandduchyoffinland)<br>                inception(finland, ent_1917)<br>                locatedintheadministrativeterritorialentity(grandduchyoffinland, russianempire)<br>                inception(russificationoffinland, ent_1899)<br>                instanceof(russificationoffinland, russification)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">country(grandduchyoffinland, russianempire)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">officiallanguage(russianempire, finnish), officiallanguage(grandduchyoffinland, finnish)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>
