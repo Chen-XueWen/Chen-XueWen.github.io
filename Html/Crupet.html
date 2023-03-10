@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Crupet</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Crupet</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Crupet is a village in Wallonia , Belgium .
+It is part of the municipality of Assesse , although formerly it was itself a municipality .
+It is a member of the organisation Les Plus Beaux Villages de Wallonie ( French ; in English : Most Beautiful Villages in Wallonia ) .
+The centre of the village is dominated by the Grotto of St Anthony of Padua .
+The grotto was designed by the local curate Gerard and inaugurated on 12 July 1903 .
+It features 22 religious - themed statues .
+Many of them depict scenes from the life of St Anthony of Padua .
+The Castle of Crupet , a medieval farm - chateau is situated below the village centre , and a little to the north , next to the river .
+The postal code of Crupet is 5332 .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.955<br> Recall: 0.778<br> F1 Score: 0.857 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 21</h4>
+      <p>                containsadministrativeterritorialentity(wallonia, assesse)<br>                locatedintheadministrativeterritorialentity(crupet, assesse)<br>                containsadministrativeterritorialentity(belgium, wallonia)<br>                country(wallonia, belgium)<br>                locatedintheadministrativeterritorialentity(crupet, wallonia)<br>                locatedintheadministrativeterritorialentity(castleofcrupet, belgium)<br>                country(grottoofstanthonyofpadua, belgium)<br>                country(castleofcrupet, belgium)<br>                containsadministrativeterritorialentity(assesse, crupet)<br>                country(assesse, belgium)<br>                locatedintheadministrativeterritorialentity(crupet, belgium)<br>                inception(grottoofstanthonyofpadua, ent_12july1903)<br>                locatedintheadministrativeterritorialentity(assesse, wallonia)<br>                locatedintheadministrativeterritorialentity(grottoofstanthonyofpadua, belgium)<br>                locatedintheadministrativeterritorialentity(castleofcrupet, assesse)<br>                locatedintheadministrativeterritorialentity(assesse, belgium)<br>                country(crupet, belgium)<br>                locatedintheadministrativeterritorialentity(castleofcrupet, wallonia)<br>                locatedintheadministrativeterritorialentity(wallonia, belgium)<br>                country(lesplusbeauxvillagesdewallonie, belgium)<br>                locatedintheadministrativeterritorialentity(lesplusbeauxvillagesdewallonie, belgium)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 1</h4>
+      <p>                officiallanguage(wallonia, french)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 6</h4>
+      <p>                haspart(assesse, crupet)<br>                containsadministrativeterritorialentity(wallonia, crupet)<br>                partof(crupet, assesse)<br>                locatedintheadministrativeterritorialentity(castleofcrupet, crupet)<br>                locatedintheadministrativeterritorialentity(grottoofstanthonyofpadua, wallonia)<br>                countryofcitizenship(gerard, belgium)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">locatedintheadministrativeterritorialentity(castleofcrupet, crupet)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">country(crupet, belgium), country(castleofcrupet, belgium)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">locatedintheadministrativeterritorialentity(grottoofstanthonyofpadua, wallonia)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">country(wallonia, belgium), country(grottoofstanthonyofpadua, belgium)</div>
+<div class="panel-body">containsadministrativeterritorialentity(belgium, wallonia), country(grottoofstanthonyofpadua, belgium)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

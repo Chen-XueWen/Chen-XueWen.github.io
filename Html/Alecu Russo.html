@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Alecu Russo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Alecu Russo</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Alecu Russo ( born in March 17 , 1819 , near Chişinău , died on February 5 , 1859 , in Iaşi ) , was a Moldavian Romanian writer , literary critic and publicist .
+Russo is credited with having discovered one of the most elaborate forms of the Romanian national folk ballad Mioriţa .
+He was also a contributor to the Iaşi periodical Zimbrul , in which he published one of his best - known works , Studie Moldovană ( " Moldovan Studies " ) , in 1851 - 1852 .
+He also wrote Iaşii şi locuitorii lui în 1840 " Iaşi and its inhabitants in 1840 " – a glimpse into Moldavian society during the Organic Statute administration , and two travel accounts ( better described as folklore studies ) , Piatra Teiului and Stânca Corbului .
+Russo is also notable for his Amintiri ( " Recollections " ) , a memoir .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.696<br> Recall: 0.762<br> F1 Score: 0.727 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 16</h4>
+      <p>                country(mioria, romanian)<br>                author(piatrateiului, alecurusso)<br>                placeofbirth(alecurusso, chiinu)<br>                country(chiinu, moldavian)<br>                author(studiemoldovan, alecurusso)<br>                author(iaiiilocuitoriilui, alecurusso)<br>                countryofcitizenship(alecurusso, moldavian)<br>                author(amintiri, alecurusso)<br>                notablework(alecurusso, piatrateiului)<br>                notablework(alecurusso, studiemoldovan)<br>                dateofdeath(alecurusso, february51859)<br>                notablework(alecurusso, amintiri)<br>                dateofbirth(alecurusso, march171819)<br>                countryofcitizenship(alecurusso, romanian)<br>                placeofdeath(alecurusso, iai)<br>                notablework(alecurusso, iaiiilocuitoriilui)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 7</h4>
+      <p>                country(iaiperiodicalzimbrul, romanian)<br>                country(iai, romanian)<br>                locatedintheadministrativeterritorialentity(iaiperiodicalzimbrul, romanian)<br>                locatedintheadministrativeterritorialentity(iai, romanian)<br>                publicationdate(iaiiilocuitoriilui, ent_1840)<br>                locatedintheadministrativeterritorialentity(chiinu, romanian)<br>                country(chiinu, romanian)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 5</h4>
+      <p>                countryoforigin(mioria, romanian)<br>                notablework(alecurusso, stncacorbului)<br>                author(stncacorbului, alecurusso)<br>                locatedintheadministrativeterritorialentity(chiinu, moldavian)<br>                languagesspokenwrittenorsigned(alecurusso, romanian)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">countryoforigin(mioria, romanian)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">country(mioria, romanian)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">locatedintheadministrativeterritorialentity(chiinu, moldavian)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">country(chiinu, moldavian)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

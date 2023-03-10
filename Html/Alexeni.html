@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Alexeni</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Alexeni</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Alexeni is a commune in Ialomița County , Romania , some 65   km north - east of Bucharest , near the town of Urziceni .
+It is composed of a single village , Alexeni .
+Until 2001 a Romanian Air Force military helicopters unit was located at the nearby airfield . In 2007 , as the airfield was not used by the Romanian Air Force anylonger , the former Minister of Transport Radu Berceanu suggested to use the location for Bucharest 's new low - cost flights airport(as the operational tariffs for Bucharest 's previous low - cost hub , Aurel Vlaicu Airport , were set to grow ) .
+However , some analysts considered the project unrealistic and doomed to fail due to the poor conditions of the infrastructure in the area .
+Eventually those plans were abandoned and all low - cost flights were moved in March 2012 at Bucharest main airport Henri Coandă International Airport .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.647<br> Recall: 0.88<br> F1 Score: 0.746 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 22</h4>
+      <p>                locatedintheadministrativeterritorialentity(ialomiacounty, romania)<br>                containsadministrativeterritorialentity(ialomiacounty, alexeni)<br>                locatedintheadministrativeterritorialentity(aurelvlaicuairport, romania)<br>                country(henricoandinternationalairport, romania)<br>                locatedintheadministrativeterritorialentity(alexeni, romania)<br>                locatedintheadministrativeterritorialentity(henricoandinternationalairport, bucharest)<br>                locatedintheadministrativeterritorialentity(bucharest, romania)<br>                country(romanianairforce, romania)<br>                containsadministrativeterritorialentity(ialomiacounty, urziceni)<br>                locatedintheadministrativeterritorialentity(romanianairforce, romania)<br>                country(ialomiacounty, romania)<br>                locatedintheadministrativeterritorialentity(henricoandinternationalairport, romania)<br>                locatedintheadministrativeterritorialentity(urziceni, ialomiacounty)<br>                locatedintheadministrativeterritorialentity(alexeni, ialomiacounty)<br>                country(bucharest, romania)<br>                country(urziceni, romania)<br>                countryofcitizenship(raduberceanu, romania)<br>                country(aurelvlaicuairport, romania)<br>                locatedintheadministrativeterritorialentity(aurelvlaicuairport, bucharest)<br>                locatedintheadministrativeterritorialentity(urziceni, romania)<br>                containsadministrativeterritorialentity(romania, ialomiacounty)<br>                country(alexeni, romania)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 12</h4>
+      <p>                locatedintheadministrativeterritorialentity(bucharest, ent_65km)<br>                memberofsportsteam(alexeni, raduberceanu)<br>                dateofbirth(alexeni, ialomiacounty)<br>                dateofdeath(alexeni, romania)<br>                memberofsportsteam(alexeni, bucharest)<br>                country(bucharest, ent_65km)<br>                country(henricoandinternationalairport, ent_65km)<br>                locatedintheadministrativeterritorialentity(raduberceanu, ent_65km)<br>                countryofcitizenship(alexeni, ent_65km)<br>                country(raduberceanu, ent_65km)<br>                memberof(alexeni, henricoandinternationalairport)<br>                locatedintheadministrativeterritorialentity(henricoandinternationalairport, ent_65km)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 3</h4>
+      <p>                containsadministrativeterritorialentity(romania, bucharest)<br>                capital(romania, bucharest)<br>                capitalof(bucharest, romania)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">containsadministrativeterritorialentity(romania, bucharest)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(bucharest, romania)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(aurelvlaicuairport, bucharest), country(aurelvlaicuairport, romania)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(henricoandinternationalairport, bucharest), country(henricoandinternationalairport, romania)</div>
+<div class="panel-body">country(bucharest, romania)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">locatedintheadministrativeterritorialentity(urziceni, alexeni)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">country(alexeni, romania), country(urziceni, romania)</div>
+<div class="panel-body">containsadministrativeterritorialentity(ialomiacounty, urziceni), containsadministrativeterritorialentity(ialomiacounty, alexeni)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">locatedintheadministrativeterritorialentity(urziceni, bucharest)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">country(bucharest, romania), country(urziceni, romania)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

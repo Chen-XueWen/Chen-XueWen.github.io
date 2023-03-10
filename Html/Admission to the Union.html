@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Admission to the Union</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Admission to the Union</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The Admission to the Union Clause of the United States Constitution , oftentimes called the New States Clause , and found at Article IV , Section 3 , , authorizes the Congress to admit new states into the United States beyond the thirteen already in existence at the time the Constitution went into effect .
+The Constitution went into effect on June 21 , 1788 , after ratification by 9 of the 13 states , and the federal government began operations under it on March 4 , 1789 .
+Since then , 37 additional states have been admitted into the Union .
+Each new state has been admitted on an equal footing with those already in existence .
+Of the 37 states admitted to the Union by Congress , all but six have been established within an existing U.S. organized incorporated territory .
+A state so created might encompass all or a portion of a territory .
+When the people of a territory or a region thereof would make their desire for statehood known to the federal government , in most cases Congress passed an enabling act authorizing the people of that territory or region to frame a proposed state constitution as a step toward admission to the Union .
+Although the use of an enabling act was a common historic practice , a number of states were admitted to the Union without one .
+In many instances , an enabling act would detail the mechanism by which the territory would be admitted as a state following ratification of their constitution and election of state officers .
+Although the use of such an act is a traditional historic practice , a number of territories have drafted constitutions for submission to Congress absent an enabling act and were subsequently admitted .
+The broad outline for this process was established by the Land Ordinance of 1784 and the 1787 Northwest Ordinance , both of which predate the present U.S. Constitution .
+The Admission to the Union Clause also forbids the creation of new states from parts of existing states without the consent of both the affected states and Congress .
+The primary intent of this caveat was to give Eastern states that still had western land claims ( there were four at that time ) a veto over whether their western counties could become states .
+This clause has served the same function since , each time a proposal to partition an existing state or states has arisen .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.75<br> Recall: 0.517<br> F1 Score: 0.612 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 15</h4>
+      <p>                country(northwestordinance, us)<br>                publicationdate(constitution, june211788)<br>                publicationdate(landordinance, ent_1784)<br>                appliestojurisdiction(constitution, us)<br>                publicationdate(admissiontotheunionclause, june211788)<br>                country(congress, us)<br>                legislativebody(us, congress)<br>                country(constitution, us)<br>                appliestojurisdiction(congress, union)<br>                appliestojurisdiction(congress, us)<br>                locatedintheadministrativeterritorialentity(congress, us)<br>                legislativebody(union, congress)<br>                locatedintheadministrativeterritorialentity(union, us)<br>                inception(admissiontotheunionclause, june211788)<br>                country(union, us)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 5</h4>
+      <p>                legislativebody(union, constitution)<br>                legislativebody(us, constitution)<br>                appliestojurisdiction(constitution, union)<br>                containsadministrativeterritorialentity(us, northwestordinance)<br>                locatedintheadministrativeterritorialentity(northwestordinance, us)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 14</h4>
+      <p>                pointintime(landordinance, ent_1784)<br>                pointintime(admissiontotheunionclause, june211788)<br>                country(admissiontotheunionclause, us)<br>                partof(admissiontotheunionclause, constitution)<br>                appliestojurisdiction(admissiontotheunionclause, us)<br>                appliestojurisdiction(northwestordinance, us)<br>                publicationdate(northwestordinance, ent_1787)<br>                appliestojurisdiction(landordinance, us)<br>                inception(constitution, june211788)<br>                haspart(constitution, admissiontotheunionclause)<br>                pointintime(northwestordinance, ent_1787)<br>                inception(northwestordinance, ent_1787)<br>                inception(landordinance, ent_1784)<br>                country(landordinance, us)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">inception(constitution, june211788)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">publicationdate(constitution, june211788)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

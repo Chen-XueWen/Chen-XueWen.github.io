@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Babyfingers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Babyfingers</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Babyfingers was a release by the avant garde / experimental rock band The Residents , containing music written for their 1977 album , Fingerprince .
+As Fingerprince was originally meant to be a three - sided album ( a concept abandoned due to expense and Monty Python 's Matching Tie and Handkerchief beating them to the punch ) , much of the material was abandoned and the third side remained unfinished until November 1977 although most tracks from the EP was shown at the Residents Radio Special in September 1977 .
+Thus , the group reduced the third side to an extended play record entitled ' " Babyfingers ' " , and released it in 1979 to people who had been waiting for their copy of The Third Reich and Roll box sets .
+A second printing was made for members of the W.E.I.R.D.
+fan club in 1981 , and a last pressing , on pink vinyl , in 1985 .
+It has been incorporated into most CD versions of Fingerprince , beginning in 1988 .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.231<br> Recall: 0.562<br> F1 Score: 0.327 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 9</h4>
+      <p>                publicationdate(fingerprince, ent_1977)<br>                notablework(theresidents, babyfingers)<br>                performer(thethirdreichandroll, theresidents)<br>                notablework(montypython, matchingtieandhandkerchief)<br>                performer(babyfingers, theresidents)<br>                notablework(theresidents, fingerprince)<br>                notablework(theresidents, ep)<br>                haspart(fingerprince, babyfingers)<br>                performer(fingerprince, theresidents)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 30</h4>
+      <p>                child(residentsradiospecial, theresidents)<br>                country(thethirdreichandroll, ent_1977)<br>                follows(babyfingers, ep)<br>                notablework(weird, babyfingers)<br>                country(ep, matchingtieandhandkerchief)<br>                country(ent_1979, matchingtieandhandkerchief)<br>                countryofcitizenship(theresidents, ent_1977)<br>                recordlabel(babyfingers, montypython)<br>                recordlabel(theresidents, ep)<br>                publicationdate(babyfingers, november1977)<br>                dateofdeath(residentsradiospecial, september1977)<br>                locatedintheadministrativeterritorialentity(ep, matchingtieandhandkerchief)<br>                publicationdate(babyfingers, ent_1977)<br>                countryofcitizenship(residentsradiospecial, ent_1977)<br>                publicationdate(babyfingers, fingerprince)<br>                producer(babyfingers, weird)<br>                country(ep, ent_1977)<br>                author(matchingtieandhandkerchief, montypython)<br>                follows(babyfingers, fingerprince)<br>                locatedintheadministrativeterritorialentity(ep, ent_1977)<br>                publicationdate(ep, ent_1977)<br>                country(montypython, ent_1977)<br>                father(theresidents, residentsradiospecial)<br>                locatedintheadministrativeterritorialentity(ent_1979, matchingtieandhandkerchief)<br>                countryofcitizenship(theresidents, matchingtieandhandkerchief)<br>                recordlabel(babyfingers, ep)<br>                countryoforigin(babyfingers, ent_1977)<br>                recordlabel(theresidents, montypython)<br>                locatedintheadministrativeterritorialentity(montypython, ent_1977)<br>                locatedintheadministrativeterritorialentity(thethirdreichandroll, ent_1977)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 7</h4>
+      <p>                performer(residentsradiospecial, theresidents)<br>                notablework(theresidents, residentsradiospecial)<br>                partof(babyfingers, fingerprince)<br>                notablework(theresidents, thethirdreichandroll)<br>                performer(ep, theresidents)<br>                performer(matchingtieandhandkerchief, montypython)<br>                publicationdate(babyfingers, ent_1979)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">notablework(theresidents, thethirdreichandroll)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">performer(thethirdreichandroll, theresidents)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">creator(matchingtieandhandkerchief, montypython)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">notablework(montypython, matchingtieandhandkerchief)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">followedby(ep, babyfingers)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">follows(babyfingers, ep)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

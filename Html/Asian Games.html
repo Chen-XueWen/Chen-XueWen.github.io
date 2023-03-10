@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Asian Games</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Asian Games</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The Asian Games , also known as Asiad , is a continental multi - sport event held every four years among athletes from all over Asia .
+The Games were regulated by the Asian Games Federation ( AGF ) from the first Games in New Delhi , India , until the 1978 Games .
+Since the 1982 Games , they have been organized by the Olympic Council of Asia ( OCA ) , after the breakup of the Asian Games Federation .
+The Games are recognized by the International Olympic Committee ( IOC ) and are described as the second largest multi - sport event after the Olympic Games .
+In its history , nine nations have hosted the Asian Games .
+Forty - six nations have participated in the Games , including Israel , which was excluded from the Games after their last participation in 1974 .
+The most recent games was held in Jakarta and Palembang , Indonesia from 18 August to 2 September 2018 .
+The next games are scheduled to Hangzhou , China between 10 and 25 September 2022 .
+Since 2010 , host cities are contracted to manage both the Asian Games and the Asian Para Games , in which athletes with physical disabilities compete with one another .
+The Asian Para Games are held immediately following the Asian Games .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.49<br> Recall: 0.658<br> F1 Score: 0.562 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 25</h4>
+      <p>                containsadministrativeterritorialentity(india, newdelhi)<br>                locatedintheadministrativeterritorialentity(jakarta, indonesia)<br>                partof(indonesia, asia)<br>                locatedintheadministrativeterritorialentity(hangzhou, china)<br>                haspart(asia, india)<br>                instanceof(asianparagames, games)<br>                continent(palembang, asia)<br>                continent(israel, asia)<br>                country(hangzhou, china)<br>                continent(jakarta, asia)<br>                containsadministrativeterritorialentity(indonesia, jakarta)<br>                continent(india, asia)<br>                haspart(asia, china)<br>                continent(indonesia, asia)<br>                locatedintheadministrativeterritorialentity(newdelhi, india)<br>                haspart(asia, indonesia)<br>                locatedintheadministrativeterritorialentity(palembang, indonesia)<br>                country(jakarta, indonesia)<br>                partof(india, asia)<br>                continent(hangzhou, asia)<br>                containsadministrativeterritorialentity(china, hangzhou)<br>                country(newdelhi, india)<br>                country(palembang, indonesia)<br>                continent(china, asia)<br>                partof(china, asia)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 26</h4>
+      <p>                inception(games, india)<br>                appliestojurisdiction(newdelhi, olympicgames)<br>                country(newdelhi, asia)<br>                instanceof(games, olympicgames)<br>                publicationdate(games, india)<br>                containsadministrativeterritorialentity(asia, jakarta)<br>                legislativebody(olympicgames, fouryears)<br>                locatedintheadministrativeterritorialentity(olympicgames, asia)<br>                instanceof(internationalolympiccommittee, olympicgames)<br>                locatedintheadministrativeterritorialentity(fouryears, asia)<br>                locatedintheadministrativeterritorialentity(jakarta, asia)<br>                legislativebody(olympicgames, newdelhi)<br>                country(jakarta, asia)<br>                appliestojurisdiction(fouryears, asia)<br>                inception(newdelhi, india)<br>                haspart(games, asianparagames)<br>                country(fouryears, asia)<br>                publicationdate(fortysix, israel)<br>                appliestojurisdiction(fouryears, olympicgames)<br>                country(olympicgames, asia)<br>                memberof(asiangamesfederation, olympiccouncilofasia)<br>                country(asiangamesfederation, india)<br>                publicationdate(newdelhi, india)<br>                legislativebody(asia, fouryears)<br>                legislativebody(asia, newdelhi)<br>                appliestojurisdiction(newdelhi, asia)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 13</h4>
+      <p>                memberof(israel, olympiccouncilofasia)<br>                continent(newdelhi, asia)<br>                haspart(asia, israel)<br>                subclassof(ent_1978games, games)<br>                follows(ent_1982games, ent_1978games)<br>                partof(israel, asia)<br>                capital(india, newdelhi)<br>                followedby(ent_1978games, ent_1982games)<br>                containsadministrativeterritorialentity(indonesia, palembang)<br>                instanceof(ent_1982games, games)<br>                capitalof(newdelhi, india)<br>                subclassof(ent_1982games, games)<br>                instanceof(ent_1978games, games)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">locatedintheadministrativeterritorialentity(asiangamesfederation, india)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">country(asiangamesfederation, india)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

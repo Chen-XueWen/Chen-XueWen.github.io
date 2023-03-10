@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cimatti</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Cimatti</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Cimatti was an Italian manufacturer of bicycles , motorcycles and mopeds active between 1937 and 1984 .
+In 1937 , the Olympic cyclist Marco Cimatti founded a small company in Bologna that originally produced bicycles .
+In 1950 , he changed to mopeds , and in the 1960s , started producing motorcycles , including the and Sport Luxury road and Kaiman Cross racing models with four - speed gearboxes .
+In 1972 – 77 , he introduced two models , one for motocross with a five - speed gearbox and the other for road .
+In those years Cimatti 's son Enrico expanded the business to export motorcycles to the United States , France , Norway and Tunisia .
+In the 1970s through early 1980s , Cimatti produced several moped lines including the City - Bike and the larger Town - Bike .
+Cimatti used two - stroke engines bought from both Moto Morini and Moto Minarelli .
+A recession in the early 1980s forced the company to close in 1984 .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.17<br> Recall: 0.381<br> F1 Score: 0.235 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 8</h4>
+      <p>                countryofcitizenship(cimatti, italian)<br>                father(enrico, cimatti)<br>                country(cimatti, italian)<br>                child(marcocimatti, enrico)<br>                country(bologna, italian)<br>                countryofcitizenship(marcocimatti, italian)<br>                locatedintheadministrativeterritorialentity(bologna, italian)<br>                child(cimatti, enrico)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 39</h4>
+      <p>                haspart(bologna, cimatti)<br>                foundedby(townbike, cimatti)<br>                locatedintheadministrativeterritorialentity(bologna, ent_1984)<br>                locatedintheadministrativeterritorialentity(france, theunitedstates)<br>                dateofbirth(cimatti, italian)<br>                memberof(cimatti, marcocimatti)<br>                performer(tunisia, france)<br>                publicationdate(one, ent_77)<br>                publicationdate(tunisia, the1960s)<br>                country(bologna, ent_1984)<br>                memberof(cimatti, olympic)<br>                publicationdate(citybike, ent_1980s)<br>                inception(bologna, ent_1937)<br>                locatedintheadministrativeterritorialentity(ent_1937, ent_1984)<br>                placeofbirth(cimatti, ent_1937)<br>                performer(citybike, the1970s)<br>                notablework(ent_1972, kaimancross)<br>                country(france, theunitedstates)<br>                performer(one, cimatti)<br>                notablework(france, tunisia)<br>                partof(cimatti, olympic)<br>                performer(norway, france)<br>                countryofcitizenship(cimatti, ent_1984)<br>                memberof(cimatti, bologna)<br>                partof(cimatti, marcocimatti)<br>                notablework(cimatti, one)<br>                locatedintheadministrativeterritorialentity(cimatti, five)<br>                partof(cimatti, bologna)<br>                notablework(cimatti, enrico)<br>                haspart(marcocimatti, cimatti)<br>                performer(enrico, cimatti)<br>                foundedby(citybike, cimatti)<br>                performer(kaimancross, ent_1972)<br>                country(ent_1937, ent_1984)<br>                notablework(france, norway)<br>                haspart(olympic, cimatti)<br>                country(olympic, ent_1984)<br>                notablework(the1970s, citybike)<br>                locatedintheadministrativeterritorialentity(olympic, ent_1984)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 13</h4>
+      <p>                manufacturer(townbike, cimatti)<br>                manufacturer(sportluxury, cimatti)<br>                locationofformation(cimatti, bologna)<br>                memberof(marcocimatti, olympic)<br>                locatedintheadministrativeterritorialentity(cimatti, italian)<br>                foundedby(cimatti, cimatti)<br>                manufacturer(citybike, cimatti)<br>                father(enrico, marcocimatti)<br>                manufacturer(kaimancross, cimatti)<br>                foundedby(cimatti, marcocimatti)<br>                locatedintheadministrativeterritorialentity(cimatti, bologna)<br>                dissolvedabolishedordemolished(cimatti, ent_1984)<br>                inception(cimatti, ent_1937)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">father(enrico, marcocimatti)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">child(marcocimatti, enrico)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">countryofcitizenship(enrico, italian)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">country(cimatti, italian), child(cimatti, enrico)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

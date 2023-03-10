@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Christian Hee Hwass</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Christian Hee Hwass</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Christian Hee Hwass ( 1731 – 1803 ) was a Danish malacologist who is remembered for his work in conchology .
+Although born in Denmark , Hwass did most of his important work in France .
+He moved to Paris in 1780 , and later Auteuil ( 1794 ) .
+In France , he collaborated with famous scientists Jean - Baptiste Lamarck ( 1744 – 1829 ) and Heinrich Christian Friedrich Schumacher ( 1757 – 1830 ) , a fellow Dane on a research trip in Paris during the 1780s .
+Hwass is remembered for amassing a large shell collection that included numerous rare specimens .
+Many European scientists used the collection as a reference work for their personal publications .
+Hwass 's best - known written work was the 1792 publication of Encyclopedie Methodique .
+Although his friend , Jean Guillaume Bruguière ( 1750 – 1798 ) , is often credited as author of the encyclopedia , the majority of the work was done by Hwass .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.72<br> Recall: 0.783<br> F1 Score: 0.75 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 18</h4>
+      <p>                dateofdeath(jeanbaptistelamarck, ent_1829)<br>                dateofbirth(jeanguillaumebruguire, ent_1750)<br>                dateofdeath(christianheehwass, ent_1803)<br>                dateofdeath(heinrichchristianfriedrichschumacher, ent_1830)<br>                author(encyclopediemethodique, christianheehwass)<br>                locatedintheadministrativeterritorialentity(auteuil, france)<br>                locatedintheadministrativeterritorialentity(paris, france)<br>                dateofdeath(jeanguillaumebruguire, ent_1798)<br>                country(auteuil, france)<br>                placeofbirth(christianheehwass, denmark)<br>                dateofbirth(heinrichchristianfriedrichschumacher, ent_1757)<br>                countryofcitizenship(christianheehwass, denmark)<br>                dateofbirth(christianheehwass, ent_1731)<br>                countryofcitizenship(jeanbaptistelamarck, france)<br>                dateofbirth(jeanbaptistelamarck, ent_1744)<br>                notablework(christianheehwass, encyclopediemethodique)<br>                country(paris, france)<br>                countryofcitizenship(christianheehwass, danish)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 7</h4>
+      <p>                publicationdate(encyclopediemethodique, ent_1792)<br>                countryofcitizenship(heinrichchristianfriedrichschumacher, france)<br>                continent(paris, european)<br>                countryofcitizenship(christianheehwass, france)<br>                residence(christianheehwass, auteuil)<br>                locatedintheadministrativeterritorialentity(auteuil, paris)<br>                continent(france, european)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 5</h4>
+      <p>                countryofcitizenship(jeanguillaumebruguire, france)<br>                countryofcitizenship(christianheehwass, dane)<br>                author(encyclopediemethodique, jeanguillaumebruguire)<br>                notablework(jeanguillaumebruguire, encyclopediemethodique)<br>                worklocation(christianheehwass, paris)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">worklocation(christianheehwass, paris)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">countryofcitizenship(christianheehwass, france), locatedintheadministrativeterritorialentity(paris, france)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

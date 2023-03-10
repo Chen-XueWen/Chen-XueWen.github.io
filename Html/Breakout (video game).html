@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Breakout (video game)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Breakout (video game)</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Breakout is an arcade game developed and published by Atari , Inc. , released on May 13 , 1976 .
+It was conceptualized by Nolan Bushnell and Steve Bristow , influenced by the 1972 Atari arcade game Pong , and built by Steve Wozniak aided by Steve Jobs .
+Breakout was the basis and inspiration for certain aspects of the Apple II personal computer .
+The game was ported to the Atari 2600 and was followed by a 1978 sequel , Super Breakout , which four years later became the pack - in game for the Atari 5200 console .
+Breakout spawned an entire genre of Breakout clones , and the concept found new legs with Taito 's 1986 Arkanoid which itself found dozens of imitators .
+In Breakout , a layer of bricks lines the top third of the screen .
+A ball travels across the screen , bouncing off the top and side walls of the screen .
+When a brick is hit , the ball bounces away and the brick is destroyed .
+The player loses a turn when the ball touches the bottom of the screen .
+To prevent this from happening , the player has a movable paddle to bounce the ball upward , keeping it in play .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.667<br> Recall: 0.69<br> F1 Score: 0.678 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 20</h4>
+      <p>                developer(atari2600, atariinc)<br>                publicationdate(arkanoid, ent_1986)<br>                developer(arkanoid, taito)<br>                platform(superbreakout, atari2600)<br>                publisher(arkanoid, taito)<br>                manufacturer(atari5200, atariinc)<br>                publicationdate(superbreakout, ent_1978)<br>                developer(breakout, stevewozniak)<br>                publisher(pong, atariinc)<br>                publicationdate(pong, ent_1972)<br>                platform(superbreakout, atari5200)<br>                followedby(atari2600, atari5200)<br>                publisher(superbreakout, atariinc)<br>                platform(breakout, atari5200)<br>                publicationdate(breakout, may131976)<br>                platform(breakout, atari2600)<br>                developer(superbreakout, atariinc)<br>                publisher(breakout, atariinc)<br>                follows(atari5200, atari2600)<br>                manufacturer(atari2600, atariinc)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 10</h4>
+      <p>                notablework(stevewozniak, breakout)<br>                followedby(superbreakout, breakout)<br>                productormaterialproduced(atariinc, atari5200)<br>                notablework(stevewozniak, superbreakout)<br>                notablework(stevejobs, breakout)<br>                developer(superbreakout, stevewozniak)<br>                platform(breakout, appleii)<br>                creator(breakout, stevejobs)<br>                follows(breakout, superbreakout)<br>                platform(arkanoid, atari2600)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 9</h4>
+      <p>                productormaterialproduced(atariinc, pong)<br>                haspart(breakout, superbreakout)<br>                series(superbreakout, breakout)<br>                developer(appleii, stevewozniak)<br>                developer(atari5200, atariinc)<br>                developer(pong, atariinc)<br>                developer(breakout, atariinc)<br>                followedby(breakout, superbreakout)<br>                follows(superbreakout, breakout)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">developer(atari5200, atariinc)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">manufacturer(atari5200, atariinc)</div>
+<div class="panel-body">productormaterialproduced(atariinc, atari5200)</div>
+<div class="panel-body">manufacturer(atari2600, atariinc), followedby(atari2600, atari5200)</div>
+<div class="panel-body">publisher(breakout, atariinc), platform(breakout, atari5200)</div>
+<div class="panel-body">publisher(superbreakout, atariinc), platform(superbreakout, atari5200)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">platform(pong, atari5200)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">publisher(pong, atariinc), productormaterialproduced(atariinc, atari5200)</div>
+<div class="panel-body">manufacturer(atari5200, atariinc), publisher(pong, atariinc)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

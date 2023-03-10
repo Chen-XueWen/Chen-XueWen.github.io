@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Aramis Ayala</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Aramis Ayala</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Aramis Ayala ( born February 2 , 1975 ) is the State Attorney for the Ninth Judicial Circuit Court of Florida .
+Ayala was elected in November 2016 , and serves as the chief prosecutor .
+Ayala was born in Saginaw , Michigan , and graduated from the University of Michigan with an undergraduate degree .
+She then obtained her law degree from the University of Detroit .
+Controversy arose after she announced she would not seek capital punishment in any case , causing Governor Rick Scott to reassign potential death penalty cases to another State Attorney .
+Ayala has filed lawsuits disputing this action in the Supreme Court of Florida , and in federal court .
+Ayala lost her Supreme Court case against Gov Rick Scott .
+The Florida Supreme Court ruled against Ayala saying the Governor was within his power to take cases away from Ayala because of her position to abandon the death penalty .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.778<br> Recall: 0.583<br> F1 Score: 0.667 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 7</h4>
+      <p>                educatedat(ayala, universityofmichigan)<br>                placeofbirth(ayala, saginaw)<br>                locatedintheadministrativeterritorialentity(supremecourt, florida)<br>                locatedintheadministrativeterritorialentity(ninthjudicialcircuitcourt, florida)<br>                educatedat(ayala, universityofdetroit)<br>                locatedintheadministrativeterritorialentity(floridasupremecourt, florida)<br>                dateofbirth(ayala, february21975)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 2</h4>
+      <p>                locatedintheadministrativeterritorialentity(saginaw, michigan)<br>                locatedintheadministrativeterritorialentity(supremecourt, michigan)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 5</h4>
+      <p>                appliestojurisdiction(supremecourt, florida)<br>                appliestojurisdiction(rickscott, florida)<br>                appliestojurisdiction(floridasupremecourt, florida)<br>                headofgovernment(florida, rickscott)<br>                locatedintheadministrativeterritorialentity(universityofmichigan, michigan)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">appliestojurisdiction(supremecourt, florida)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(supremecourt, florida)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">appliestojurisdiction(floridasupremecourt, florida)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(floridasupremecourt, florida)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

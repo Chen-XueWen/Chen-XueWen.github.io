@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Baltimore and Ohio Railroad Martinsburg Shops</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Baltimore and Ohio Railroad Martinsburg Shops</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Baltimore and Ohio Railroad Martinsburg Shops is a historic industrial district in Martinsburg , West Virginia .
+It is significant both for its railroading architecture by Albert Fink and John Rudolph Niernsee and for its role in the Great Railroad Strike of 1877 .
+It consists of three contributing buildings , one of which is the oldest covered roundhouse in the United States .
+The presence of the Baltimore and Ohio Railroad Company in Martinsburg dates back to the late 1840s , when the first engine and machine shops were erected for the expanding company .
+The shops were designated a National Historic Landmark and placed on the National Register of Historic Places in 2003 .
+They are now managed by a local authority as an event venue .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.421<br> Recall: 0.842<br> F1 Score: 0.561 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 16</h4>
+      <p>                country(martinsburg, theunitedstates)<br>                locatedintheadministrativeterritorialentity(martinsburg, westvirginia)<br>                locatedintheadministrativeterritorialentity(baltimoreandohiorailroadcompany, theunitedstates)<br>                containsadministrativeterritorialentity(theunitedstates, westvirginia)<br>                country(westvirginia, theunitedstates)<br>                pointintime(greatrailroadstrike, ent_1877)<br>                locatedintheadministrativeterritorialentity(baltimoreandohiorailroadmartinsburgshops, martinsburg)<br>                locatedintheadministrativeterritorialentity(martinsburg, theunitedstates)<br>                locatedintheadministrativeterritorialentity(westvirginia, theunitedstates)<br>                locatedintheadministrativeterritorialentity(baltimoreandohiorailroadmartinsburgshops, theunitedstates)<br>                country(baltimoreandohiorailroadmartinsburgshops, theunitedstates)<br>                country(nationalregisterofhistoricplaces, theunitedstates)<br>                country(greatrailroadstrike, theunitedstates)<br>                locatedintheadministrativeterritorialentity(baltimoreandohiorailroadmartinsburgshops, westvirginia)<br>                country(nationalhistoriclandmark, theunitedstates)<br>                country(baltimoreandohiorailroadcompany, theunitedstates)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 22</h4>
+      <p>                creator(westvirginia, ent_2003)<br>                originalnetwork(westvirginia, ent_1877)<br>                countryofcitizenship(albertfink, theunitedstates)<br>                countryoforigin(nationalregisterofhistoricplaces, martinsburg)<br>                country(ent_1877, martinsburg)<br>                haspart(westvirginia, baltimoreandohiorailroadmartinsburgshops)<br>                notablework(ent_2003, westvirginia)<br>                notablework(greatrailroadstrike, westvirginia)<br>                series(baltimoreandohiorailroadmartinsburgshops, westvirginia)<br>                notablework(ent_2003, baltimoreandohiorailroadmartinsburgshops)<br>                director(baltimoreandohiorailroadmartinsburgshops, greatrailroadstrike)<br>                producer(baltimoreandohiorailroadmartinsburgshops, ent_2003)<br>                notablework(greatrailroadstrike, baltimoreandohiorailroadmartinsburgshops)<br>                countryoforigin(baltimoreandohiorailroadmartinsburgshops, martinsburg)<br>                locatedintheadministrativeterritorialentity(ent_1877, martinsburg)<br>                screenwriter(baltimoreandohiorailroadmartinsburgshops, johnrudolphniernsee)<br>                countryofcitizenship(greatrailroadstrike, martinsburg)<br>                series(baltimoreandohiorailroadmartinsburgshops, nationalregisterofhistoricplaces)<br>                haspart(nationalregisterofhistoricplaces, baltimoreandohiorailroadmartinsburgshops)<br>                locationofformation(ent_1877, martinsburg)<br>                countryoforigin(westvirginia, martinsburg)<br>                director(westvirginia, greatrailroadstrike)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 3</h4>
+      <p>                subclassof(nationalhistoriclandmark, nationalregisterofhistoricplaces)<br>                endtime(greatrailroadstrike, ent_1877)<br>                starttime(greatrailroadstrike, ent_1877)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">containsadministrativeterritorialentity(westvirginia, martinsburg)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(martinsburg, westvirginia)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(martinsburg, theunitedstates), country(westvirginia, theunitedstates)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(martinsburg, theunitedstates), locatedintheadministrativeterritorialentity(westvirginia, theunitedstates)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

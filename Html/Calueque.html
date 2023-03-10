@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Calueque</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Calueque</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Calueque is a town next to a dam and pumping station of the same name on the Kunene River in the Kunene Province of southern Angola .
+The water project is linked to Ruacana , away in Namibia , where the Ruacana Power Station is .
+This dam is one of the last landmarks along the Kunene River , prior to the Kunene becoming a border feature between Angola and Namibia .
+A pipeline and canal extends across the border into Namibia , supplying towns as far away as Oshakati in Ovamboland with water .
+The dam was completed in 1976 .
+However , due to the onset of the Angolan civil war following independence , the full master plan for the scheme was not realised by the South African and Portuguese governments .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.408<br> Recall: 0.909<br> F1 Score: 0.563 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 20</h4>
+      <p>                locatedintheadministrativeterritorialentity(ruacanapowerstation, namibia)<br>                country(kuneneriver, namibia)<br>                locatedintheadministrativeterritorialentity(calueque, angola)<br>                containsadministrativeterritorialentity(angola, kuneneprovince)<br>                country(oshakati, namibia)<br>                locatedintheadministrativeterritorialentity(oshakati, namibia)<br>                country(kuneneriver, angola)<br>                country(ovamboland, namibia)<br>                locatedintheadministrativeterritorialentity(ovamboland, namibia)<br>                containsadministrativeterritorialentity(namibia, ovamboland)<br>                locatedintheadministrativeterritorialentity(oshakati, ovamboland)<br>                locatedintheadministrativeterritorialentity(calueque, kuneneprovince)<br>                country(ruacana, namibia)<br>                locatedintheadministrativeterritorialentity(kuneneriver, namibia)<br>                locatedintheadministrativeterritorialentity(ruacana, namibia)<br>                country(calueque, angola)<br>                locatedintheadministrativeterritorialentity(kuneneriver, angola)<br>                country(kuneneprovince, angola)<br>                country(ruacanapowerstation, namibia)<br>                locatedintheadministrativeterritorialentity(kuneneprovince, angola)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 29</h4>
+      <p>                country(kuneneprovince, namibia)<br>                locatedintheadministrativeterritorialentity(calueque, ovamboland)<br>                country(ovamboland, angola)<br>                country(calueque, kuneneriver)<br>                country(ruacanapowerstation, angola)<br>                containsadministrativeterritorialentity(kuneneriver, kuneneprovince)<br>                locatedintheadministrativeterritorialentity(ovamboland, angola)<br>                locatedintheadministrativeterritorialentity(oshakati, kuneneriver)<br>                locatedintheadministrativeterritorialentity(kuneneprovince, kuneneriver)<br>                locatedintheadministrativeterritorialentity(oshakati, angola)<br>                country(angola, kuneneriver)<br>                country(calueque, namibia)<br>                capitalof(calueque, ovamboland)<br>                containsadministrativeterritorialentity(kuneneriver, ovamboland)<br>                containsadministrativeterritorialentity(angola, ovamboland)<br>                locatedintheadministrativeterritorialentity(ovamboland, kuneneriver)<br>                country(oshakati, kuneneriver)<br>                locatedintheadministrativeterritorialentity(kuneneprovince, namibia)<br>                country(ruacana, angola)<br>                locatedintheadministrativeterritorialentity(calueque, kuneneriver)<br>                locatedintheadministrativeterritorialentity(angola, kuneneriver)<br>                country(oshakati, angola)<br>                locatedintheadministrativeterritorialentity(angola, kuneneprovince)<br>                containsadministrativeterritorialentity(ovamboland, calueque)<br>                locatedintheadministrativeterritorialentity(calueque, namibia)<br>                country(ovamboland, kuneneriver)<br>                locatedintheadministrativeterritorialentity(ruacanapowerstation, angola)<br>                country(kuneneprovince, kuneneriver)<br>                capital(ovamboland, calueque)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 2</h4>
+      <p>                locatedintheadministrativeterritorialentity(kuneneriver, kuneneprovince)<br>                locatedintheadministrativeterritorialentity(ruacanapowerstation, ruacana)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">locatedintheadministrativeterritorialentity(kuneneriver, kuneneprovince)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">country(kuneneprovince, namibia), country(kuneneriver, namibia)</div>
+<div class="panel-body">country(kuneneprovince, angola), country(kuneneriver, angola)</div>
+<div class="panel-body">containsadministrativeterritorialentity(angola, kuneneprovince), country(kuneneriver, angola)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

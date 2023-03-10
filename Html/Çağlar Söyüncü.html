@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Çağlar Söyüncü</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Çağlar Söyüncü</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Çağlar Söyüncü ( born 23 May 1996 ) is a Turkish professional footballer , who plays as a defender for Premier League side Leicester City and the Turkish national team .
+Joining SC Freiburg in 2016 Bundesliga summer transfer window , he is the first Turkish footballer who made a transfer to Bundesliga directly from TFF First League , the second highest professional level football league of Turkey .
+Making his senior national team debut in 2016 , Söyüncü is the first Altınordu S.K.
+player called up to Turkey national football team after 78 years , since Sait Altınordu , the iconic player of the club , was selected in 1937 .
+He is also the first player called up to national team from any İzmir - based football clubs since 1997 .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.5<br> Recall: 0.735<br> F1 Score: 0.595 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 25</h4>
+      <p>                locatedintheadministrativeterritorialentity(tfffirstleague, turkey)<br>                country(altnordusk, turkey)<br>                league(scfreiburg, bundesliga)<br>                country(zmir, turkey)<br>                countryofcitizenship(alarsync, turkish)<br>                locatedintheadministrativeterritorialentity(tfffirstleague, turkish)<br>                locatedintheadministrativeterritorialentity(zmir, turkey)<br>                countryofcitizenship(alarsync, turkey)<br>                memberofsportsteam(alarsync, leicestercity)<br>                locatedintheadministrativeterritorialentity(altnordusk, turkey)<br>                league(leicestercity, premierleague)<br>                country(tfffirstleague, turkey)<br>                locatedintheadministrativeterritorialentity(zmir, turkish)<br>                dateofbirth(sync, ent_23may1996)<br>                countryofcitizenship(saitaltnordu, turkey)<br>                memberofsportsteam(alarsync, scfreiburg)<br>                memberofsportsteam(sync, scfreiburg)<br>                countryofcitizenship(sync, turkish)<br>                country(altnordusk, turkish)<br>                countryofcitizenship(sync, turkey)<br>                country(tfffirstleague, turkish)<br>                memberof(saitaltnordu, altnordusk)<br>                country(zmir, turkish)<br>                dateofbirth(alarsync, ent_23may1996)<br>                memberof(sync, altnordusk)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 25</h4>
+      <p>                memberofsportsteam(alarsync, altnordusk)<br>                platform(leicestercity, altnordusk)<br>                league(zmir, tfffirstleague)<br>                platform(alarsync, ent_2016)<br>                follows(alarsync, leicestercity)<br>                followedby(leicestercity, alarsync)<br>                productormaterialproduced(bundesliga, tfffirstleague)<br>                developer(leicestercity, ent_23may1996)<br>                platform(leicestercity, sync)<br>                publicationdate(alarsync, scfreiburg)<br>                developer(tfffirstleague, bundesliga)<br>                platform(alarsync, tfffirstleague)<br>                haspart(zmir, leicestercity)<br>                developer(alarsync, ent_23may1996)<br>                platform(alarsync, turkey)<br>                platform(alarsync, altnordusk)<br>                publisher(alarsync, turkish)<br>                characters(leicestercity, saitaltnordu)<br>                memberofsportsteam(sync, leicestercity)<br>                publisher(leicestercity, turkish)<br>                publicationdate(leicestercity, premierleague)<br>                platform(leicestercity, tfffirstleague)<br>                series(leicestercity, zmir)<br>                platform(alarsync, sync)<br>                platform(alarsync, ent_78years)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 9</h4>
+      <p>                memberof(alarsync, altnordusk)<br>                memberof(sync, leicestercity)<br>                countryofcitizenship(saitaltnordu, turkish)<br>                league(sync, bundesliga)<br>                locatedintheadministrativeterritorialentity(altnordusk, turkish)<br>                memberof(saitaltnordu, turkish)<br>                memberofsportsteam(alarsync, turkey)<br>                league(alarsync, bundesliga)<br>                locatedintheadministrativeterritorialentity(altnordusk, zmir)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">countryofcitizenship(saitaltnordu, turkish)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">memberof(saitaltnordu, altnordusk), country(altnordusk, turkish)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">memberofsportsteam(alarsync, zmir)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">country(zmir, turkey), countryofcitizenship(alarsync, turkey)</div>
+<div class="panel-body">country(zmir, turkish), countryofcitizenship(alarsync, turkish)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(zmir, turkey), countryofcitizenship(alarsync, turkey)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(zmir, turkish), countryofcitizenship(alarsync, turkish)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bombtrack</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Bombtrack</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>" Bombtrack " is a song by American rap metal band Rage Against the Machine that opens their self - titled debut album .
+Like most of Rage Against the Machine 's songs , the song 's lyrics discuss social inequality , proclaiming that " landlords and power whores " were going to " burn " .
+The riffs were composed by Rage Against the Machine bassist Tim Commerford .
+The song is one of three on the album in the key of F along with " Know Your Enemy " and " Fistful of Steel " .
+Impressed by their song , Rage Against the Machine named it Bombtrack in reference to hip hop terminology where the word ' bomb ' means ' the greatest ' , making the song title literally mean ' the greatest track ' .
+A music video was released , depicting support for the Peruvian Maoist terrorist organization , Sendero Luminoso and its leader Abimael Guzman .
+The video clip did not appear on the group 's first home video , citing Rage 's first altered political opinion .
+In 2003 , the video finally appeared as bonus material on their Live at the Grand Olympic Auditorium DVD .
+The single artwork features Cuban photographer Alberto Korda 's famous image of Che Guevara , Guerrillero Heroico .
+A mirrored version of the iconic two - tone portrait by Irish artist Jim Fitzpatrick ( T - shirt version ) .
+Perhaps the song 's most notable appearance outside of the music industry would be its appearance in Oliver Stone 's controversial film Natural Born Killers , when Mickey breaks out of his prison cell in search of Mallory .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.727<br> Recall: 0.421<br> F1 Score: 0.533 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 16</h4>
+      <p>                countryoforigin(knowyourenemy, american)<br>                memberof(timcommerford, rageagainstthemachine)<br>                performer(fistfulofsteel, rageagainstthemachine)<br>                performer(knowyourenemy, rageagainstthemachine)<br>                notablework(timcommerford, bombtrack)<br>                haspart(rageagainstthemachine, timcommerford)<br>                notablework(rageagainstthemachine, fistfulofsteel)<br>                presentinwork(mickey, naturalbornkillers)<br>                director(naturalbornkillers, oliverstone)<br>                notablework(rageagainstthemachine, knowyourenemy)<br>                partof(timcommerford, rageagainstthemachine)<br>                countryofcitizenship(albertokorda, cuban)<br>                performer(bombtrack, rageagainstthemachine)<br>                notablework(oliverstone, naturalbornkillers)<br>                countryofcitizenship(timcommerford, american)<br>                notablework(rageagainstthemachine, bombtrack)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 6</h4>
+      <p>                memberof(abimaelguzman, rageagainstthemachine)<br>                characters(naturalbornkillers, mickey)<br>                memberof(abimaelguzman, senderoluminoso)<br>                haspart(rageagainstthemachine, abimaelguzman)<br>                partof(abimaelguzman, rageagainstthemachine)<br>                performer(bombtrack, timcommerford)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 22</h4>
+      <p>                presentinwork(mallory, naturalbornkillers)<br>                notablework(rageagainstthemachine, grandolympicauditoriumdvd)<br>                haspart(fistfulofsteel, bombtrack)<br>                countryoforigin(bombtrack, american)<br>                performer(grandolympicauditoriumdvd, rageagainstthemachine)<br>                country(rageagainstthemachine, american)<br>                countryofcitizenship(jimfitzpatrick, irish)<br>                chairperson(senderoluminoso, abimaelguzman)<br>                countryoforigin(fistfulofsteel, american)<br>                creator(guerrilleroheroico, albertokorda)<br>                haspart(rageagainstthemachine, bombtrack)<br>                notablework(albertokorda, guerrilleroheroico)<br>                residence(cheguevara, cuban)<br>                partof(bombtrack, rageagainstthemachine)<br>                locatedintheadministrativeterritorialentity(rageagainstthemachine, american)<br>                lyricsby(bombtrack, timcommerford)<br>                composer(bombtrack, timcommerford)<br>                partof(abimaelguzman, senderoluminoso)<br>                memberofpoliticalparty(abimaelguzman, senderoluminoso)<br>                haspart(senderoluminoso, abimaelguzman)<br>                partof(bombtrack, fistfulofsteel)<br>                foundedby(senderoluminoso, abimaelguzman)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">countryoforigin(bombtrack, american)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">countryofcitizenship(timcommerford, american), notablework(timcommerford, bombtrack)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">notablework(timcommerford, knowyourenemy)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">countryoforigin(knowyourenemy, american), countryofcitizenship(timcommerford, american)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">screenwriter(naturalbornkillers, oliverstone)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">notablework(oliverstone, naturalbornkillers)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

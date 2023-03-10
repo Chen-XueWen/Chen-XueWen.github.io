@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Belmopan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Belmopan</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Belmopan ( ) is the capital city of Belize .
+Its population in 2010 was 16,451 .
+Although the smallest capital city in the continental Americas by population , Belmopan is the third - largest settlement in Belize , behind Belize City and San Ignacio .
+Founded as a planned community in 1970 , Belmopan is one of the newest national capital cities in the world .
+Since 2000 Belmopan has been one of two settlements in Belize to hold official city status , along with Belize City .
+Belmopan is located in Cayo District at an altitude of above sea level .
+Belmopan was constructed just to the east of the Belize River , inland from the former capital , the port of Belize City , after that city 's near destruction by Hurricane Hattie in 1961 .
+The government was moved to Belmopan in 1970 .
+Its National Assembly Building is designed to resemble a Pre - Columbian Maya temple .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.852<br> Recall: 0.697<br> F1 Score: 0.767 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 23</h4>
+      <p>                country(belmopan, belize)<br>                country(belizecity, belize)<br>                continent(sanignacio, americas)<br>                capitalof(belmopan, belize)<br>                locatedinornexttobodyofwater(belizecity, belizeriver)<br>                locatedintheadministrativeterritorialentity(belizeriver, belize)<br>                locatedintheadministrativeterritorialentity(cayodistrict, belize)<br>                country(nationalassemblybuilding, belize)<br>                containsadministrativeterritorialentity(belize, cayodistrict)<br>                locatedintheadministrativeterritorialentity(belmopan, belize)<br>                locatedintheadministrativeterritorialentity(sanignacio, belize)<br>                capital(belize, belmopan)<br>                locatedintheadministrativeterritorialentity(belizecity, belize)<br>                inception(belmopan, ent_1970)<br>                locatedintheadministrativeterritorialentity(belmopan, cayodistrict)<br>                country(belizeriver, belize)<br>                partof(belize, americas)<br>                continent(belizecity, americas)<br>                haspart(americas, belize)<br>                country(cayodistrict, belize)<br>                country(sanignacio, belize)<br>                locatedintheadministrativeterritorialentity(nationalassemblybuilding, belize)<br>                continent(belize, americas)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 4</h4>
+      <p>                locatedinornexttobodyofwater(belize, belizeriver)<br>                capital(belize, belizecity)<br>                capitalof(belmopan, cayodistrict)<br>                capitalof(belizecity, belize)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 10</h4>
+      <p>                continent(belmopan, americas)<br>                country(hurricanehattie, belize)<br>                continent(belizeriver, americas)<br>                pointintime(hurricanehattie, ent_1961)<br>                endtime(hurricanehattie, ent_1961)<br>                locatedinornexttobodyofwater(belmopan, belizeriver)<br>                locatedintheadministrativeterritorialentity(nationalassemblybuilding, belmopan)<br>                starttime(hurricanehattie, ent_1961)<br>                locatedintheadministrativeterritorialentity(nationalassemblybuilding, cayodistrict)<br>                containsadministrativeterritorialentity(belize, belmopan)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">continent(belmopan, americas)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(belmopan, belize), haspart(americas, belize)</div>
+<div class="panel-body">country(belmopan, belize), haspart(americas, belize)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">containsadministrativeterritorialentity(belize, belmopan)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(belmopan, belize)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(cayodistrict, belize), locatedintheadministrativeterritorialentity(belmopan, cayodistrict)</div>
+<div class="panel-body">country(belmopan, belize)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

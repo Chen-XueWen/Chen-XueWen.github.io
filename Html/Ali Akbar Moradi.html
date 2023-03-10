@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ali Akbar Moradi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Ali Akbar Moradi</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Ali Akbar Moradi ( Kurdish ʿElî Ekber Muradî , عەلی ئەکبەر مورادی ; born 1957 ) is a well known Kurdish musician and composer .
+He was born in Gahwareh , Kermanshah Province , Iran .
+He started music at a very early age , and learned the Kurdish maqam repertoire and tanbur ( Kurdish lute ) under the supervision of Kurdish masters such as Mirza Sayyed Ali Kafashyan , Kaki Allah Morad Hamidi and Sayyed Vali Hosseyni .
+He gave his first recital in 1971 in Kermanshah .
+In 1981 , he began collaborating with the Kurdish singer Shahram Nazeri , and performed throughout Europe and North America .
+He is an expert on the tanbur instrument , which is considered sacred in Kurdish sufi music .
+He has performed music in New York , San Francisco and London .
+On September 30 , 2006 , he gives a special program as part of Voices of Kurdistan in San Francisco World Music Festival , he has been appointed as one of fifty of the best musicians around the globe by a British music magazine .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.706<br> Recall: 0.522<br> F1 Score: 0.6 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 12</h4>
+      <p>                country(kermanshahprovince, iran)<br>                country(kermanshah, iran)<br>                country(gahwareh, iran)<br>                locatedintheadministrativeterritorialentity(gahwareh, kermanshahprovince)<br>                placeofbirth(aliakbarmoradi, gahwareh)<br>                containsadministrativeterritorialentity(iran, kermanshahprovince)<br>                dateofbirth(aliakbarmoradi, ent_1957)<br>                locatedintheadministrativeterritorialentity(kermanshahprovince, iran)<br>                countryofcitizenship(aliakbarmoradi, iran)<br>                locatedintheadministrativeterritorialentity(kermanshah, iran)<br>                placeofbirth(aliakbarmoradi, kermanshahprovince)<br>                locatedintheadministrativeterritorialentity(gahwareh, iran)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 5</h4>
+      <p>                countryofcitizenship(shahramnazeri, kurdish)<br>                country(london, british)<br>                continent(iran, europe)<br>                locatedintheadministrativeterritorialentity(london, british)<br>                languagesspokenwrittenorsigned(shahramnazeri, kurdish)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 11</h4>
+      <p>                ethnicgroup(iran, kurdish)<br>                ethnicgroup(mirzasayyedalikafashyan, kurdish)<br>                countryofcitizenship(shahramnazeri, iran)<br>                locatedintheadministrativeterritorialentity(kurdish, iran)<br>                containsadministrativeterritorialentity(iran, kermanshah)<br>                locatedintheadministrativeterritorialentity(kermanshah, kermanshahprovince)<br>                location(sanfranciscoworldmusicfestival, sanfrancisco)<br>                languagesspokenwrittenorsigned(mirzasayyedalikafashyan, kurdish)<br>                ethnicgroup(shahramnazeri, kurdish)<br>                country(kurdish, iran)<br>                ethnicgroup(aliakbarmoradi, kurdish)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">containsadministrativeterritorialentity(iran, kermanshah)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(kermanshah, iran)</div>
+<div class="panel-body">country(kermanshah, iran)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">locatedintheadministrativeterritorialentity(kermanshah, kermanshahprovince)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">country(kermanshahprovince, iran), country(kermanshah, iran)</div>
+<div class="panel-body">containsadministrativeterritorialentity(iran, kermanshahprovince), country(kermanshah, iran)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">containsadministrativeterritorialentity(kermanshahprovince, gahwareh)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(gahwareh, kermanshahprovince)</div>
+<div class="panel-body">placeofbirth(aliakbarmoradi, kermanshahprovince), placeofbirth(aliakbarmoradi, gahwareh)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(gahwareh, iran), country(kermanshahprovince, iran)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(gahwareh, iran), locatedintheadministrativeterritorialentity(kermanshahprovince, iran)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

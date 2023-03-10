@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bajofondo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Bajofondo</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Bajofondo is a Río de la Plata - based music band consisting of eight musicians from Argentina and Uruguay , which aims to create a more contemporary version of tango and other musical styles of the Río de la Plata region .
+It was founded in the early 2000s as a studio experiment , which culminated into the successful album Bajofondo Tango Club .
+This led to touring and eventually to the current lineup .
+Bajofondo calls itself a collaborative as all members have solo careers as well .
+The group has toured around the world , particularly in Latin America , the United States , Europe and parts of Asia .
+Their music is known to a wider audience than those who know their name as their music has been used in film and television .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.375<br> Recall: 0.375<br> F1 Score: 0.375 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 3</h4>
+      <p>                notablework(bajofondo, bajofondotangoclub)<br>                performer(bajofondotangoclub, bajofondo)<br>                locationofformation(bajofondo, rodelaplata)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 5</h4>
+      <p>                country(rodelaplata, argentina)<br>                locatedintheadministrativeterritorialentity(rodelaplata, uruguay)<br>                continent(uruguay, asia)<br>                country(rodelaplata, uruguay)<br>                locatedintheadministrativeterritorialentity(rodelaplata, argentina)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 5</h4>
+      <p>                partof(uruguay, latinamerica)<br>                haspart(latinamerica, argentina)<br>                partof(argentina, latinamerica)<br>                inception(bajofondo, ent_2000s)<br>                haspart(latinamerica, uruguay)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">containsadministrativeterritorialentity(argentina, rodelaplata)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(rodelaplata, argentina)</div>
+<div class="panel-body">country(rodelaplata, argentina)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>
