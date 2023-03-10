@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Leonessa</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Leonessa</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Leonessa is a town and comune in the far northeastern part of the Province of Rieti in the Lazio region of central Italy .
+Its population in 2008 was around 2,700 .
+Situated in a small plain at the foot of Mt.
+Terminillo , one of the highest mountains of the Apennine range , in the winter Leonessa is known mostly as a low - key staging center for the ski slopes of the Terminillo , and in the summer as a weekend vacation town frequented for the most part by Romans with local roots .
+Historically , the town is known mostly as the birthplace of St. Giuseppe di Leonessa .
+Until 1927 it was part of the province of L'Aquila .
+The town suffered one of the worst German reprisals during World War II when the Wehrmacht and the SS killed 51 inhabitants in early April 1944 .
+A monument dedicated to the dead was erected in 1959 .
+Typical food production include the local variety of potato , known as patata di Leonessa .
+Leonessa is twinned with the French town of Gonesse .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.762<br> Recall: 0.744<br> F1 Score: 0.753 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 32</h4>
+      <p>                locatedintheadministrativeterritorialentity(gonesse, french)<br>                participantof(ss, worldwarii)<br>                country(gonesse, french)<br>                conflict(wehrmacht, worldwarii)<br>                locatedintheadministrativeterritorialentity(apennine, italy)<br>                country(apennine, italy)<br>                participant(worldwarii, ss)<br>                conflict(ss, worldwarii)<br>                country(wehrmacht, german)<br>                country(lazio, italy)<br>                haspart(apennine, terminillo)<br>                containsadministrativeterritorialentity(italy, lazio)<br>                containsadministrativeterritorialentity(provinceofrieti, leonessa)<br>                locatedintheadministrativeterritorialentity(provinceofrieti, lazio)<br>                partof(terminillo, apennine)<br>                locatedintheadministrativeterritorialentity(leonessa, italy)<br>                locatedonterrainfeature(terminillo, apennine)<br>                locatedintheadministrativeterritorialentity(wehrmacht, german)<br>                locatedintheadministrativeterritorialentity(terminillo, italy)<br>                country(terminillo, italy)<br>                locatedintheadministrativeterritorialentity(laquila, italy)<br>                locatedintheadministrativeterritorialentity(leonessa, provinceofrieti)<br>                country(laquila, italy)<br>                locatedintheadministrativeterritorialentity(leonessa, lazio)<br>                containsadministrativeterritorialentity(lazio, provinceofrieti)<br>                locatedintheadministrativeterritorialentity(provinceofrieti, italy)<br>                country(provinceofrieti, italy)<br>                participantof(wehrmacht, worldwarii)<br>                country(leonessa, italy)<br>                locatedintheadministrativeterritorialentity(ss, german)<br>                country(ss, german)<br>                locatedintheadministrativeterritorialentity(lazio, italy)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 10</h4>
+      <p>                country(ss, italy)<br>                parentorganization(ss, wehrmacht)<br>                locatedintheadministrativeterritorialentity(terminillo, provinceofrieti)<br>                country(wehrmacht, italy)<br>                subsidiary(wehrmacht, ss)<br>                placeofdeath(stgiuseppedileonessa, leonessa)<br>                locatedintheadministrativeterritorialentity(ss, italy)<br>                locatedintheadministrativeterritorialentity(terminillo, lazio)<br>                locatedintheadministrativeterritorialentity(apennine, lazio)<br>                locatedintheadministrativeterritorialentity(wehrmacht, italy)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 11</h4>
+      <p>                parentorganization(wehrmacht, german)<br>                containsadministrativeterritorialentity(italy, laquila)<br>                sistercity(gonesse, leonessa)<br>                sistercity(leonessa, gonesse)<br>                participant(worldwarii, wehrmacht)<br>                countryofcitizenship(stgiuseppedileonessa, italy)<br>                subsidiary(german, wehrmacht)<br>                country(stgiuseppedileonessa, italy)<br>                country(patatadileonessa, italy)<br>                containsadministrativeterritorialentity(italy, provinceofrieti)<br>                placeofbirth(stgiuseppedileonessa, leonessa)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">placeofbirth(stgiuseppedileonessa, leonessa)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">placeofdeath(stgiuseppedileonessa, leonessa)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">participant(worldwarii, wehrmacht)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">participantof(wehrmacht, worldwarii)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

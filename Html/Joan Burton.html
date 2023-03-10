@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Joan Burton</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Joan Burton</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Joan Burton ( born 1 February 1949 ) is an Irish Labour Party politician who served as Tánaiste and Leader of the Labour Party from 2014 to 2016 , Minister for Social Protection from 2011 to 2016 , Deputy Leader of the Labour Party from 2007 to 2014 , Minister of State at the Department of Foreign Affairs from 1994 to 1997 and Minister of State at the Department of Social Welfare 1993 to 1994 .
+She has been a Teachta Dála ( TD ) for the Dublin West constituency since 2002 , and previously from 1992 to 1997 .
+Burton was first elected to Dáil Éireann at the 1992 general election .
+From 1995 to 1997 , she was Minister of State at the Department of Foreign Affairs .
+She lost her seat at the 1997 general election , but was re - elected to the Dáil at the 2002 general election .
+She was deputy leader of the Labour Party under Eamon Gilmore , between 2007 and 2014 .
+She was Tánaiste ( Deputy Prime Minister ) from 2014 to 2016 and Minister for Social Protection from 2011 to 2016 .
+She resigned as Labour Party leader in May 2016 , following heavy losses by the party in the 2016 general election .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.667<br> Recall: 0.444<br> F1 Score: 0.533 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 4</h4>
+      <p>                memberof(eamongilmore, irishlabourparty)<br>                memberofpoliticalparty(joanburton, labourparty)<br>                positionheld(joanburton, dil)<br>                dateofbirth(joanburton, ent_1february1949)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 2</h4>
+      <p>                memberof(eamongilmore, labourparty)<br>                memberof(joanburton, irishlabourparty)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 5</h4>
+      <p>                chairperson(labourparty, eamongilmore)<br>                memberofpoliticalparty(joanburton, irishlabourparty)<br>                memberofpoliticalparty(eamongilmore, labourparty)<br>                memberofpoliticalparty(eamongilmore, irishlabourparty)<br>                chairperson(irishlabourparty, eamongilmore)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">memberofpoliticalparty(joanburton, irishlabourparty)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">memberof(joanburton, irishlabourparty)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">memberofpoliticalparty(eamongilmore, labourparty)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">memberof(eamongilmore, labourparty)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

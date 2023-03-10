@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Joseph R. Anderson</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Joseph R. Anderson</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Joseph Reid Anderson ( February 16 , 1813 – September 7 , 1892 ) was an American civil engineer , industrialist , politician and soldier .
+During the American Civil War he served as a Confederate general , and his Tredegar Iron Company was a major source of munitions and ordnance for the Confederate States Army .
+Starting with a small forge and rolling mill in the mid-1830s , It was a flourishing operation by 1843 when he leased it .
+He eventually bought the company outright in 1848 and forcefully and aggressively built Tredegar Iron Works into the South 's largest and most significant iron works .
+When the Civil War broke out he entered the Army as a Brigadier General in 1861 .
+Shortly after he was wounded and then resigned from the Army returning to the iron works .
+It was the Confederacy 's major ( and for much of the war only ) source of cannons and munitions , employing some 900 workers , most of whom were slaves .
+His plant was confiscated by the Union army at the end of the war , but returned to him in 1867 and he remained president until his death .
+Anderson was very active in local civic and political affairs .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.914<br> Recall: 0.842<br> F1 Score: 0.877 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 32</h4>
+      <p>                militarybranch(josephreidanderson, confederatestatesarmy)<br>                dateofdeath(josephreidanderson, september71892)<br>                country(americancivilwar, american)<br>                locatedintheadministrativeterritorialentity(unionarmy, american)<br>                participantof(unionarmy, americancivilwar)<br>                country(army, american)<br>                participant(americancivilwar, unionarmy)<br>                country(tredegarironworks, american)<br>                instanceof(confederatestatesarmy, army)<br>                dateofbirth(josephreidanderson, february161813)<br>                participantof(confederatestatesarmy, americancivilwar)<br>                locatedintheadministrativeterritorialentity(tredegarironcompany, american)<br>                participant(americancivilwar, confederacy)<br>                starttime(americancivilwar, ent_1861)<br>                conflict(josephreidanderson, americancivilwar)<br>                participant(americancivilwar, confederatestatesarmy)<br>                militarybranch(josephreidanderson, army)<br>                participantof(confederacy, americancivilwar)<br>                country(unionarmy, american)<br>                participant(americancivilwar, josephreidanderson)<br>                conflict(unionarmy, americancivilwar)<br>                country(tredegarironcompany, american)<br>                country(confederacy, american)<br>                conflict(confederatestatesarmy, americancivilwar)<br>                locatedintheadministrativeterritorialentity(tredegarironworks, american)<br>                locatedintheadministrativeterritorialentity(confederacy, american)<br>                conflict(confederacy, americancivilwar)<br>                locatedintheadministrativeterritorialentity(army, american)<br>                locatedintheadministrativeterritorialentity(confederatestatesarmy, american)<br>                countryofcitizenship(josephreidanderson, american)<br>                country(confederatestatesarmy, american)<br>                participantof(josephreidanderson, americancivilwar)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 3</h4>
+      <p>                haspart(army, confederatestatesarmy)<br>                instanceof(unionarmy, army)<br>                militarybranch(josephreidanderson, confederacy)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 6</h4>
+      <p>                conflict(army, americancivilwar)<br>                participant(americancivilwar, army)<br>                parentorganization(confederatestatesarmy, confederacy)<br>                inception(confederatestatesarmy, ent_1861)<br>                subsidiary(confederacy, confederatestatesarmy)<br>                participantof(army, americancivilwar)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">instanceof(confederacy, army)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">country(army, american), country(confederacy, american)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

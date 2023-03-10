@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Loopline Bridge</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Loopline Bridge</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The Loopline Bridge ( or the Liffey Viaduct ) is a railway bridge spanning the River Liffey and several streets in Dublin , Ireland .
+It joins rail services from south of Dublin to Connolly Station and lines north .
+Designed by John Chaloner Smith ( engineer to the Dublin , Wicklow and Wexford Railway ) , the bridge was built between 1889 and 1891 .
+It consists of wrought iron lattice girders on a double row of piers with five spans .
+The viaduct is approximately six metres above street level and supports two railway tracks .
+During original planning and construction ( in the late 19th century ) the project was subject to much opposition and controversy , because the structure blocks the view down river to The Custom House .
+However , the bridge was deemed necessary as a rail link between north and south Dublin , and to facilitate the movement of transatlantic mail coming from Kingstown ( Dún Laoghaire ) and Queenstown ( Cobh ) .
+100 years later , the visage of the bridge remains the subject of some debate .
+Already arguably less attractive than some of Dublin 's other bridges , the façades of the Loopline have been used by Iarnród Éireann for billboard advertising .
+, the company has scaled back the bridge 's use for this purpose to reduce impact on the city skyline , following input from An Bord Pleanála and Dublin City Council .
+A prominent feature in the city landscape since 1891 , the Loopline Bridge appears in one of the most famous literary works associated with Dublin :
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.794<br> Recall: 0.871<br> F1 Score: 0.831 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 27</h4>
+      <p>                locatedintheadministrativeterritorialentity(thecustomhouse, ireland)<br>                locatedintheadministrativeterritorialentity(queenstown, ireland)<br>                locatedintheadministrativeterritorialentity(dublincitycouncil, ireland)<br>                country(dublincitycouncil, ireland)<br>                locatedintheadministrativeterritorialentity(connollystation, ireland)<br>                country(liffeyviaduct, ireland)<br>                country(dublinwicklowandwexfordrailway, ireland)<br>                country(riverliffey, ireland)<br>                locatedintheadministrativeterritorialentity(dublinwicklowandwexfordrailway, ireland)<br>                locatedintheadministrativeterritorialentity(liffeyviaduct, dublin)<br>                locatedinornexttobodyofwater(dublin, riverliffey)<br>                country(connollystation, ireland)<br>                country(kingstown, ireland)<br>                locatedintheadministrativeterritorialentity(dublin, ireland)<br>                legislativebody(dublin, dublincitycouncil)<br>                country(dublin, ireland)<br>                locatedintheadministrativeterritorialentity(riverliffey, ireland)<br>                locatedintheadministrativeterritorialentity(connollystation, dublin)<br>                country(queenstown, ireland)<br>                containsadministrativeterritorialentity(ireland, dublin)<br>                locatedintheadministrativeterritorialentity(riverliffey, dublin)<br>                country(anbordpleanla, ireland)<br>                country(thecustomhouse, ireland)<br>                appliestojurisdiction(dublincitycouncil, dublin)<br>                locatedonterrainfeature(liffeyviaduct, riverliffey)<br>                locatedintheadministrativeterritorialentity(liffeyviaduct, ireland)<br>                locatedintheadministrativeterritorialentity(kingstown, ireland)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 7</h4>
+      <p>                notablework(johnchalonersmith, liffeyviaduct)<br>                country(iarnrdireann, ireland)<br>                locatedintheadministrativeterritorialentity(iarnrdireann, ireland)<br>                legislativebody(ireland, dublincitycouncil)<br>                locatedintheadministrativeterritorialentity(queenstown, dublin)<br>                inception(liffeyviaduct, ent_1889)<br>                countryofcitizenship(anbordpleanla, ireland)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 4</h4>
+      <p>                locatedintheadministrativeterritorialentity(dublincitycouncil, dublin)<br>                locatedintheadministrativeterritorialentity(anbordpleanla, ireland)<br>                locatedinornexttobodyofwater(liffeyviaduct, riverliffey)<br>                locatedintheadministrativeterritorialentity(thecustomhouse, dublin)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">locatedintheadministrativeterritorialentity(anbordpleanla, ireland)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">country(anbordpleanla, ireland)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

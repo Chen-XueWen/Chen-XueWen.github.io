@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mariana Cook</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Mariana Cook</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Mariana Cook ( born 1955 ) is an American fine art photographer specializing in black and white photography and gelatin silver prints .
+Her work has been exhibited in the Metropolitan Museum of Art , the Museum of Modern Art , the J. Paul Getty Museum , the Boston Museum of Fine Arts , the National Portrait Gallery , the Bibliothèque Nationale , and the Musee d'Art Moderne .
+She is perhaps best known for her black and white portrait , A Couple in Chicago , which captures a young Barack and Michelle Obama in their 1996 Hyde Park apartment , and the accompanying interview for The New Yorker .
+Cook , the last surviving protégé of Ansel Adams , currently resides in New York City with her husband and daughter .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.312<br> Recall: 0.789<br> F1 Score: 0.448 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 15</h4>
+      <p>                locatedintheadministrativeterritorialentity(jpaulgettymuseum, american)<br>                locatedintheadministrativeterritorialentity(bibliothquenationale, american)<br>                country(jpaulgettymuseum, american)<br>                country(bostonmuseumoffinearts, american)<br>                country(nationalportraitgallery, american)<br>                countryofcitizenship(marianacook, american)<br>                locatedintheadministrativeterritorialentity(bostonmuseumoffinearts, american)<br>                country(museumofmodernart, american)<br>                country(bibliothquenationale, american)<br>                locatedintheadministrativeterritorialentity(metropolitanmuseumofart, american)<br>                locatedintheadministrativeterritorialentity(nationalportraitgallery, american)<br>                country(metropolitanmuseumofart, american)<br>                locatedintheadministrativeterritorialentity(museumofmodernart, american)<br>                dateofbirth(marianacook, ent_1955)<br>                spouse(michelleobama, barack)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 33</h4>
+      <p>                locatedintheadministrativeterritorialentity(metropolitanmuseumofart, bostonmuseumoffinearts)<br>                countryofcitizenship(barack, american)<br>                participantof(marianacook, newyorkcity)<br>                headofstate(american, barack)<br>                locatedintheadministrativeterritorialentity(thenewyorker, anseladams)<br>                memberofpoliticalparty(barack, michelleobama)<br>                follows(newyorkcity, hydepark)<br>                country(museedartmoderne, american)<br>                locatedintheadministrativeterritorialentity(museedartmoderne, american)<br>                locatedintheadministrativeterritorialentity(newyorkcity, american)<br>                country(newyorkcity, american)<br>                country(american, museumofmodernart)<br>                instanceof(hydepark, ent_1996)<br>                followedby(hydepark, newyorkcity)<br>                appliestojurisdiction(barack, american)<br>                locatedintheadministrativeterritorialentity(american, museumofmodernart)<br>                participant(hydepark, marianacook)<br>                locatedintheadministrativeterritorialentity(metropolitanmuseumofart, museumofmodernart)<br>                country(thenewyorker, anseladams)<br>                notablework(marianacook, acoupleinchicago)<br>                participantof(marianacook, hydepark)<br>                memberofsportsteam(marianacook, metropolitanmuseumofart)<br>                starttime(hydepark, michelleobama)<br>                containsadministrativeterritorialentity(anseladams, thenewyorker)<br>                country(metropolitanmuseumofart, museumofmodernart)<br>                locatedintheadministrativeterritorialentity(hydepark, american)<br>                headofgovernment(american, michelleobama)<br>                countryofcitizenship(anseladams, american)<br>                country(hydepark, american)<br>                participant(newyorkcity, marianacook)<br>                countryofcitizenship(marianacook, museumofmodernart)<br>                location(hydepark, thenewyorker)<br>                headofgovernment(american, barack)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 4</h4>
+      <p>                locatedintheadministrativeterritorialentity(metropolitanmuseumofart, newyorkcity)<br>                residence(barack, hydepark)<br>                residence(michelleobama, hydepark)<br>                spouse(barack, michelleobama)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">appliestojurisdiction(michelleobama, american)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">headofgovernment(american, michelleobama)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">locatedintheadministrativeterritorialentity(museumofmodernart, newyorkcity)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">country(newyorkcity, american), country(museumofmodernart, american)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mount Shinn</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Mount Shinn</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Mount Shinn is a mountain 4,661 meters in elevation , standing 6   km ( 4   miles ) southeast of Mount Tyree in the Sentinel Range , Ellsworth Mountains in Antarctica .
+It surmounts Ramorino Glacier to the north , upper Crosswell Glacier to the northeast , Goodge Col to the southeast , and Branscomb Glacier to the south - southwest .
+The peak was discovered on IGY reconnaissance flights in January 1958 , and named by the Advisory Committee on Antarctic Names ( US - ACAN ) for Lieutenant Commander Conrad S. ( Gus ) Shinn , U.S. Navy , a pilot on some of these flights .
+Shinn was pilot of the Navy R4D aircraft carrying Admiral Dufek which , on October 31 , 1956 , made the first plane landing at the geographic South Pole .
+It had been thought to be over 4800 m high , but was re - measured in 2001 by Damien Gildea and Rodrigo Fica of the Omega Foundation , using a Trimble 5700 GPS receiver and the Australian government 's AUSPOS processing system .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.8<br> Recall: 0.571<br> F1 Score: 0.667 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 24</h4>
+      <p>                partof(mountshinn, ellsworthmountains)<br>                haspart(ellsworthmountains, mounttyree)<br>                partof(sentinelrange, ellsworthmountains)<br>                continent(southpole, antarctica)<br>                partof(mounttyree, ellsworthmountains)<br>                continent(goodgecol, antarctica)<br>                partof(mountshinn, sentinelrange)<br>                locatedonterrainfeature(ramorinoglacier, sentinelrange)<br>                continent(ellsworthmountains, antarctica)<br>                locatedonterrainfeature(mounttyree, ellsworthmountains)<br>                continent(ramorinoglacier, antarctica)<br>                locatedonterrainfeature(mounttyree, sentinelrange)<br>                continent(mounttyree, antarctica)<br>                continent(sentinelrange, antarctica)<br>                locatedonterrainfeature(goodgecol, sentinelrange)<br>                locatedonterrainfeature(branscombglacier, sentinelrange)<br>                haspart(sentinelrange, mounttyree)<br>                continent(mountshinn, antarctica)<br>                continent(crosswellglacier, antarctica)<br>                locatedonterrainfeature(mountshinn, sentinelrange)<br>                haspart(ellsworthmountains, sentinelrange)<br>                continent(branscombglacier, antarctica)<br>                haspart(ellsworthmountains, mountshinn)<br>                haspart(sentinelrange, mountshinn)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 6</h4>
+      <p>                haspart(antarctica, ellsworthmountains)<br>                locatedintheadministrativeterritorialentity(mounttyree, australian)<br>                partof(goodgecol, ellsworthmountains)<br>                haspart(antarctica, southpole)<br>                militarybranch(conradsgusshinn, usnavy)<br>                haspart(ellsworthmountains, goodgecol)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 18</h4>
+      <p>                haspart(sentinelrange, goodgecol)<br>                militarybranch(dufek, usnavy)<br>                locatedonterrainfeature(branscombglacier, ellsworthmountains)<br>                operator(r4d, usnavy)<br>                continent(omegafoundation, antarctica)<br>                country(auspos, australian)<br>                appliestojurisdiction(advisorycommitteeonantarcticnames, antarctica)<br>                locatedonterrainfeature(ramorinoglacier, ellsworthmountains)<br>                continent(igy, antarctica)<br>                locatedonterrainfeature(goodgecol, ellsworthmountains)<br>                employer(damiengildea, omegafoundation)<br>                partof(goodgecol, sentinelrange)<br>                employer(rodrigofica, omegafoundation)<br>                locatedonterrainfeature(crosswellglacier, sentinelrange)<br>                locatedonterrainfeature(mountshinn, ellsworthmountains)<br>                continent(auspos, antarctica)<br>                locatedonterrainfeature(crosswellglacier, ellsworthmountains)<br>                partof(mounttyree, sentinelrange)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">locatedonterrainfeature(branscombglacier, ellsworthmountains)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">continent(ellsworthmountains, antarctica), continent(branscombglacier, antarctica)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">partof(mounttyree, sentinelrange)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">haspart(sentinelrange, mounttyree)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

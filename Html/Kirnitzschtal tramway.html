@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kirnitzschtal tramway</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Kirnitzschtal tramway</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The Kirnitzschtal tramway , also known as the Kirnitzschtalbahn ( Kirnitzsch Valley Tramway ) , is an electric tramway in Saxony , Germany .
+The line runs through the valley of the Kirnitzsch river in Saxon Switzerland , from the town of Bad Schandau up to the Lichtenhain Waterfall , in the municipality of Sebnitz .
+The line is principally a tourist service , being the only tramway to serve a National Park in Germany , and uses historical rolling stock built between 1925 and 1968 .
+The line is operated by the Oberelbische Verkehrsgesellschaft Pirna Sebnitz mbH ( OVPS ) , which translates to the Upper Elbe Public Transport Company Pirna Sebnitz Ltd.
+This company also operates local bus services in the area around and between Pirna and Sebnitz , together with boat services on the Elbe river .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.909<br> Recall: 0.769<br> F1 Score: 0.833 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 30</h4>
+      <p>                country(kirnitzsch, germany)<br>                country(pirna, germany)<br>                containsadministrativeterritorialentity(germany, saxony)<br>                country(ovps, germany)<br>                locatedintheadministrativeterritorialentity(pirna, germany)<br>                country(lichtenhainwaterfall, germany)<br>                locatedintheadministrativeterritorialentity(elberiver, germany)<br>                country(badschandau, germany)<br>                locatedintheadministrativeterritorialentity(saxony, germany)<br>                locatedintheadministrativeterritorialentity(badschandau, germany)<br>                locatedintheadministrativeterritorialentity(lichtenhainwaterfall, saxony)<br>                locatedintheadministrativeterritorialentity(kirnitzsch, saxony)<br>                locatedintheadministrativeterritorialentity(kirnitzsch, germany)<br>                country(kirnitzschtalbahn, germany)<br>                locatedintheadministrativeterritorialentity(sebnitz, saxony)<br>                locatedintheadministrativeterritorialentity(kirnitzschtalbahn, germany)<br>                country(sebnitz, germany)<br>                locatedintheadministrativeterritorialentity(ovps, germany)<br>                country(nationalpark, germany)<br>                locatedintheadministrativeterritorialentity(lichtenhainwaterfall, sebnitz)<br>                locatedinornexttobodyofwater(pirna, elberiver)<br>                locatedintheadministrativeterritorialentity(elberiver, saxony)<br>                locatedintheadministrativeterritorialentity(lichtenhainwaterfall, germany)<br>                locatedintheadministrativeterritorialentity(sebnitz, germany)<br>                containsadministrativeterritorialentity(germany, saxonswitzerland)<br>                country(saxony, germany)<br>                locatedintheadministrativeterritorialentity(kirnitzschtalbahn, saxony)<br>                country(saxonswitzerland, germany)<br>                locatedintheadministrativeterritorialentity(nationalpark, germany)<br>                country(elberiver, germany)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 3</h4>
+      <p>                locatedintheadministrativeterritorialentity(badschandau, saxonswitzerland)<br>                locatedinornexttobodyofwater(saxony, elberiver)<br>                locatedinornexttobodyofwater(sebnitz, elberiver)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 9</h4>
+      <p>                containsadministrativeterritorialentity(saxony, saxonswitzerland)<br>                operator(kirnitzschtalbahn, ovps)<br>                mouthofthewatercourse(kirnitzsch, elberiver)<br>                locatedintheadministrativeterritorialentity(saxonswitzerland, germany)<br>                locatedintheadministrativeterritorialentity(saxonswitzerland, saxony)<br>                locatedintheadministrativeterritorialentity(nationalpark, saxony)<br>                locatedintheadministrativeterritorialentity(kirnitzschtalbahn, badschandau)<br>                locatedintheadministrativeterritorialentity(kirnitzschtalbahn, sebnitz)<br>                containsadministrativeterritorialentity(saxony, sebnitz)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">locatedintheadministrativeterritorialentity(saxonswitzerland, germany)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">country(saxonswitzerland, germany)</div>
+<div class="panel-body">containsadministrativeterritorialentity(germany, saxonswitzerland)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">locatedintheadministrativeterritorialentity(kirnitzsch, saxonswitzerland)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">country(saxonswitzerland, germany), country(kirnitzsch, germany)</div>
+<div class="panel-body">containsadministrativeterritorialentity(germany, saxonswitzerland), country(kirnitzsch, germany)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">locatedinornexttobodyofwater(germany, elberiver)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(elberiver, saxony), containsadministrativeterritorialentity(germany, saxony)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(saxony, germany), locatedintheadministrativeterritorialentity(elberiver, saxony)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(elberiver, germany)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

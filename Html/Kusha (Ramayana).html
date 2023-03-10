@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kusha (Ramayana)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Kusha (Ramayana)</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Kusha or Kusa ( Sanskrit : कुश ) and his twin brother Lava were the children of Rama and Sita .
+Their story is recounted in the Hindu epic , the Ramayana .
+Hindu traditions claim he ruled the entire region of Kashmir , Indus River and Hindu Kush as frontier lands of India known as Hindu Kush Kshetra and founded the city of Kashmir in the valley and Kasur with Lavapuri of lava in base lands , though local lore contends Kasur was founded in 1525 by Pashtun migrants .
+His brother Lava is traditionally believed to have founded Lavapuri ( current day city of Lahore ) .
+The imperial line that ruled Kingdom of Benares - Kashi and the Maurya Empire , which ruled South Asia from 320 - 185 BCE , claimed descent from Kusha .
+Kusha is said to be an Raghuvanshi Ikshvaku Suryavanshi .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.971<br> Recall: 0.846<br> F1 Score: 0.904 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 33</h4>
+      <p>                child(sita, lava)<br>                containsadministrativeterritorialentity(india, kashmir)<br>                spouse(sita, rama)<br>                country(lavapuri, india)<br>                mother(kusha, sita)<br>                country(kashmir, india)<br>                father(kusha, rama)<br>                characters(ramayana, lava)<br>                presentinwork(lava, ramayana)<br>                sibling(kusha, lava)<br>                country(kasur, india)<br>                sibling(lava, kusha)<br>                locatedintheadministrativeterritorialentity(indusriver, india)<br>                child(sita, kusha)<br>                locatedintheadministrativeterritorialentity(hindukush, india)<br>                locatedintheadministrativeterritorialentity(lavapuri, india)<br>                spouse(rama, sita)<br>                father(lava, rama)<br>                presentinwork(rama, ramayana)<br>                characters(ramayana, kusha)<br>                mother(lava, sita)<br>                country(indusriver, india)<br>                characters(ramayana, rama)<br>                country(hindukushkshetra, india)<br>                presentinwork(kusha, ramayana)<br>                partof(india, southasia)<br>                locatedintheadministrativeterritorialentity(kashmir, india)<br>                child(rama, kusha)<br>                inception(kasur, ent_1525)<br>                locatedintheadministrativeterritorialentity(hindukushkshetra, india)<br>                country(hindukush, india)<br>                locatedintheadministrativeterritorialentity(kasur, india)<br>                child(rama, lava)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 1</h4>
+      <p>                religion(ramayana, hindu)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 6</h4>
+      <p>                locatedinornexttobodyofwater(kashmir, indusriver)<br>                presentinwork(sita, ramayana)<br>                characters(ramayana, sita)<br>                locatedinornexttobodyofwater(india, indusriver)<br>                haspart(southasia, india)<br>                countryoforigin(ramayana, india)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 3</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">presentinwork(sita, ramayana)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">spouse(rama, sita), characters(ramayana, rama)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">haspart(southasia, india)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">partof(india, southasia)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp2">locatedinornexttobodyofwater(kashmir, indusriver)</a>
+      </h4>
+    </div>
+    <div id="fn2tp2" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(kashmir, india), locatedintheadministrativeterritorialentity(indusriver, india)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(indusriver, india), country(kashmir, india)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">containsadministrativeterritorialentity(india, hindukushkshetra)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(hindukushkshetra, india)</div>
+<div class="panel-body">country(hindukushkshetra, india)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

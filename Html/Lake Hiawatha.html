@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lake Hiawatha</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Lake Hiawatha</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Lake Hiawatha is located just north of Lake Nokomis in Minneapolis , Minnesota .
+It was purchased by the Minneapolis Park and Recreation Board in 1922 for $ 550,000 .
+At that time the lake was a marsh known as Rice Lake , but over four years , the park system transformed the wetland into a lake surrounded by a park .
+The lake and park have a fishing dock , wading pool , tennis courts , and softball diamonds .
+There is a recreation center that hosts activities .
+The lake borders a municipal golf course .
+In the winter the park sets up ice and hockey rinks .
+There is a bike and walking path starting at Lake Hiawatha which veers onto Lake Nokomis or winds down the Minnehaha Creek right to the mouth of the Minnehaha Falls .
+Lake Hiawatha is one of the few lakes through which Minnehaha Creek flows , and the last one before it reaches Minnehaha Falls and then the Mississippi River .
+Friends of Lake Hiawatha is a community environmental action group that organizes volunteer efforts to clean the lake and park .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.4<br> Recall: 0.417<br> F1 Score: 0.408 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 10</h4>
+      <p>                mouthofthewatercourse(minnehahacreek, mississippiriver)<br>                locatedintheadministrativeterritorialentity(ricelake, minnesota)<br>                locatedintheadministrativeterritorialentity(lakenokomis, minnesota)<br>                locatedintheadministrativeterritorialentity(minnehahacreek, minnesota)<br>                locatedintheadministrativeterritorialentity(ricelake, minneapolis)<br>                locatedintheadministrativeterritorialentity(minneapolisparkandrecreationboard, minnesota)<br>                locatedintheadministrativeterritorialentity(minnehahafalls, minnesota)<br>                locatedinornexttobodyofwater(minneapolis, mississippiriver)<br>                locatedintheadministrativeterritorialentity(mississippiriver, minnesota)<br>                locatedintheadministrativeterritorialentity(lakenokomis, minneapolis)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 15</h4>
+      <p>                publicationdate(ricelake, lakenokomis)<br>                notablework(ent_1922, ricelake)<br>                author(ricelake, ent_1922)<br>                notablework(ent_550000, ricelake)<br>                castmember(ricelake, friendsoflakehiawatha)<br>                castmember(ricelake, fouryears)<br>                castmember(ricelake, minnehahafalls)<br>                screenwriter(ricelake, minneapolisparkandrecreationboard)<br>                castmember(ricelake, minnehahacreek)<br>                castmember(ricelake, ent_550000)<br>                notablework(minnesota, ricelake)<br>                director(ricelake, minnesota)<br>                locatedinornexttobodyofwater(minnesota, mississippiriver)<br>                castmember(ricelake, mississippiriver)<br>                countryoforigin(ricelake, minneapolis)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 14</h4>
+      <p>                locatedinornexttobodyofwater(minnehahafalls, minnehahacreek)<br>                locatedinornexttobodyofwater(minneapolis, lakenokomis)<br>                haspart(mississippiriver, minnehahafalls)<br>                locatedintheadministrativeterritorialentity(friendsoflakehiawatha, minnesota)<br>                locatedintheadministrativeterritorialentity(minnehahacreek, minneapolis)<br>                mouthofthewatercourse(minnehahafalls, mississippiriver)<br>                locatedinornexttobodyofwater(minnesota, lakenokomis)<br>                locatedinornexttobodyofwater(minneapolis, ricelake)<br>                mouthofthewatercourse(minnehahacreek, minnehahafalls)<br>                partof(minnehahafalls, minnehahacreek)<br>                haspart(minnehahacreek, minnehahafalls)<br>                locatedintheadministrativeterritorialentity(minneapolisparkandrecreationboard, minneapolis)<br>                partof(minnehahafalls, mississippiriver)<br>                mouthofthewatercourse(ricelake, mississippiriver)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">locatedinornexttobodyofwater(minneapolis, lakenokomis)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(lakenokomis, minneapolis)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

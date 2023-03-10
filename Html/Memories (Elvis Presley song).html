@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Memories (Elvis Presley song)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Memories (Elvis Presley song)</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>" Memories " is a 1968 song originally recorded by Elvis Presley .
+It was written by Billy Strange and Mac Davis specially for Presley to perform on Elvis , his comeback TV special that would air on NBC on December 3 , 1968 .
+Later Mac Davis recalled to Billboard : " They had asked for a song about looking back over the years , and oddly enough , I had to write it in one night .
+I stayed up all night at Billy Strange 's house in Los Angeles .
+He had a little office set up in his garage .
+I wrote it right there . "
+Released in the United States in 1969 as a B - side to " Charro " , the title song from the movie Charro ! , " Memories " reached number 35 on the Billboard Hot 100 for the week of April 12 , 1969 .
+The song is also included on the album Elvis , the soundtrack album for the NBC TV special at which it was first performed .
+For the TV show itself the song was recorded live , but the album features a studio version recorded on June 24 .
+The book Rock Song Index : The 7500 Most Important Songs for the Rock and Roll Era calls the song " Memories " the " hallmark of [ Elvis ' ] later ( fat Elvis ) period " .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.64<br> Recall: 0.727<br> F1 Score: 0.681 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 16</h4>
+      <p>                country(nbc, theunitedstates)<br>                locatedintheadministrativeterritorialentity(nbc, theunitedstates)<br>                notablework(billystrange, memories)<br>                performer(memories, presley)<br>                country(losangeles, theunitedstates)<br>                performer(memories, elvispresley)<br>                notablework(presley, memories)<br>                countryoforigin(charro, theunitedstates)<br>                locatedintheadministrativeterritorialentity(losangeles, theunitedstates)<br>                notablework(elvispresley, memories)<br>                lyricsby(memories, billystrange)<br>                notablework(elvispresley, charro)<br>                haspart(charro, charro)<br>                publicationdate(memories, ent_1968)<br>                notablework(macdavis, memories)<br>                publicationdate(charro, ent_1969)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 9</h4>
+      <p>                performer(elvispresley, presley)<br>                publicationdate(memories, ent_1969)<br>                notablework(presley, charro)<br>                countryofcitizenship(elvispresley, theunitedstates)<br>                originalnetwork(elvispresley, nbc)<br>                performer(charro, presley)<br>                notablework(presley, elvispresley)<br>                notablework(billystrange, elvispresley)<br>                country(billboardhot, theunitedstates)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 6</h4>
+      <p>                composer(memories, macdavis)<br>                performer(charro, elvispresley)<br>                countryoforigin(memories, theunitedstates)<br>                publisher(billboardhot, billboard)<br>                partof(charro, charro)<br>                originalnetwork(memories, nbc)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">countryoforigin(memories, theunitedstates)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">countryofcitizenship(elvispresley, theunitedstates), notablework(elvispresley, memories)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">residence(elvispresley, losangeles)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(losangeles, theunitedstates), countryofcitizenship(elvispresley, theunitedstates)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

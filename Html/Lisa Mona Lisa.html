@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lisa Mona Lisa</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Lisa Mona Lisa</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>" Lisa Mona Lisa " was the Austrian entry in the Eurovision Song Contest 1988 , performed in German by Wilfried .
+The song was performed twelfth on the night , following Germany 's Maxi & Chris Garden with " Lied für einen Freund " and preceding Denmark 's Kirsten & Søren with " Ka ' du se hva ' jeg sa ' ? " .
+At the close of voting , it had received no points , placing it last out of a field of 21 .
+The song is a ballad in which the singer likens the object of his affection to the Mona Lisa , in that she is very mysterious but nonetheless entrancing .
+The song was recorded in German , French and English .
+Due to the song 's poor performance , the English version was not released .
+It was succeeded as Austrian representative at the 1989 Contest by Thomas Forstner singing " Nur ein Lied " .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.593<br> Recall: 0.842<br> F1 Score: 0.696 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 16</h4>
+      <p>                participantof(maxichrisgarden, eurovisionsongcontest1988)<br>                participantof(wilfried, eurovisionsongcontest1988)<br>                performer(kadusehvajegsa, kirstensren)<br>                participant(eurovisionsongcontest1988, maxichrisgarden)<br>                notablework(maxichrisgarden, liedfreinenfreund)<br>                participant(eurovisionsongcontest1988, wilfried)<br>                notablework(kirstensren, kadusehvajegsa)<br>                performer(lisamonalisa, wilfried)<br>                countryofcitizenship(thomasforstner, austrian)<br>                participant(eurovisionsongcontest1988, kirstensren)<br>                notablework(wilfried, lisamonalisa)<br>                participantof(kirstensren, eurovisionsongcontest1988)<br>                performer(nureinlied, thomasforstner)<br>                notablework(thomasforstner, nureinlied)<br>                performer(liedfreinenfreund, maxichrisgarden)<br>                countryofcitizenship(wilfried, austrian)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 11</h4>
+      <p>                notablework(maxichrisgarden, monalisa)<br>                follows(ent_1989, eurovisionsongcontest1988)<br>                countryofcitizenship(maxichrisgarden, germany)<br>                countryofcitizenship(kirstensren, denmark)<br>                participant(eurovisionsongcontest1988, monalisa)<br>                participantof(lisamonalisa, eurovisionsongcontest1988)<br>                participantof(monalisa, eurovisionsongcontest1988)<br>                countryofcitizenship(wilfried, german)<br>                followedby(eurovisionsongcontest1988, ent_1989)<br>                participant(eurovisionsongcontest1988, lisamonalisa)<br>                countryofcitizenship(thomasforstner, german)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 3</h4>
+      <p>                countryoforigin(german, germany)<br>                languagesspokenwrittenorsigned(wilfried, german)<br>                officiallanguage(germany, german)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

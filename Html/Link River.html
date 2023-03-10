@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Link River</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Link River</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>The Link River is a short river connecting Upper Klamath Lake to Lake Ewauna in the city of Klamath Falls in the U.S. state of Oregon .
+Draining a basin of , the river begins at the southern end of Klamath Lake and flows a short distance to the Link River Dam and continues to the head of Lake Ewauna .
+The " falls " from which Klamath Falls derives its name , and which in reality are best described as rapids rather than falls , are visible a short distance below the dam , though the water flow is generally insufficient to provide water flow over the rocks .
+The Klamath River begins at the narrow southern end of Lake Ewauna and flows from there to the Pacific Ocean .
+Before settlers came to the Klamath Basin , the Link River was known to the local Klamaths as Yulalona , meaning " back and forth . "
+At times , strong winds blew the water upstream into Klamath Lake and partly drained the riverbed .
+After its founding in 1867 , Klamath Falls was originally named Linkville .
+The name was changed to Klamath Falls in 1892 – 93 .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.946<br> Recall: 0.833<br> F1 Score: 0.886 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 35</h4>
+      <p>                country(upperklamathlake, us)<br>                locatedintheadministrativeterritorialentity(linkriver, us)<br>                locatedintheadministrativeterritorialentity(upperklamathlake, oregon)<br>                country(klamathriver, us)<br>                mouthofthewatercourse(linkriver, klamathlake)<br>                country(lakeewauna, us)<br>                mouthofthewatercourse(linkriver, pacificocean)<br>                country(linkriverdam, us)<br>                locatedintheadministrativeterritorialentity(klamathriver, us)<br>                locatedintheadministrativeterritorialentity(oregon, us)<br>                mouthofthewatercourse(linkriver, klamathriver)<br>                locatedintheadministrativeterritorialentity(klamathlake, oregon)<br>                locatedintheadministrativeterritorialentity(upperklamathlake, us)<br>                country(klamathfalls, us)<br>                locatedintheadministrativeterritorialentity(klamathfalls, us)<br>                basincountry(pacificocean, us)<br>                locatedintheadministrativeterritorialentity(linkriver, oregon)<br>                containsadministrativeterritorialentity(us, oregon)<br>                mouthofthewatercourse(klamathriver, pacificocean)<br>                locatedintheadministrativeterritorialentity(klamathfalls, oregon)<br>                locatedintheadministrativeterritorialentity(lakeewauna, us)<br>                locatedintheadministrativeterritorialentity(klamathlake, us)<br>                country(klamathbasin, us)<br>                country(oregon, us)<br>                locatedintheadministrativeterritorialentity(klamathbasin, us)<br>                country(klamathlake, us)<br>                locatedintheadministrativeterritorialentity(linkriverdam, us)<br>                locatedinornexttobodyofwater(oregon, pacificocean)<br>                locatedintheadministrativeterritorialentity(klamathbasin, oregon)<br>                locatedintheadministrativeterritorialentity(klamathriver, oregon)<br>                locatedintheadministrativeterritorialentity(lakeewauna, oregon)<br>                locatedintheadministrativeterritorialentity(linkriverdam, oregon)<br>                country(linkriver, us)<br>                mouthofthewatercourse(lakeewauna, pacificocean)<br>                inception(klamathfalls, ent_1867)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 2</h4>
+      <p>                country(klamaths, us)<br>                locatedintheadministrativeterritorialentity(klamaths, us)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 7</h4>
+      <p>                basincountry(lakeewauna, us)<br>                basincountry(upperklamathlake, us)<br>                mouthofthewatercourse(klamathlake, pacificocean)<br>                basincountry(klamathlake, us)<br>                locatedonterrainfeature(linkriverdam, linkriver)<br>                mouthofthewatercourse(linkriverdam, pacificocean)<br>                mouthofthewatercourse(linkriver, lakeewauna)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">mouthofthewatercourse(linkriver, lakeewauna)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(linkriver, us), locatedintheadministrativeterritorialentity(lakeewauna, us)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(linkriver, oregon), locatedintheadministrativeterritorialentity(lakeewauna, oregon)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">locatedonterrainfeature(klamathfalls, klamathriver)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(klamathfalls, us), locatedintheadministrativeterritorialentity(klamathriver, us)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(klamathfalls, oregon), locatedintheadministrativeterritorialentity(klamathriver, oregon)</div>
+<div class="panel-body">country(klamathfalls, us), locatedintheadministrativeterritorialentity(klamathriver, us)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">mouthofthewatercourse(klamathriver, lakeewauna)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(klamathriver, us), locatedintheadministrativeterritorialentity(lakeewauna, us)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(klamathriver, oregon), locatedintheadministrativeterritorialentity(lakeewauna, oregon)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>King Louie</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>King Louie</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>King Louie is a fictional character introduced in Walt Disney 's 1967 animated musical film , The Jungle Book .
+Unlike the majority of the adapted characters in the film , Louie was not featured in Rudyard Kipling 's original works .
+King Louie was portrayed as an orangutan who was the leader of the other jungle primates , and who attempted to gain knowledge of fire from Mowgli , in order to become more human .
+King Louie was voiced by Louis Prima in the original 1967 film .
+Initially , the filmmakers considered Louis Armstrong for the role , but to avoid the likely controversy that would result from casting a black person to voice an ape , they instead chose Prima , a white singer .
+Christopher Walken voiced King Louie in the 2016 live - action / CGI The Jungle Book film .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.308<br> Recall: 0.632<br> F1 Score: 0.414 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 12</h4>
+      <p>                castmember(thejunglebook, louisprima)<br>                performer(kinglouie, christopherwalken)<br>                notablework(waltdisney, thejunglebook)<br>                creator(kinglouie, waltdisney)<br>                presentinwork(mowgli, thejunglebook)<br>                producer(thejunglebook, waltdisney)<br>                notablework(rudyardkipling, thejunglebook)<br>                castmember(thejunglebook, christopherwalken)<br>                publicationdate(thejunglebook, ent_1967)<br>                characters(thejunglebook, kinglouie)<br>                notablework(louisprima, kinglouie)<br>                presentinwork(kinglouie, thejunglebook)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 27</h4>
+      <p>                locatedintheadministrativeterritorialentity(ent_1967, christopherwalken)<br>                locatedinornexttobodyofwater(christopherwalken, waltdisney)<br>                locatedintheadministrativeterritorialentity(waltdisney, christopherwalken)<br>                locatedintheadministrativeterritorialentity(louisprima, christopherwalken)<br>                originallanguageofwork(thejunglebook, cgi)<br>                inception(ent_1967, thejunglebook)<br>                locatedintheadministrativeterritorialentity(ent_2016, christopherwalken)<br>                locatedintheadministrativeterritorialentity(ent_2016, ent_1967)<br>                locatedonterrainfeature(ent_1967, waltdisney)<br>                containsadministrativeterritorialentity(christopherwalken, kinglouie)<br>                creator(kinglouie, rudyardkipling)<br>                locatedintheadministrativeterritorialentity(louisarmstrong, ent_1967)<br>                locatedinornexttobodyofwater(christopherwalken, louisprima)<br>                publicationdate(thejunglebook, ent_2016)<br>                locatedintheadministrativeterritorialentity(rudyardkipling, christopherwalken)<br>                locatedintheadministrativeterritorialentity(louisarmstrong, kinglouie)<br>                containsadministrativeterritorialentity(ent_1967, kinglouie)<br>                locatedintheadministrativeterritorialentity(louisarmstrong, christopherwalken)<br>                locatedintheadministrativeterritorialentity(cgi, christopherwalken)<br>                locatedintheadministrativeterritorialentity(kinglouie, ent_1967)<br>                locatedintheadministrativeterritorialentity(mowgli, ent_1967)<br>                locatedonterrainfeature(kinglouie, waltdisney)<br>                director(thejunglebook, waltdisney)<br>                locatedintheadministrativeterritorialentity(mowgli, christopherwalken)<br>                locatedintheadministrativeterritorialentity(kinglouie, christopherwalken)<br>                locatedintheadministrativeterritorialentity(rudyardkipling, ent_1967)<br>                locatedonterrainfeature(louisprima, waltdisney)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 7</h4>
+      <p>                performer(kinglouie, louisprima)<br>                publicationdate(kinglouie, ent_1967)<br>                notablework(christopherwalken, kinglouie)<br>                creator(mowgli, rudyardkipling)<br>                productioncompany(thejunglebook, waltdisney)<br>                characters(thejunglebook, mowgli)<br>                author(thejunglebook, rudyardkipling)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 1</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">characters(thejunglebook, mowgli)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">presentinwork(mowgli, thejunglebook)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

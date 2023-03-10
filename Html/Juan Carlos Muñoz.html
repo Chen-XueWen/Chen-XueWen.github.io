@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Juan Carlos Muñoz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Juan Carlos Muñoz</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Juan Carlos Muñoz ( 4 March 1919 – 22 November 2009 ) was a footballer from Argentina who played as a right winger for River Plate , from 1939 to 1950 , playing 184 games and scoring 39 goals .
+He started playing professionally for Sportivo Dock Sud in 1938 . and he was sold in June 1939 to River Plate .
+He was part of the team known as La Máquina ( " the machine " ) which dominated Argentine football in the 1940s , and was also a member of the Argentine national team that won three South American Championships during the same decade .
+During his time at River Plate he won 4 titles and is considered one of their greatest ever players .
+After a very successful time at River Plate He moved to Platense , from 1951 to 1953 , where he played in 39 games making 3 goals .
+Muñoz played 11 times for the Argentina national team scoring two goals , he was part of the squad that won Copa América 1945 .
+He never played in the FIFA World Cup because the best part of his career coincided with the Second World War .
+After retiring as a player Muñoz went on to become the manager and then president of Club Atlético Platense .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.769<br> Recall: 0.8<br> F1 Score: 0.784 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 20</h4>
+      <p>                locatedintheadministrativeterritorialentity(lamquina, argentina)<br>                participant(copaamrica, juancarlosmuoz)<br>                memberofsportsteam(juancarlosmuoz, sportivodocksud)<br>                locatedintheadministrativeterritorialentity(platense, argentina)<br>                countryofcitizenship(juancarlosmuoz, argentine)<br>                locatedintheadministrativeterritorialentity(riverplate, argentine)<br>                dateofbirth(juancarlosmuoz, ent_4march1919)<br>                country(riverplate, argentina)<br>                countryofcitizenship(juancarlosmuoz, argentina)<br>                locatedintheadministrativeterritorialentity(riverplate, argentina)<br>                locatedintheadministrativeterritorialentity(platense, argentine)<br>                country(platense, argentina)<br>                participantof(juancarlosmuoz, copaamrica)<br>                memberofsportsteam(juancarlosmuoz, platense)<br>                country(lamquina, argentina)<br>                country(riverplate, argentine)<br>                country(platense, argentine)<br>                memberofsportsteam(juancarlosmuoz, riverplate)<br>                country(lamquina, argentine)<br>                dateofdeath(juancarlosmuoz, ent_22november2009)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 6</h4>
+      <p>                participantof(argentine, copaamrica)<br>                participant(copaamrica, argentina)<br>                locatedintheadministrativeterritorialentity(sportivodocksud, argentina)<br>                participantof(argentina, copaamrica)<br>                country(sportivodocksud, argentine)<br>                country(sportivodocksud, argentina)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 5</h4>
+      <p>                memberofsportsteam(juancarlosmuoz, lamquina)<br>                participantof(juancarlosmuoz, southamericanchampionships)<br>                participant(southamericanchampionships, juancarlosmuoz)<br>                memberof(juancarlosmuoz, lamquina)<br>                locatedintheadministrativeterritorialentity(lamquina, argentine)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp0">memberof(juancarlosmuoz, lamquina)</a>
+      </h4>
+    </div>
+    <div id="fn2tp0" class="panel-collapse collapse">
+<div class="panel-body">countryofcitizenship(juancarlosmuoz, argentina), locatedintheadministrativeterritorialentity(lamquina, argentina)</div>
+<div class="panel-body">countryofcitizenship(juancarlosmuoz, argentina), country(lamquina, argentina)</div>
+<div class="panel-body">countryofcitizenship(juancarlosmuoz, argentine), country(lamquina, argentine)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#fn2tp1">locatedintheadministrativeterritorialentity(lamquina, argentine)</a>
+      </h4>
+    </div>
+    <div id="fn2tp1" class="panel-collapse collapse">
+<div class="panel-body">country(lamquina, argentine)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 2</h4>
+        <div class="panel-group">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp0">chairperson(platense, juancarlosmuoz)</a>
+      </h4>
+    </div>
+    <div id="tn2fp0" class="panel-collapse collapse">
+<div class="panel-body">locatedintheadministrativeterritorialentity(platense, argentina), countryofcitizenship(juancarlosmuoz, argentina)</div>
+<div class="panel-body">locatedintheadministrativeterritorialentity(platense, argentine), countryofcitizenship(juancarlosmuoz, argentine)</div>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#tn2fp1">locatedintheadministrativeterritorialentity(sportivodocksud, argentine)</a>
+      </h4>
+    </div>
+    <div id="tn2fp1" class="panel-collapse collapse">
+<div class="panel-body">country(sportivodocksud, argentine)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>

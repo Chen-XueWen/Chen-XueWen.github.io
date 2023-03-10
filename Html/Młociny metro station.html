@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Młociny metro station</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Młociny metro station</h1>
+</div>
+        <div class="container-fluid">
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Document</h4>
+        <p>Młociny is a Warsaw Metro station serving as a northern terminus to Line M1 .
+It is situated within Warsaw administrative boundaries and ZTM ticketing zone 1 , in the dzielnica of Bielany , in a close proximity to Warsaw 's ArcelorMittal steelworks .
+The station opened on 25 October 2008 and is the final northern extension of Line M1 .
+The area beyond the station has been remodelled into a major public transportation junction after Młociny opened .
+It is served by trams and both urban and suburban buses .
+Although there are no plans to extend Line M1 further , the station is built in such way that it will be possible to do so if need be .
+The trains are turned back at sidings behind Młociny .
+Terminating trains arrive at eastern side platform , whereas southbound trains depart from western side platform .
+</p>
+      </div>
+<div class="row content">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>Performance Statistics</h4>
+        <p> Precision: 0.385<br> Recall: 0.526<br> F1 Score: 0.444 </p>
+      </div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>True Positive (TP): 10</h4>
+      <p>                partof(linem1, warsawmetro)<br>                haspart(warsawmetro, mociny)<br>                locatedintheadministrativeterritorialentity(bielany, warsaw)<br>                inception(mociny, ent_25october2008)<br>                locatedintheadministrativeterritorialentity(mociny, warsaw)<br>                containsadministrativeterritorialentity(warsaw, bielany)<br>                locatedintheadministrativeterritorialentity(arcelormittal, warsaw)<br>                locatedintheadministrativeterritorialentity(warsawmetro, warsaw)<br>                partof(mociny, warsawmetro)<br>                haspart(warsawmetro, linem1)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Positive (FP): 16</h4>
+      <p>                employer(mociny, bielany)<br>                employer(mociny, warsaw)<br>                country(bielany, linem1)<br>                country(arcelormittal, linem1)<br>                country(warsaw, linem1)<br>                employer(mociny, ztm)<br>                country(ztm, linem1)<br>                locatedintheadministrativeterritorialentity(arcelormittal, linem1)<br>                countryofcitizenship(mociny, linem1)<br>                locatedintheadministrativeterritorialentity(ztm, linem1)<br>                locatedintheadministrativeterritorialentity(bielany, linem1)<br>                dateofbirth(mociny, warsawmetro)<br>                haspart(linem1, mociny)<br>                educatedat(mociny, arcelormittal)<br>                educatedat(mociny, warsaw)<br>                locatedintheadministrativeterritorialentity(warsaw, linem1)<br></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <h4>False Negative (FN): 9</h4>
+      <p>                partof(ztm, warsawmetro)<br>                locatedintheadministrativeterritorialentity(linem1, warsaw)<br>                partof(warsawmetro, linem1)<br>                haspart(warsawmetro, bielany)<br>                haspart(warsawmetro, ztm)<br>                haspart(linem1, warsawmetro)<br>                operator(warsawmetro, ztm)<br>                partof(bielany, warsawmetro)<br>                locatedintheadministrativeterritorialentity(mociny, bielany)<br></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP corrected False Negative (FN &#8594 TP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+        <h4>ILP wrongly corrected True Negative (TN &#8594 FP): 0</h4>
+        <div class="panel-group">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</body>
+</html>
