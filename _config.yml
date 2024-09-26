@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Dr"
 title_separator          : "-"
-name                     : &name "Xue Wen Tan (Chen)"
+name                     : "Xue Wen Tan (Chen)"
 description              : &description "My Portfolio"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
