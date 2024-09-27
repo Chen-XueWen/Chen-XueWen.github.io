@@ -16,3 +16,8 @@ During his free time, he would fiddle with his investment and play the piano.
 Feel free to say hello! :)
 
 "You cannot answer a question that you cannot ask, and cannot ask a question that you have no words for" - From the book of why
+
+Education
+======
+* Ph.D in Financial Technology (NLP), National University of Singapore, 2025 (expected), GPA: 5.0/5.0
+* B.Eng in Electrical Engineering, National University of Singapore, 2019, GPA: 4.7/5.0
