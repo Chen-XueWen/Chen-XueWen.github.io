@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Xue Wen Tan (Chen)"
   pronouns         : # example: "she/her"
-  bio              : "FinTech PhD Candidate \\ @ Asian Institute of Digital Finance"
+  bio              : "FinTech PhD Candidate @ Asian Institute of Digital Finance, NUS"
   location         : "Singapore"
-  employer         : "National University of Singapore"
+  employer         : # URL
   uri              : # URL
   email            : "xuewen@u.nus.edu" 
 
