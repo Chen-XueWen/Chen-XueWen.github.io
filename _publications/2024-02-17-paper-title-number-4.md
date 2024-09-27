@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'None'
-date: 2023
+date: 2024-02-17
 venue: 'International Conference on Information Systems (ICIS)'
 paperurl: 'https://arxiv.org/abs/2405.01881'
 citation: 'Tan, Xue Wen and Kok, Stanley, "Explainable Risk Classification in Financial Reports" (2023). ICIS 2023 Proceedings. 3.
