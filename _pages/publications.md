@@ -8,7 +8,7 @@ author_profile: true
 My current research mainly focus on Natural Language Processing, specifically on Explainable AI, Large Language Models, AI for Social Good, Computational Linguistics. 
 
 ## Conference Papers
-**Explainable Risk Classification in Financial Reports** [[pdf]](https://arxiv.org/abs/2405.01881)
+**Explainable Risk Classification in Financial Reports** [[pdf]](https://arxiv.org/abs/2405.01881)[[video]](https://aisel.aisnet.org/icis2023/blockchain/blockchain/3/)
   - **Xue Wen Tan**, Stanley Kok
   - *Accepted at International Conference on Information Systems (**ICIS**) 2023*
   
