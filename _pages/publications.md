@@ -14,5 +14,5 @@ My current research mainly focus on Natural Language Processing, specifically on
   - *Accepted at International Conference on Information Systems (**ICIS**) 2023*
   
 **ScamGPT-J: Inside the Scammer’s Mind, A Generative AI-Based Approach Toward Combating Messaging Scams** (Link to be released soon)
-  - **Xue Wen Tan***, Kenneth See*, Stanley Kok
+  - **Xue Wen Tan\***, Kenneth See\*, Stanley Kok
   - *Accepted at International Conference on Information Systems (**ICIS**) 2024*
