@@ -1,13 +1,29 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Xue Wen graduated with First Class Honours (Highest Distinction) in Electrical Engineering from NUS. After graduation, he was given the opportunity to work at DBS as a SEED graduate associate. During his two years there, he gained extensive knowledge of banking technology and developed a valuable network within the FinTech industry. Despite having a stable job at the bank, Xue Wen aspired to make a greater impact on the FinTech ecosystem, leading him to apply for the AIDF PhD programme at NUS. He was awarded the FinTech PhD Scholarship by AIDF to pursue his passion for Financial Technology over the next four years. After his PhD, he hopes to contribute back to society by grooming new talents through mentoring and educating the next generation.
+
+Xue Wen is an open-minded and self-driven individual who relishes challenges and thrives under pressure. He always maintains a positive outlook in every situation and believes that there are learning opportunities in all areas. He also strives to build mutual long-term relationships with everyone he interacts with.
+
+During his free time, he would fiddle with his investment and play the piano.
+
+Feel free to say hello! :)
+
+"You cannot answer a question that you cannot ask, and cannot ask a question that you have no words for" - From the book of why
+
+Research Interest
+======
+My current research mainly focus on Natural Language Processing, specifically on eXplainable AI, AI for Social Good and Information Extraction.
+
+Publication
+======
+To fill in
 
 A data-driven personal website
 ======
