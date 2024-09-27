@@ -6,6 +6,6 @@
 
 main:
   - title: "Home"
-    url: /about/
+    url: /
   - title: "Past DBS Portfolio"
     url: /portfolio/
