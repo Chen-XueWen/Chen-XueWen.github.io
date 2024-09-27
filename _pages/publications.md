@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 ## Research Interest
-My current research mainly focus on Natural Language Processing, specifically on eXplainable AI, AI for Social Good and Information Extraction. 
+My current research mainly focus on Natural Language Processing, specifically on Explainable AI, Large Language Models, AI for Social Good, Computational Linguistics. 
 
 ## Conference Papers
 
@@ -16,3 +16,6 @@ My current research mainly focus on Natural Language Processing, specifically on
 **ScamGPT-J: Inside the Scammer’s Mind, A Generative AI-Based Approach Toward Combating Messaging Scams** (Link to be released soon)
   - **Xue Wen Tan\***, Kenneth See\*, Stanley Kok
   - *Accepted at International Conference on Information Systems (**ICIS**) 2024*
+
+## Teaching
+- FT5001 (Fintech Innovations for Consumers) AY2021/2022 Semester 1 under Prof Keith B. Carter
