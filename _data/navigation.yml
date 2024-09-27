@@ -7,5 +7,7 @@
 main:
   - title: "Home"
     url: /
+  - title: "Research"
+    url: /publications/
   - title: "Past DBS Portfolio"
     url: /portfolio/
