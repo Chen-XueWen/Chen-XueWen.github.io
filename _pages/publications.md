@@ -16,7 +16,7 @@ My current research mainly focus on Natural Language Processing, specifically on
   - **Xue Wen Tan\***, Kenneth See\*, Stanley Kok
   - *Accepted at International Conference on Information Systems (**ICIS**) 2024*
 
-## Symposium
+## Symposiums and Seminars
 **Seeing the Forest, Not Just the Trees: A Micro-Macro Explainable Model for Financial Risk Classification**
   - **Xue Wen Tan**, Stanley Kok
   - *Paper accepted with oral presentation at AAAI Summer Symposium AI4FinTech 2023, did not archive in proceeding, extended to ICIS 2023*
