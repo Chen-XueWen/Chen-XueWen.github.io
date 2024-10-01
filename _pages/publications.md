@@ -28,4 +28,4 @@ My current research mainly focus on Natural Language Processing, specifically on
   - Reviewer for International Conference on Information Systems
   
 ## Teaching
-- FT5001 (Fintech Innovations for Consumers) AY2021/2022 Semester 1 under Prof Keith B. Carter
+- Teaching assistant for FT5001 (Fintech Innovations for Consumers) AY2021/2022 Semester 1 under Prof Keith B. Carter
