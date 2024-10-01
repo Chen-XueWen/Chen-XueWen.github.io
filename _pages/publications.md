@@ -24,8 +24,8 @@ My current research mainly focus on Natural Language Processing, specifically on
   - Also presented at ETH-NUS FinsureTech Conference 2023
 
 ## Academic Services
-  - Discussant for *"Human vs. Machine: Disposition Effect among Algorithmic and Human Day-traders"* at 2022 Global AI Finance Research Conference
-  - Reviewer for International Conference on Information Systems
+  - Discussant for "Human vs. Machine: Disposition Effect among Algorithmic and Human Day-traders" at *2022 Global AI Finance Research Conference*
+  - Reviewer for *International Conference on Information Systems (ICIS)*
   
 ## Teaching
 - Teaching assistant for FT5001 (Fintech Innovations for Consumers) AY2021/2022 Semester 1 under Prof Keith B. Carter
