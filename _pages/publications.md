@@ -17,7 +17,7 @@ My current research mainly focus on Natural Language Processing, specifically on
   - *Accepted at International Conference on Information Systems (**ICIS**) 2024*
   - Poster accepted at The 3rd Quantum Computing Workshop 2024 (No Proceeding)
 
-**SLOTIX: Information Extraction with Multiset-Equivariant Slot Attention in Language Models**
+**SLOTIX: Information Extraction with Multiset-Equivariant Slot Attention in Language Models** (To be released upon acceptance)
   - **Xue Wen Tan**, Stanley Kok
   - *Submitted to The 39th Annual AAAI Conference on Artificial Intelligence 2025 (Pending Acceptance)*
 
