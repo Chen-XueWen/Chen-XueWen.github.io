@@ -21,6 +21,10 @@ My current research mainly focus on Natural Language Processing, specifically on
   - **Xue Wen Tan**, Stanley Kok
   - *Submitted to The 39th Annual AAAI Conference on Artificial Intelligence 2025 (Pending Acceptance)*
 
+**Implicit Continuous Slot Attention** 
+  - **Xue Wen Tan**, Stanley Kok
+  - *Work in Progress*
+
 ## Symposiums and Seminars
 **Seeing the Forest, Not Just the Trees: A Micro-Macro Explainable Model for Financial Risk Classification**
   - **Xue Wen Tan**, Stanley Kok
