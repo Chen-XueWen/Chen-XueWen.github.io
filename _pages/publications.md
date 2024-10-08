@@ -21,7 +21,7 @@ My current research mainly focus on Natural Language Processing, specifically on
   - **Xue Wen Tan**, Stanley Kok
   - *Submitted to The 39th Annual AAAI Conference on Artificial Intelligence 2025 (Pending Acceptance)*
 
-**Implicit Continuous Slot Attention** 
+**Implicit Continuous Slot Attention with Neural Ordinary Differential Equations** 
   - **Xue Wen Tan**, Stanley Kok
   - *Work in Progress*
 
