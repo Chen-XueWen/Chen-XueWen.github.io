@@ -19,7 +19,7 @@ My current research mainly focus on Natural Language Processing, specifically on
 
 **SLOTIX: Information Extraction with Multiset-Equivariant Slot Attention in Language Models** (To be released upon acceptance)
   - **Xue Wen Tan**, Stanley Kok
-  - *Submitted to The 39th Annual AAAI Conference on Artificial Intelligence 2025 (Pending Acceptance)*
+  - *Submitted to The 39th Annual AAAI Conference on Artificial Intelligence 2025 (Pending Acceptance - 1st round of review accepted, pending 2nd round of review)*
 
 **Implicit Continuous Slot Attention with Neural Ordinary Differential Equations** 
   - **Xue Wen Tan**, Stanley Kok
