@@ -11,11 +11,12 @@ My current research mainly focus on Natural Language Processing, specifically on
 **Explainable Risk Classification in Financial Reports** [[pdf]](https://arxiv.org/abs/2405.01881)[[video]](https://aisel.aisnet.org/icis2023/blockchain/blockchain/3/)
   - **Xue Wen Tan**, Stanley Kok
   - *Accepted at International Conference on Information Systems (**ICIS**) 2023*
-  -  **Acceptance Rate: 387 / 1380 = 28%** 
+  - **Acceptance Rate: 387 / 1380 = 28%** 
   
 **ScamGPT-J: Inside the Scammer’s Mind, A Generative AI-Based Approach Toward Combating Messaging Scams** (In Print)
   - **Xue Wen Tan\***, Kenneth See\*, Stanley Kok
   - *Accepted at International Conference on Information Systems (**ICIS**) 2024*
+  - **Acceptance Rate: TBC** 
   - Poster accepted at The 3rd Quantum Computing Workshop 2024 (No Proceeding)
 
 **SLOTIX: Information Extraction with Multiset-Equivariant Slot Attention in Language Models** (To be released upon acceptance)
