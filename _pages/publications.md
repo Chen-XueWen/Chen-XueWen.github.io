@@ -13,7 +13,7 @@ My current research mainly focus on Natural Language Processing, specifically on
   - *Accepted at International Conference on Information Systems (**ICIS**) 2023*
   - **Acceptance Rate: 387 / 1380 = 28%** 
   
-**ScamGPT-J: Inside the Scammer’s Mind, A Generative AI-Based Approach Toward Combating Messaging Scams** [(pdf)](https://aisel.aisnet.org/icis2024/humtechinter/humtechinter/14/)
+**ScamGPT-J: Inside the Scammer’s Mind, A Generative AI-Based Approach Toward Combating Messaging Scams** [[pdf]](https://aisel.aisnet.org/icis2024/humtechinter/humtechinter/14/)
   - **Xue Wen Tan\***, Kenneth See\*, Stanley Kok
   - *Accepted at International Conference on Information Systems (**ICIS**) 2024*
   - **Acceptance Rate: TBC** 
