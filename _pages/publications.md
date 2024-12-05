@@ -23,6 +23,11 @@ My current research mainly focus on Natural Language Processing, specifically on
   - **Xue Wen Tan**, Stanley Kok
   - *Submitted to The 39th Annual AAAI Conference on Artificial Intelligence 2025 (Pending Acceptance - 1st round of review accepted, pending 2nd round of review)*
 
+**Holistic Multiagent Systems Framework for Agile Software Development Lifecycle** (To be released upon acceptance)
+  - Kenneth See\*, **Xue Wen Tan\***
+  - *Submitted to The 24th International Conference on Autonomous Agents and Multiagent Systems (Pending Acceptance)*
+  - Under Blue Sky Ideas special track
+
 **Implicit Continuous Slot Attention with Neural Ordinary Differential Equations** 
   - **Xue Wen Tan**, Stanley Kok
   - *Work in Progress*
