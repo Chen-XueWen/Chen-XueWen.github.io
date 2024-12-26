@@ -14,28 +14,28 @@ My current research mainly focus on Natural Language Processing, specifically on
   - **Acceptance Rate: 441 / 1613 = 27%**
   - Poster accepted at The 3rd Quantum Computing Workshop 2024 (No Proceeding)
     
-**Explainable Risk Classification in Financial Reports** [[pdf]](https://arxiv.org/abs/2405.01881)[[video]](https://aisel.aisnet.org/icis2023/blockchain/blockchain/3/)
+**Explainable Risk Classification in Financial Reports** [[pdf]](https://arxiv.org/abs/2405.01881)[[video]](https://aisel.aisnet.org/icis2023/blockchain/blockchain/3/)\
 **Xue Wen Tan**, Stanley Kok
   - *Accepted at International Conference on Information Systems (**ICIS**) 2023*
   - **Acceptance Rate: 387 / 1380 = 28%**
 
 ## Submitted and Working Papers
-**SLOTIX: Information Extraction with Multiset-Equivariant Slot Attention in Language Models** (To be released upon acceptance)
+**SLOTIX: Information Extraction with Multiset-Equivariant Slot Attention in Language Models** (To be released upon acceptance)\
 **Xue Wen Tan**, Stanley Kok
   - *Submitted to The 39th Annual AAAI Conference on Artificial Intelligence 2025 (Pending Acceptance - 1st round of review accepted, pending 2nd round of review)*
 
-**Holistic Multiagent Systems Framework for Agile Software Development Lifecycle** (To be released upon acceptance)
-  - Kenneth See\*, **Xue Wen Tan\***
+**Holistic Multiagent Systems Framework for Agile Software Development Lifecycle** (To be released upon acceptance)\
+Kenneth See\*, **Xue Wen Tan\***
   - *Submitted to The 24th International Conference on Autonomous Agents and Multiagent Systems (Pending Acceptance)*
   - Under Blue Sky Ideas special track
 
-**Implicit Continuous Slot Attention with Neural Ordinary Differential Equations** 
-  - **Xue Wen Tan**, Stanley Kok
+**Implicit Continuous Slot Attention with Neural Ordinary Differential Equations**\
+**Xue Wen Tan**, Stanley Kok
   - *Work in Progress*
 
 ## Workshops, Symposiums and Seminars
-**Seeing the Forest, Not Just the Trees: A Micro-Macro Explainable Model for Financial Risk Classification**
-  - **Xue Wen Tan**, Stanley Kok
+**Seeing the Forest, Not Just the Trees: A Micro-Macro Explainable Model for Financial Risk Classification**\
+**Xue Wen Tan**, Stanley Kok
   - *Paper accepted with oral presentation at **AAAI Summer Symposium AI4FinTech** 2023, did not archive in proceeding, extended to ICIS 2023*
   - Also presented at ETH-NUS FinsureTech Conference 2023
 
