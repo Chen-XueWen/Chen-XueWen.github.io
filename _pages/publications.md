@@ -8,17 +8,17 @@ author_profile: true
 My current research mainly focus on Natural Language Processing, specifically on Explainable AI, Large Language Models, AI for Social Good, Computational Linguistics. 
 
 ## Conference Papers
-**Explainable Risk Classification in Financial Reports** [[pdf]](https://arxiv.org/abs/2405.01881)[[video]](https://aisel.aisnet.org/icis2023/blockchain/blockchain/3/)
-  - **Xue Wen Tan**, Stanley Kok
-  - *Accepted at International Conference on Information Systems (**ICIS**) 2023*
-  - **Acceptance Rate: 387 / 1380 = 28%** 
-  
-**ScamGPT-J: Inside the Scammer’s Mind, A Generative AI-Based Approach Toward Combating Messaging Scams** [[pdf]](https://aisel.aisnet.org/icis2024/humtechinter/humtechinter/14/)
+**ScamGPT-J: Inside the Scammer’s Mind, A Generative AI-Based Approach Toward Combating Messaging Scams** [[pdf]]([https://arxiv.org/abs/2405.01881](https://arxiv.org/abs/2412.13528))[[video]](https://aisel.aisnet.org/icis2024/humtechinter/humtechinter/14/)
   - **Xue Wen Tan\***, Kenneth See\*, Stanley Kok
   - *Accepted at International Conference on Information Systems (**ICIS**) 2024*
   - **Acceptance Rate: TBC** 
   - Poster accepted at The 3rd Quantum Computing Workshop 2024 (No Proceeding)
+**Explainable Risk Classification in Financial Reports** [[pdf]](https://arxiv.org/abs/2405.01881)[[video]](https://aisel.aisnet.org/icis2023/blockchain/blockchain/3/)
+  - **Xue Wen Tan**, Stanley Kok
+  - *Accepted at International Conference on Information Systems (**ICIS**) 2023*
+  - **Acceptance Rate: 387 / 1380 = 28%**
 
+## Submitted and Working Papers
 **SLOTIX: Information Extraction with Multiset-Equivariant Slot Attention in Language Models** (To be released upon acceptance)
   - **Xue Wen Tan**, Stanley Kok
   - *Submitted to The 39th Annual AAAI Conference on Artificial Intelligence 2025 (Pending Acceptance - 1st round of review accepted, pending 2nd round of review)*
