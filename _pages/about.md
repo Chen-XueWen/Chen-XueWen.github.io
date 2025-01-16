@@ -15,5 +15,5 @@ Feel free to say hello! :)
 
 Education
 ======
-* Ph.D in Financial Technology (NLP), National University of Singapore, 2025 (expected)<br>GPA: 5.0/5.0
+* Ph.D in Financial Technology (NLP), National University of Singapore, 2025 (expected)<br>GPA: 5.0/5.0, *Highest Attainable GPA*
 * B.Eng in Electrical Engineering, National University of Singapore, 2019<br>GPA: 4.7/5.0, *First Class Honours*
