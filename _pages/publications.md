@@ -25,7 +25,7 @@ My current research mainly focus on Natural Language Processing, specifically on
   - *Submitted to The 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)*
 
 **Holistic Multiagent Systems Framework for Agile Software Development Lifecycle**\
-Kenneth See, Xue Wen Tan
+Kenneth See, **Xue Wen Tan**
   - *Work in Progress*
 
 **Implicit Continuous Slot Attention with Neural Ordinary Differential Equations**\
