@@ -20,14 +20,13 @@ My current research mainly focus on Natural Language Processing, specifically on
   - **Acceptance Rate: 387 / 1380 = 28%**
 
 ## Submitted and Working Papers
-**SLOTIX: Information Extraction with Multiset-Equivariant Slot Attention in Language Models** (To be released upon acceptance)\
+**SMARTe: Slot-based Method for Accountable Relational Triple extraction** (Pending acceptance)\
 **Xue Wen Tan**, Stanley Kok
-  - *Submitted to The 39th Annual AAAI Conference on Artificial Intelligence 2025 (Pending Acceptance - 1st round of review accepted, pending 2nd round of review)*
+  - *Submitted to The 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)*
 
-**Holistic Multiagent Systems Framework for Agile Software Development Lifecycle** (To be released upon acceptance)\
-Kenneth See\*, **Xue Wen Tan\***
-  - *Submitted to The 24th International Conference on Autonomous Agents and Multiagent Systems (Pending Acceptance)*
-  - Under Blue Sky Ideas special track
+**Holistic Multiagent Systems Framework for Agile Software Development Lifecycle**\
+Kenneth See, Xue Wen Tan
+  - *Work in Progress*
 
 **Implicit Continuous Slot Attention with Neural Ordinary Differential Equations**\
 **Xue Wen Tan**, Stanley Kok
