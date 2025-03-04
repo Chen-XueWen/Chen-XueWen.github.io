@@ -20,7 +20,7 @@ My current research mainly focus on Natural Language Processing, specifically on
   - **Acceptance Rate: 387 / 1380 = 28%**
 
 ## Submitted and Working Papers
-**SMARTe: Slot-based Method for Accountable Relational Triple extraction** (Pending acceptance)\
+**Explainable Relational Triple Extraction (Not real title for anonymous reason) ** (Pending acceptance)\
 **Xue Wen Tan**, Stanley Kok
   - *Submitted to The 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)*
 
