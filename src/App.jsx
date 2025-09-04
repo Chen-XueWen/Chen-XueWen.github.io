@@ -225,8 +225,12 @@ function App() {
             transition={{ duration: 0.8 }}
           >
             <div className="mb-12">
-              <div className="w-24 h-24 mx-auto mb-8 rounded-full bg-slate-900 flex items-center justify-center">
-                <Building2 size={32} className="text-white" />
+              <div className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden border-4 border-slate-200 shadow-lg">
+                <img 
+                  src="/profile.jpeg" 
+                  alt="Xue Wen Tan" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
             
