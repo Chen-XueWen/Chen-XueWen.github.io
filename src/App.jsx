@@ -305,20 +305,27 @@ function App() {
             <div className="grid md:grid-cols-2 gap-16 items-start">
               <div className="space-y-6">
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  I am a Singaporean AI Research Scientist with a strong background in Artificial Intelligence and Financial Technology. 
-                  Currently serving as Manager of Artificial Intelligence at IMDA, I lead agentic AI strategy across development, 
-                  due diligence, and safety initiatives.
+                  I am a Singaporean AI Research Scientist with a strong background in Artificial Intelligence (AI) and Financial Technology (FinTech). 
+                  I hold a PhD in AI (FinTech Specialization) from the National University of Singapore (NUS), 
+                  where I focused on AI-driven financial solutions, including risk modeling, fraud detection, and information extraction. 
+                  Prior to that, I graduated with First Class Honours in Electrical Engineering from NUS and gained hands-on experience in 
+                  banking technology as a SEED Graduate Associate at DBS. Currently, I am working as an AI researcher in the public sector, 
+                  leveraging my expertise to drive innovation and develop impactful AI solutions for national initiatives. 
                 </p>
                 
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  I recently completed my PhD in Digital Financial Technology from the Asian Institute of Digital Finance at NUS, 
-                  with my thesis titled "Human-Centered AI for Financial Decision Making". My research focused on AI-driven 
-                  financial solutions, including risk modeling, fraud detection, and explainable information extraction.
+                  My expertise lies in Explainable AI, Natural Language Processing, and Generative AI, 
+                  with a passion for developing scalable AI models that drive real-world impact. 
+                  I bring a strong foundation in project management, backed by PMP and CSM certifications, 
+                  as well as cloud computing expertise through AWS certifications. 
+                  On top of those, I have built a strong professional network across the banking, 
+                  AI and deep tech industries, academia, and the public sector.
                 </p>
 
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  My expertise lies in Explainable AI, Natural Language Processing, and Generative AI, with a passion for 
-                  developing scalable AI models that drive real-world impact.
+                  I thrive in challenging environments, believe that uncertainty fuels innovation, 
+                  and enjoy mentoring and collaborating with cross-functional teams.
+                  Outside of work, I enjoy investing / coding my own tradebot, playing the piano, and practicing Suzhounese. Let’s connect!
                 </p>
 
                 <div className="flex items-center space-x-3 text-slate-500 pt-4">
