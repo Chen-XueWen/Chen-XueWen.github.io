@@ -239,8 +239,7 @@ function App() {
             </p>
             
             <p className="text-lg text-slate-500 mb-12 max-w-3xl mx-auto leading-relaxed">
-              Leading agentic AI strategy and ecosystem growth at IMDA. PhD in Human-Centered AI 
-              for Financial Decision Making from NUS, with expertise in explainable AI and generative models.
+              Leading agentic AI strategy and ecosystem growth at IMDA. PhD in Digital Financial Technology from NUS, with expertise in explainable AI, Generative models and Computational Linguistics.
             </p>
 
             <div className="flex flex-wrap justify-center gap-4 mb-16">
