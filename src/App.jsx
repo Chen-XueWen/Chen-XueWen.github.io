@@ -51,27 +51,23 @@ function App() {
       institution: "Asian Institute of Digital Finance, National University of Singapore",
       period: "August 2021 - August 2025",
       location: "Singapore",
-      details: "Thesis: \"Human-Centered AI for Financial Decision Making\"",
-      gpa: "5.0/5.0 (Highest Attainable GPA)",
-      achievements: ["FinTech PhD Scholarship by AIDF", "Published at top-tier conferences (ICIS)", "Dean's List"]
+      thesis: "Human-Centered AI for Financial Decision Making", 
+      supervisor: "Stanley Kok, School of Computing",
+      gpa: "5.0/5.0, AIDF Scholar",
     },
     {
       degree: "Bachelor of Engineering (B.Eng) in Electrical Engineering",
       institution: "National University of Singapore",
       period: "August 2015 - August 2019",
       location: "Singapore",
-      details: "Specialization in Digital Systems and Computer Engineering",
-      gpa: "4.7/5.0 (First Class Honours - Highest Distinction)",
-      achievements: ["First Class Honours", "Final Year Project 1st Prize Winner", "Alcatel-Lucent Technologies Prize Winner"]
+      gpa: "4.7/5.0 (First Class Honours - Highest Distinction), Dean's List",
     },
     {
       degree: "Fall Semester Exchange Programme",
       institution: "National Taiwan University of Science and Technology",
       period: "2017 - 2018",
       location: "Taiwan",
-      details: "International exchange program focusing on advanced engineering topics",
-      gpa: "",
-      achievements: ["Cross-cultural academic experience", "Advanced engineering coursework"]
+      gpa: "4.0/4.0",
     }
   ]
 
@@ -96,12 +92,6 @@ function App() {
       acceptance: "Under Review",
       authors: "Xue Wen Tan, Stanley Kok"
     },
-    {
-      title: "Implicit Continuous Slot Attention with Neural Ordinary Differential Equations",
-      venue: "Work in Progress",
-      acceptance: "In Development",
-      authors: "Xue Wen Tan, Stanley Kok"
-    }
   ]
 
   const experience = [
@@ -117,7 +107,7 @@ function App() {
       company: "Asian Institute of Digital Finance, NUS",
       period: "August 2021 - August 2025",
       location: "Singapore",
-      description: "Completed PhD in Digital Financial Technology with thesis titled 'Human-Centered AI for Financial Decision Making'. Developed state-of-the-art ML and generative AI models for risk classification, fraud detection, and explainable financial information extraction. Published at top-tier conferences including ICIS."
+      description: "Completed PhD in Digital Financial Technology with thesis titled 'Human-Centered AI for Financial Decision Making'. Developed state-of-the-art ML and generative AI models for risk classification, fraud detection, and explainable financial information extraction. Published at top-tier conferences."
     },
     {
       role: "Information Technology Analyst",
@@ -136,19 +126,11 @@ function App() {
   ]
 
   const certifications = [
-    "Project Management Professional (PMP)",
-    "NICF - Cyber Security for ICT Professionals",
-    "Multi AI Agent Systems with crewAI",
-    "IBM RAG and Agentic AI Specialization"
+    "To Be Updated",
   ]
 
   const achievements = [
-    "Dean's List - National University of Singapore",
-    "Young Talent Program - Market Immersion",
-    "Edusave Award for Achievement, Good Leadership and Service (EAGLES)",
-    "Final Year Project (FYP) Poster Presentation 2019 - 1st Prize Winner",
-    "Alcatel-Lucent Technologies Prize Winner",
-    "OWASP Secure Coding Competition Winner (DBS Bank)"
+    "To Be Updated",
   ]
 
   const academicServices = [
