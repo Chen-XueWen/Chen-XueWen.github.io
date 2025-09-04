@@ -473,7 +473,7 @@ function App() {
             viewport={{ once: true }}
           >
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-light text-slate-900 mb-4">Research & Publications</h2>
+              <h2 className="text-4xl font-light text-slate-900 mb-4">Research & Publications (To be Updated)</h2>
               <div className="w-16 h-0.5 bg-slate-900 mx-auto"></div>
             </div>
             
