@@ -11,7 +11,6 @@
   "hero": {
     "name": "Xue Wen Tan",
     "title": "Manager, Artificial Intelligence",
-    "summary": "Leading agentic AI strategy and ecosystem growth at IMDA. PhD in Digital Financial Technology from NUS, with expertise in explainable AI, Generative models and Computational Linguistics.",
     "location": "Singapore",
     "profileImage": "/profile.jpeg",
     "links": {
@@ -19,6 +18,11 @@
       "linkedin": "https://www.linkedin.com/in/xue-wen",
       "github": "https://github.com/chen-xuewen"
     }
+  },
+  "about": {
+    "paragraphs": [
+      "I am an AI Scientist with expertise in explainable AI, AI for social good, and natural language processing, holding a PhD in Digital Financial Technology from NUS. Through my extensive network of industry leaders, academic researchers, and public sector stakeholders, I work to translate cutting-edge AI research into real-world solutions."
+    ]
   },
   "skills": [
     "Agentic AI",
