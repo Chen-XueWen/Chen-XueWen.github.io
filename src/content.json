@@ -65,6 +65,16 @@
   ],
   "publications": [
     {
+      "title": "Explainable Risk Classification in Financial Reports",
+      "authors": "XW Tan, S Kok",
+      "venue": "Proceedings of International Conference on Information Systems (ICIS) 2023"
+    },
+    {
+      "title": "ScamGPT-J: Inside the Scammer’s Mind, A Generative AI-Based Approach Toward Combating Messaging Scams",
+      "authors": "XW Tan, K See, S Kok",
+      "venue": "Proceedings of International Conference on Information Systems (ICIS) 2024"
+    },
+    {
       "title": "Anticipate, Simulate, Reason (ASR): A Comprehensive Generative AI Framework for Combating Messaging Scams",
       "authors": "XW Tan, K See, S Kok",
       "venue": "arXiv preprint arXiv:2507.17543 (2025)"
