@@ -295,6 +295,12 @@ function App() {
                     <div className="flex-1">
                       <h3 className="text-xl font-medium text-slate-900 mb-2">{edu.degree}</h3>
                       <p className="text-lg text-slate-700 font-medium mb-2">{edu.institution}</p>
+                      {edu.thesis && (
+                        <p className="text-slate-600 mb-2"><span className="font-medium">Thesis:</span> {edu.thesis}</p>
+                      )}
+                      {edu.supervisor && (
+                        <p className="text-slate-600 mb-2"><span className="font-medium">Supervisor:</span> {edu.supervisor}</p>
+                      )}
                       {edu.details && (
                         <p className="text-slate-600 mb-2">{edu.details}</p>
                       )}
