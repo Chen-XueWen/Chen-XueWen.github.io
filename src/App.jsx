@@ -390,38 +390,34 @@ function App() {
             viewport={{ once: true }}
           >
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-light text-slate-900 mb-4">Research & Publications (To be Updated)</h2>
+              <h2 className="text-4xl font-light text-slate-900 mb-4">Research & Publications</h2>
               <div className="w-16 h-0.5 bg-slate-900 mx-auto"></div>
             </div>
             
-            <div className="mb-12">
-              <div className="bg-white border border-slate-200 p-8">
-                <div className="flex items-center mb-4">
-                  <Target className="mr-3 text-slate-700" size={20} />
-                  <h3 className="text-xl font-medium text-slate-900">Research Focus</h3>
-                </div>
-                <p className="text-slate-600 leading-relaxed mb-4">
-                  My research focuses on Natural Language Processing, specifically Explainable AI, Large Language Models, 
-                  AI for Social Good, and Computational Linguistics. I am particularly interested in Human-Centered AI 
-                  design and developing scalable AI models that drive real-world impact in financial technology and beyond.
-                </p>
-                <p className="text-slate-600 leading-relaxed">
-                  My PhD thesis, "Human-Centered AI for Financial Decision Making," explored AI-driven financial risk modeling, 
-                  generative AI for social good, and natural language processing applications in finance.
-                </p>
-              </div>
-            </div>
-
             <div className="space-y-6">
               {publications.map((pub, index) => (
                 <div key={index} className="bg-white border border-slate-200 p-6 hover:shadow-sm transition-shadow duration-300">
                   <h4 className="text-lg font-medium text-slate-900 mb-3 leading-relaxed">{pub.title}</h4>
                   <div className="space-y-2">
-                    <p className="text-slate-700 font-medium">{pub.venue}</p>
+                    {pub.venue && (
+                      <p className="text-slate-700 font-medium">{pub.venue}</p>
+                    )}
                     <p className="text-sm text-slate-500">{pub.authors}</p>
-                    <div className="inline-block px-3 py-1 bg-slate-100 text-slate-700 text-xs font-medium">
-                      {pub.acceptance}
-                    </div>
+                    {pub.acceptance && (
+                      <div className="inline-block px-3 py-1 bg-slate-100 text-slate-700 text-xs font-medium">
+                        {pub.acceptance}
+                      </div>
+                    )}
+                    {pub.link && (
+                      <a
+                        href={pub.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center text-sm text-slate-600 hover:text-slate-900"
+                      >
+                        View paper <ExternalLink className="ml-1" size={14} />
+                      </a>
+                    )}
                     {pub.additional && (
                       <p className="text-sm text-slate-500 italic mt-2">
                         {pub.additional}

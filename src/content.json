@@ -65,24 +65,19 @@
   ],
   "publications": [
     {
-      "title": "ScamGPT-J: Inside the Scammer's Mind, A Generative AI-Based Approach Toward Combating Messaging Scams",
-      "venue": "International Conference on Information Systems (ICIS) 2024",
-      "acceptance": "27% acceptance rate (441/1613)",
-      "authors": "Xue Wen Tan*, Kenneth See*, Stanley Kok",
-      "additional": "Also presented at The 3rd Quantum Computing Workshop 2024"
+      "title": "Anticipate, Simulate, Reason (ASR): A Comprehensive Generative AI Framework for Combating Messaging Scams",
+      "authors": "XW Tan, K See, S Kok",
+      "venue": "arXiv preprint arXiv:2507.17543 (2025)"
     },
     {
-      "title": "Explainable Risk Classification in Financial Reports",
-      "venue": "International Conference on Information Systems (ICIS) 2023",
-      "acceptance": "28% acceptance rate (387/1380)",
-      "authors": "Xue Wen Tan, Stanley Kok",
-      "additional": "Also presented at AAAI Summer Symposium AI4FinTech 2023 and ETH-NUS FinsureTech Conference 2023"
+      "title": "Explainable AI for Comprehensive Risk Assessment for Financial Reports: A Lightweight Hierarchical Transformer Network Approach",
+      "authors": "XW Tan, S Kok",
+      "venue": "arXiv preprint arXiv:2506.23767 (2025)"
     },
     {
       "title": "SMARTe: Slot-based Method for Accountable Relational Triple extraction",
-      "venue": "Submitted to ACL 2025",
-      "acceptance": "Under Review",
-      "authors": "Xue Wen Tan, Stanley Kok"
+      "authors": "XW Tan, S Kok",
+      "venue": "arXiv preprint arXiv:2504.12816 (2025)"
     }
   ],
   "experience": [
@@ -127,4 +122,3 @@
     "Teaching Assistant for FT5001 (Fintech Innovations for Consumers) AY2021/2022"
   ]
 }
-
