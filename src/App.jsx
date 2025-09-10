@@ -262,18 +262,6 @@ function App() {
                     })}
                   </div>
                 </div>
-
-                <div>
-                  <h3 className="text-xl font-medium text-slate-900 mb-6">Certifications</h3>
-                  <div className="space-y-3">
-                    {certifications.map((cert, index) => (
-                      <div key={index} className="flex items-start space-x-3">
-                        <div className="w-1.5 h-1.5 bg-slate-400 rounded-full mt-2 flex-shrink-0"></div>
-                        <span className="text-slate-600">{cert}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
               </div>
             </div>
           </motion.div>
@@ -559,6 +547,32 @@ function App() {
               "天生我材必有用" - 李白<br />
               <span className="text-sm">Heaven bestows upon me talents that must be utilized - Li Bai</span>
             </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Certifications Section */}
+      <section id="certifications" className="py-24 px-6 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+          >
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-light text-slate-900 mb-4">Certifications</h2>
+              <div className="w-16 h-0.5 bg-slate-900 mx-auto"></div>
+            </div>
+
+            <div className="max-w-3xl mx-auto space-y-4">
+              {certifications.map((cert, index) => (
+                <div key={index} className="flex items-start space-x-3 bg-slate-50 border border-slate-200 p-4">
+                  <div className="w-1.5 h-1.5 bg-slate-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <span className="text-slate-700">{cert}</span>
+                </div>
+              ))}
+            </div>
           </motion.div>
         </div>
       </section>

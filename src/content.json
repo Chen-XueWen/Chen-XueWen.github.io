@@ -6,7 +6,8 @@
     "experience",
     "research",
     "achievements",
-    "contact"
+    "contact",
+    "certifications"
   ],
   "hero": {
     "name": "Xue Wen Tan",
@@ -30,25 +31,23 @@
       "icon": "Brain",
       "skills": [
         "Explainable AI",
-        "LLMs",
-        "RAG",
-        "NLP",
-        "Agent frameworks",
-        "Evaluation",
-        "Safety",
-        "Orchestration",
-        "Python",
-        "MLOps"
+        "Natural Language Processing",
+        "Prompt Engineering",
+        "Generative AI",
+        "Agentic AI",
+        "Cutting-edge AI Research"
       ]
     },
     {
       "title": "FinTech (AI for Finance)",
       "icon": "DollarSign",
       "skills": [
-        "Risk modeling",
-        "Fraud detection",
-        "Knowledge graphs",
-        "Financial technology"
+        "Risk Modelling",
+        "Fraud Detection",
+        "Knowledge Graphs",
+        "Financial Technology",
+        "Digital Banking Solutions",
+        "Applied Econometrics"
       ]
     }
   ],
