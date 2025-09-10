@@ -11,6 +11,9 @@ import {
   ExternalLink, 
   Brain, 
   Code, 
+  DollarSign,
+  Banknote,
+  Landmark,
   Award, 
   BookOpen,
   MapPin,
@@ -41,7 +44,7 @@ function App() {
   const { 
     hero = {},
     about = {},
-    skills = [],
+    expertise = [],
     education = [],
     publications = [],
     experience = [],
@@ -50,6 +53,8 @@ function App() {
     academicServices = [],
     navSections = ['home', 'about', 'education', 'experience', 'research', 'achievements', 'contact']
   } = content
+
+  const iconMap = { Brain, Target, Building2, Code, Users, DollarSign, Banknote, Landmark }
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId)
@@ -229,12 +234,32 @@ function App() {
               <div className="space-y-8">
                 <div>
                   <h3 className="text-xl font-medium text-slate-900 mb-6">Core Expertise</h3>
-                  <div className="grid grid-cols-2 gap-3">
-                    {skills.map((skill, index) => (
-                      <div key={index} className="text-sm text-slate-600 py-2 px-3 bg-slate-50 border border-slate-200">
-                        {skill}
-                      </div>
-                    ))}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {expertise.map((cat, idx) => {
+                      const Icon = iconMap[cat.icon] || Brain
+                      return (
+                        <Card key={idx} className="border-slate-200">
+                          <CardHeader className="flex flex-row items-center gap-3">
+                            <div className="shrink-0 text-slate-700"><Icon size={20} /></div>
+                            <div>
+                              <CardTitle className="text-base font-medium text-slate-900">{cat.title}</CardTitle>
+                              <CardDescription className="text-slate-600 text-sm">{cat.summary}</CardDescription>
+                            </div>
+                          </CardHeader>
+                          {cat.skills && cat.skills.length > 0 && (
+                            <CardContent>
+                              <div className="flex flex-wrap gap-2">
+                                {cat.skills.map((s, i) => (
+                                  <Badge key={i} variant="secondary" className="bg-slate-100 text-slate-700 border border-slate-200 rounded-none">
+                                    {s}
+                                  </Badge>
+                                ))}
+                              </div>
+                            </CardContent>
+                          )}
+                        </Card>
+                      )
+                    })}
                   </div>
                 </div>
 

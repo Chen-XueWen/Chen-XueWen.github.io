@@ -24,23 +24,33 @@
       "I am an AI Scientist with expertise in explainable AI, AI for social good, and natural language processing, holding a PhD in Digital Financial Technology from NUS. Through my extensive network of industry leaders, academic researchers, and public sector stakeholders, I work to translate cutting-edge AI research into real-world solutions."
     ]
   },
-  "skills": [
-    "Agentic AI",
-    "Retrieval-Augmented Generation (RAG)",
-    "Prompt Engineering",
-    "Explainable AI",
-    "Natural Language Processing",
-    "Generative AI",
-    "Large Language Models",
-    "Multi AI Agent Systems",
-    "Human-Centered AI",
-    "Risk Modeling",
-    "Fraud Detection",
-    "Financial Technology",
-    "Python",
-    "Machine Learning",
-    "Deep Learning",
-    "Computational Linguistics"
+  "expertise": [
+    {
+      "title": "Artificial Intelligence",
+      "icon": "Brain",
+      "skills": [
+        "Explainable AI",
+        "LLMs",
+        "RAG",
+        "NLP",
+        "Agent frameworks",
+        "Evaluation",
+        "Safety",
+        "Orchestration",
+        "Python",
+        "MLOps"
+      ]
+    },
+    {
+      "title": "FinTech (AI for Finance)",
+      "icon": "DollarSign",
+      "skills": [
+        "Risk modeling",
+        "Fraud detection",
+        "Knowledge graphs",
+        "Financial technology"
+      ]
+    }
   ],
   "education": [
     {
