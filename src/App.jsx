@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import content from './content.json'
 import { Button } from '@/components/ui/button.jsx'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card.jsx'
 import { Badge } from '@/components/ui/badge.jsx'
@@ -37,107 +38,17 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const skills = [
-    'Agentic AI', 'Retrieval-Augmented Generation (RAG)', 'Prompt Engineering',
-    'Explainable AI', 'Natural Language Processing', 'Generative AI',
-    'Large Language Models', 'Multi AI Agent Systems', 'Human-Centered AI',
-    'Risk Modeling', 'Fraud Detection', 'Financial Technology', 'Python', 
-    'Machine Learning', 'Deep Learning', 'Computational Linguistics'
-  ]
-
-  const education = [
-    {
-      degree: "Doctor of Philosophy (PhD) in Digital Financial Technology",
-      institution: "Asian Institute of Digital Finance, National University of Singapore",
-      period: "August 2021 - August 2025",
-      location: "Singapore",
-      thesis: "Human-Centered AI for Financial Decision Making", 
-      supervisor: "Stanley Kok, School of Computing",
-      gpa: "5.0/5.0, AIDF Scholar",
-    },
-    {
-      degree: "Bachelor of Engineering (B.Eng) in Electrical Engineering",
-      institution: "National University of Singapore",
-      period: "August 2015 - August 2019",
-      location: "Singapore",
-      gpa: "4.7/5.0 (First Class Honours - Highest Distinction), Dean's List",
-    },
-    {
-      degree: "Fall Semester Exchange Programme",
-      institution: "National Taiwan University of Science and Technology",
-      period: "2017 - 2018",
-      location: "Taiwan",
-      gpa: "4.0/4.0",
-    }
-  ]
-
-  const publications = [
-    {
-      title: "ScamGPT-J: Inside the Scammer's Mind, A Generative AI-Based Approach Toward Combating Messaging Scams",
-      venue: "International Conference on Information Systems (ICIS) 2024",
-      acceptance: "27% acceptance rate (441/1613)",
-      authors: "Xue Wen Tan*, Kenneth See*, Stanley Kok",
-      additional: "Also presented at The 3rd Quantum Computing Workshop 2024"
-    },
-    {
-      title: "Explainable Risk Classification in Financial Reports",
-      venue: "International Conference on Information Systems (ICIS) 2023", 
-      acceptance: "28% acceptance rate (387/1380)",
-      authors: "Xue Wen Tan, Stanley Kok",
-      additional: "Also presented at AAAI Summer Symposium AI4FinTech 2023 and ETH-NUS FinsureTech Conference 2023"
-    },
-    {
-      title: "SMARTe: Slot-based Method for Accountable Relational Triple extraction",
-      venue: "Submitted to ACL 2025",
-      acceptance: "Under Review",
-      authors: "Xue Wen Tan, Stanley Kok"
-    },
-  ]
-
-  const experience = [
-    {
-      role: "Manager, Artificial Intelligence",
-      company: "IMDA (Infocomm Media Development Authority)",
-      period: "July 2025 - Present",
-      location: "Singapore",
-      description: "Lead agentic AI strategy across development, due diligence, and safety initiatives. Drive ecosystem growth through applied research, grants, and community collaboration programs. Focus on advancing Singapore's AI capabilities in the public sector."
-    },
-    {
-      role: "AI Doctoral Researcher",
-      company: "Asian Institute of Digital Finance, NUS",
-      period: "August 2021 - August 2025",
-      location: "Singapore",
-      description: "Completed PhD in Digital Financial Technology with thesis titled 'Human-Centered AI for Financial Decision Making'. Developed state-of-the-art ML and generative AI models for risk classification, fraud detection, and explainable financial information extraction. Published at top-tier conferences."
-    },
-    {
-      role: "Information Technology Analyst",
-      company: "DBS Bank",
-      period: "August 2019 - August 2021",
-      location: "Singapore",
-      description: "Led end-to-end digital banking solutions under SEED Graduate Associate Programme. Integrated RESTful APIs, MQs, and Tivoli interfaces using agile methodology. Contributed to Celent Model Bank 2021 award. Developed iOS apps and won OWASP Secure Coding Competition. Worked throughout Covid-19 as essential bank staff."
-    },
-    {
-      role: "Microchip Design Engineering Intern",
-      company: "MediaTek",
-      period: "January 2018 - June 2018",
-      location: "Singapore",
-      description: "Specialized in physical design automation and low-power VLSI, optimizing placement, routability, and power analysis with EDA tools and scripting. Co-developed a graph-theory-based power analysis tool, published at SNUG 2018."
-    }
-  ]
-
-  const certifications = [
-    "To Be Updated",
-  ]
-
-  const achievements = [
-    "To Be Updated",
-  ]
-
-  const academicServices = [
-    "Reviewer for International Conference on Information Systems (ICIS)",
-    "Discussant at 2022 Global AI Finance Research Conference",
-    "Teaching Assistant for FT5001 (Fintech Innovations for Consumers) AY2021/2022"
-  ]
+  const { 
+    hero = {},
+    skills = [],
+    education = [],
+    publications = [],
+    experience = [],
+    certifications = [],
+    achievements = [],
+    academicServices = [],
+    navSections = ['home', 'about', 'education', 'experience', 'research', 'achievements', 'contact']
+  } = content
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId)
@@ -166,7 +77,7 @@ function App() {
             
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-10">
-              {['home', 'about', 'education', 'experience', 'research', 'achievements', 'contact'].map((section) => (
+              {navSections.map((section) => (
                 <button
                   key={section}
                   onClick={() => scrollToSection(section)}
@@ -201,7 +112,7 @@ function App() {
               className="md:hidden bg-white border-t border-gray-100"
             >
               <div className="px-6 py-4 space-y-3">
-                {['home', 'about', 'education', 'experience', 'research', 'achievements', 'contact'].map((section) => (
+                {navSections.map((section) => (
                   <button
                     key={section}
                     onClick={() => scrollToSection(section)}
@@ -227,23 +138,23 @@ function App() {
             <div className="mb-12">
               <div className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden border-4 border-slate-200 shadow-lg">
                 <img 
-                  src="/profile.jpeg" 
-                  alt="Xue Wen Tan" 
+                  src={hero.profileImage || '/profile.jpeg'} 
+                  alt={hero.name || 'Profile'} 
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
             
             <h1 className="text-5xl md:text-6xl font-light text-slate-900 mb-6 tracking-tight">
-              Xue Wen Tan
+              {hero.name || 'Your Name'}
             </h1>
             
             <p className="text-xl md:text-2xl text-slate-600 mb-4 font-light">
-              Manager, Artificial Intelligence
+              {hero.title || ''}
             </p>
             
             <p className="text-lg text-slate-500 mb-12 max-w-3xl mx-auto leading-relaxed">
-              Leading agentic AI strategy and ecosystem growth at IMDA. PhD in Digital Financial Technology from NUS, with expertise in explainable AI, Generative models and Computational Linguistics.
+              {hero.summary || ''}
             </p>
 
             <div className="flex flex-wrap justify-center gap-4 mb-16">
@@ -265,13 +176,13 @@ function App() {
             </div>
 
             <div className="flex justify-center space-x-8">
-              <a href="mailto:xuewen@u.nus.edu" className="text-slate-400 hover:text-slate-600 transition-colors">
+              <a href={`mailto:${hero?.links?.email || ''}`} className="text-slate-400 hover:text-slate-600 transition-colors">
                 <Mail size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/xue-wen" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-slate-600 transition-colors">
+              <a href={hero?.links?.linkedin || '#'} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-slate-600 transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="https://github.com/chen-xuewen" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-slate-600 transition-colors">
+              <a href={hero?.links?.github || '#'} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-slate-600 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -330,7 +241,7 @@ function App() {
 
                 <div className="flex items-center space-x-3 text-slate-500 pt-4">
                   <MapPin size={18} />
-                  <span className="font-medium">Singapore</span>
+                  <span className="font-medium">{hero.location || 'Location'}</span>
                 </div>
               </div>
 
@@ -615,15 +526,15 @@ function App() {
 
             <div className="flex flex-col sm:flex-row justify-center items-center space-y-6 sm:space-y-0 sm:space-x-12 mb-16">
               <a 
-                href="mailto:xuewen@u.nus.edu"
+                href={`mailto:${hero?.links?.email || ''}`}
                 className="flex items-center space-x-3 text-lg text-slate-300 hover:text-white transition-colors"
               >
                 <Mail size={20} />
-                <span>xuewen@u.nus.edu</span>
+                <span>{hero?.links?.email || ''}</span>
               </a>
               
               <a 
-                href="https://www.linkedin.com/in/xue-wen"
+                href={hero?.links?.linkedin || '#'}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-3 text-lg text-slate-300 hover:text-white transition-colors"
@@ -647,7 +558,7 @@ function App() {
       {/* Footer */}
       <footer className="py-8 px-6 bg-slate-900 border-t border-slate-800">
         <div className="max-w-6xl mx-auto text-center text-slate-400">
-          <p>&copy; 2025 Xue Wen Tan. All rights reserved.</p>
+          <p>&copy; 2025 {hero.name || 'Your Name'}. All rights reserved.</p>
         </div>
       </footer>
     </div>
@@ -655,4 +566,3 @@ function App() {
 }
 
 export default App
-

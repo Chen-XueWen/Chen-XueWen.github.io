@@ -1,0 +1,130 @@
+{
+  "navSections": [
+    "home",
+    "about",
+    "education",
+    "experience",
+    "research",
+    "achievements",
+    "contact"
+  ],
+  "hero": {
+    "name": "Xue Wen Tan",
+    "title": "Manager, Artificial Intelligence",
+    "summary": "Leading agentic AI strategy and ecosystem growth at IMDA. PhD in Digital Financial Technology from NUS, with expertise in explainable AI, Generative models and Computational Linguistics.",
+    "location": "Singapore",
+    "profileImage": "/profile.jpeg",
+    "links": {
+      "email": "xuewen@u.nus.edu",
+      "linkedin": "https://www.linkedin.com/in/xue-wen",
+      "github": "https://github.com/chen-xuewen"
+    }
+  },
+  "skills": [
+    "Agentic AI",
+    "Retrieval-Augmented Generation (RAG)",
+    "Prompt Engineering",
+    "Explainable AI",
+    "Natural Language Processing",
+    "Generative AI",
+    "Large Language Models",
+    "Multi AI Agent Systems",
+    "Human-Centered AI",
+    "Risk Modeling",
+    "Fraud Detection",
+    "Financial Technology",
+    "Python",
+    "Machine Learning",
+    "Deep Learning",
+    "Computational Linguistics"
+  ],
+  "education": [
+    {
+      "degree": "Doctor of Philosophy (PhD) in Digital Financial Technology",
+      "institution": "Asian Institute of Digital Finance, National University of Singapore",
+      "period": "August 2021 - August 2025",
+      "location": "Singapore",
+      "thesis": "Human-Centered AI for Financial Decision Making",
+      "supervisor": "Stanley Kok, School of Computing",
+      "gpa": "5.0/5.0, AIDF Scholar"
+    },
+    {
+      "degree": "Bachelor of Engineering (B.Eng) in Electrical Engineering",
+      "institution": "National University of Singapore",
+      "period": "August 2015 - August 2019",
+      "location": "Singapore",
+      "gpa": "4.7/5.0 (First Class Honours - Highest Distinction), Dean's List"
+    },
+    {
+      "degree": "Fall Semester Exchange Programme",
+      "institution": "National Taiwan University of Science and Technology",
+      "period": "2017 - 2018",
+      "location": "Taiwan",
+      "gpa": "4.0/4.0"
+    }
+  ],
+  "publications": [
+    {
+      "title": "ScamGPT-J: Inside the Scammer's Mind, A Generative AI-Based Approach Toward Combating Messaging Scams",
+      "venue": "International Conference on Information Systems (ICIS) 2024",
+      "acceptance": "27% acceptance rate (441/1613)",
+      "authors": "Xue Wen Tan*, Kenneth See*, Stanley Kok",
+      "additional": "Also presented at The 3rd Quantum Computing Workshop 2024"
+    },
+    {
+      "title": "Explainable Risk Classification in Financial Reports",
+      "venue": "International Conference on Information Systems (ICIS) 2023",
+      "acceptance": "28% acceptance rate (387/1380)",
+      "authors": "Xue Wen Tan, Stanley Kok",
+      "additional": "Also presented at AAAI Summer Symposium AI4FinTech 2023 and ETH-NUS FinsureTech Conference 2023"
+    },
+    {
+      "title": "SMARTe: Slot-based Method for Accountable Relational Triple extraction",
+      "venue": "Submitted to ACL 2025",
+      "acceptance": "Under Review",
+      "authors": "Xue Wen Tan, Stanley Kok"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Manager, Artificial Intelligence",
+      "company": "IMDA (Infocomm Media Development Authority)",
+      "period": "July 2025 - Present",
+      "location": "Singapore",
+      "description": "Lead agentic AI strategy across development, due diligence, and safety initiatives. Drive ecosystem growth through applied research, grants, and community collaboration programs. Focus on advancing Singapore's AI capabilities in the public sector."
+    },
+    {
+      "role": "AI Doctoral Researcher",
+      "company": "Asian Institute of Digital Finance, NUS",
+      "period": "August 2021 - August 2025",
+      "location": "Singapore",
+      "description": "Completed PhD in Digital Financial Technology with thesis titled 'Human-Centered AI for Financial Decision Making'. Developed state-of-the-art ML and generative AI models for risk classification, fraud detection, and explainable financial information extraction. Published at top-tier conferences."
+    },
+    {
+      "role": "Information Technology Analyst",
+      "company": "DBS Bank",
+      "period": "August 2019 - August 2021",
+      "location": "Singapore",
+      "description": "Led end-to-end digital banking solutions under SEED Graduate Associate Programme. Integrated RESTful APIs, MQs, and Tivoli interfaces using agile methodology. Contributed to Celent Model Bank 2021 award. Developed iOS apps and won OWASP Secure Coding Competition. Worked throughout Covid-19 as essential bank staff."
+    },
+    {
+      "role": "Microchip Design Engineering Intern",
+      "company": "MediaTek",
+      "period": "January 2018 - June 2018",
+      "location": "Singapore",
+      "description": "Specialized in physical design automation and low-power VLSI, optimizing placement, routability, and power analysis with EDA tools and scripting. Co-developed a graph-theory-based power analysis tool, published at SNUG 2018."
+    }
+  ],
+  "certifications": [
+    "To Be Updated"
+  ],
+  "achievements": [
+    "To Be Updated"
+  ],
+  "academicServices": [
+    "Reviewer for International Conference on Information Systems (ICIS)",
+    "Discussant at 2022 Global AI Finance Research Conference",
+    "Teaching Assistant for FT5001 (Fintech Innovations for Consumers) AY2021/2022"
+  ]
+}
+
