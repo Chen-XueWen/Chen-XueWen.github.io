@@ -39,7 +39,7 @@
       ]
     },
     {
-      "title": "FinTech (AI for Finance)",
+      "title": "FinTech",
       "icon": "DollarSign",
       "skills": [
         "Risk Modelling",
@@ -47,7 +47,9 @@
         "Knowledge Graphs",
         "Financial Technology",
         "Digital Banking Solutions",
-        "Applied Econometrics"
+        "Applied Econometrics",
+        "Quantitative Research",
+        "AI for Finance"
       ]
     }
   ],
@@ -66,7 +68,7 @@
       "institution": "National University of Singapore",
       "period": "August 2015 - August 2019",
       "location": "Singapore",
-      "gpa": "4.7/5.0 (First Class Honours - Highest Distinction), Dean's List"
+      "gpa": "4.7/5.0 (First Class Honours), Dean's List"
     },
     {
       "degree": "Fall Semester Exchange Programme",
