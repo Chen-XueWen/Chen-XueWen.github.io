@@ -134,27 +134,62 @@
     }
   ],
   "certifications": [
-    "Artificial Intelligence and Machine Learning — IBM RAG and Agentic AI Specialization",
-    "Artificial Intelligence and Machine Learning — Multi AI Agent Systems with crewAI",
-    "Artificial Intelligence and Machine Learning — Agents Course Final Certificate",
-    "Artificial Intelligence and Machine Learning — AI Agents Fundamentals",
-    "Artificial Intelligence and Machine Learning — Explainable AI (XAI) Specialization",
-    "Artificial Intelligence and Machine Learning — Generative AI with Large Language Models",
-    "Artificial Intelligence and Machine Learning — Deep Learning Specialization",
-    "Cloud Computing — AWS Certified Solutions Architect – Associate (SAA-C02)",
-    "Cloud Computing — Qwiklabs Cloud Computing Badges",
-    "Cloud Computing — AWS Certified Cloud Practitioner (CLF-C01)",
-    "Quantitative Finance and Trading — WorldQuant Challenge Gold Certificate",
-    "Quantitative Finance and Trading — Optiver Algorithmic Trading Workshop 2024",
-    "Programming and Software Development — Python 3 Programming Specialization",
-    "Programming and Software Development — Python for Everybody Specialization",
-    "Programming and Software Development — Swift Level 2",
-    "Programming and Software Development — Advanced SRE Practitioner Certification",
-    "Project Management and Agile — Project Management Professional (PMP)",
-    "Project Management and Agile — Certified ScrumMaster® (CSM)",
-    "Data Analytics — Advanced Google Analytics",
-    "Data Analytics — Google Analytics Individual Qualification",
-    "Cyber Security — NICF - Cyber Security for ICT Professionals"
+    {
+      "category": "Artificial Intelligence and Machine Learning",
+      "items": [
+        "IBM RAG and Agentic AI Specialization",
+        "Multi AI Agent Systems with crewAI",
+        "Agents Course Final Certificate",
+        "AI Agents Fundamentals",
+        "Explainable AI (XAI) Specialization",
+        "Generative AI with Large Language Models",
+        "Deep Learning Specialization"
+      ]
+    },
+    {
+      "category": "Cloud Computing",
+      "items": [
+        "AWS Certified Solutions Architect – Associate (SAA-C02)",
+        "Qwiklabs Cloud Computing Badges",
+        "AWS Certified Cloud Practitioner (CLF-C01)"
+      ]
+    },
+    {
+      "category": "Quantitative Finance and Trading",
+      "items": [
+        "WorldQuant Challenge Gold Certificate",
+        "Optiver Algorithmic Trading Workshop 2024"
+      ]
+    },
+    {
+      "category": "Programming and Software Development",
+      "items": [
+        "Python 3 Programming Specialization",
+        "Python for Everybody Specialization",
+        "Swift Level 2",
+        "Advanced SRE Practitioner Certification"
+      ]
+    },
+    {
+      "category": "Project Management and Agile",
+      "items": [
+        "Project Management Professional (PMP)",
+        "Certified ScrumMaster® (CSM)"
+      ]
+    },
+    {
+      "category": "Data Analytics",
+      "items": [
+        "Advanced Google Analytics",
+        "Google Analytics Individual Qualification"
+      ]
+    },
+    {
+      "category": "Cyber Security",
+      "items": [
+        "NICF - Cyber Security for ICT Professionals"
+      ]
+    }
   ],
   "achievements": [
     {
