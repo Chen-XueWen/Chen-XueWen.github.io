@@ -137,7 +137,46 @@
     "To Be Updated"
   ],
   "achievements": [
-    "To Be Updated"
+    {
+      "title": "International Quant Championship 2025 — Stage 1 Top 20% (WorldQuant BRAIN)",
+      "description": "Rank 3,614/76,854; opted out of Stage 2 due to PhD and full-time commitments."
+    },
+    {
+      "title": "First Runner-Up — NUS FinTech Summit 2025, Northern Trust Hackathon (AIDF)",
+      "description": "Built AI-driven compliance rule-mining agent for blockchain compliance; 2-person team."
+    },
+    {
+      "title": "AIDF PhD Scholarship (NUS)",
+      "description": "PhD in Digital Financial Technology scholarship award, co-sponsored by MAS, NRF & NUS."
+    },
+    {
+      "title": "Celent Model Bank Award 2021 — Corporate Digital Banking (DBS IDEAL Next-Gen)",
+      "description": "Core Contributor at DBS to award-winning next-generation digital banking platform."
+    },
+    {
+      "title": "DBS Application Security Champion 2019",
+      "description": "Winner of the SecureCodeWarrior challenge."
+    },
+    {
+      "title": "Certificate of Service (Merit) — NUS ECE",
+      "description": "Outstanding service to department and undergraduate student body."
+    },
+    {
+      "title": "Alcatel-Lucent Technologies Prize",
+      "description": "Best Communications Engineering Final Year Project in NUS."
+    },
+    {
+      "title": "FYP Poster Presentation — 1st Prize",
+      "description": "Reflect-array Antenna for 5G; research spanned optimization, simulation, fabrication, testing and software development."
+    },
+    {
+      "title": "Young Talent Programme — Market Immersion (IE Singapore)",
+      "description": "Overseas industry exposure award; S$4,500 grant."
+    },
+    {
+      "title": "Dean's List (NUS)",
+      "description": "Top 5% with Semester CAP ≥ 4.5 and full course load."
+    }
   ],
   "academicServices": [
     "Reviewer for International Conference on Information Systems (ICIS)",

@@ -462,11 +462,16 @@ function App() {
                   <Award className="mr-3 text-slate-700" size={20} />
                   <h3 className="text-xl font-medium text-slate-900">Awards & Honors</h3>
                 </div>
-                <div className="space-y-4">
-                  {achievements.map((achievement, index) => (
+                <div className="space-y-6">
+                  {achievements.map((item, index) => (
                     <div key={index} className="flex items-start space-x-3">
                       <div className="w-1.5 h-1.5 bg-slate-400 rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-slate-600">{achievement}</span>
+                      <div>
+                        <div className="text-slate-900 font-medium">{item.title || item}</div>
+                        {item.description && (
+                          <div className="text-slate-600 text-sm mt-1">{item.description}</div>
+                        )}
+                      </div>
                     </div>
                   ))}
                 </div>
