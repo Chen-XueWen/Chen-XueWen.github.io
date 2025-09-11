@@ -510,7 +510,7 @@ function App() {
       </section>
 
       {/* Certifications Section */}
-      <section id="certifications" className="py-24 px-6 bg-white">
+      <section id="certifications" className="py-24 px-6 bg-slate-50">
         <div className="max-w-6xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -527,7 +527,7 @@ function App() {
             {Array.isArray(certifications) && certifications.length > 0 && typeof certifications[0] === 'object' && certifications[0].items ? (
               <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
                 {certifications.map((cat, idx) => (
-                  <div key={idx} className="bg-slate-50 border border-slate-200 p-6">
+                  <div key={idx} className="bg-white border border-slate-200 p-6">
                     <h3 className="text-lg font-medium text-slate-900 mb-3">{cat.category}</h3>
                     <div className="space-y-2">
                       {(cat.items || []).map((item, i) => (
@@ -543,7 +543,7 @@ function App() {
             ) : (
               <div className="max-w-3xl mx-auto space-y-4">
                 {certifications.map((cert, index) => (
-                  <div key={index} className="flex items-start space-x-3 bg-slate-50 border border-slate-200 p-4">
+                  <div key={index} className="flex items-start space-x-3 bg-white border border-slate-200 p-4">
                     <div className="w-1.5 h-1.5 bg-slate-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span className="text-slate-700">{cert}</span>
                   </div>
