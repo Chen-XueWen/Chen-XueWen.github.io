@@ -10,16 +10,6 @@
     ]
   },
   {
-    "slug": "research-update-explainable-ai",
-    "title": "Research Update: Explainable AI in Finance",
-    "date": "2025-09-01",
-    "summary": "Recent progress on interpretable models for risk classification.",
-    "content": [
-      "In this update, I summarize findings from recent experiments on model interpretability for financial risk classification.",
-      "I’ll share more detailed results and code in a follow-up post."
-    ]
-  },
-  {
     "slug": "math-latex-demo",
     "title": "Math & LaTeX Demo",
     "date": "2025-09-16",
