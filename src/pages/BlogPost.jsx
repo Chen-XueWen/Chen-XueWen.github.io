@@ -1,5 +1,10 @@
 import { Link, useParams } from 'react-router-dom'
 import posts from '../blog/posts.json'
+import ReactMarkdown from 'react-markdown'
+import remarkMath from 'remark-math'
+import rehypeKatex from 'rehype-katex'
+import remarkGfm from 'remark-gfm'
+import 'katex/dist/katex.min.css'
 
 export default function BlogPost() {
   const { slug } = useParams()
@@ -31,6 +36,8 @@ export default function BlogPost() {
     )
   }
 
+  const md = post.body ? post.body : Array.isArray(post.content) ? post.content.join('\n\n') : ''
+
   return (
     <div className="min-h-screen bg-white">
       <nav className="fixed top-0 w-full z-50 bg-white shadow-sm border-b border-gray-100">
@@ -57,9 +64,12 @@ export default function BlogPost() {
           </header>
 
           <section className="prose prose-slate max-w-none">
-            {(post.content || []).map((para, idx) => (
-              <p key={idx} className="text-slate-700 leading-relaxed mb-4">{para}</p>
-            ))}
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm, remarkMath]}
+              rehypePlugins={[rehypeKatex]}
+            >
+              {md}
+            </ReactMarkdown>
           </section>
 
           <footer className="mt-10">

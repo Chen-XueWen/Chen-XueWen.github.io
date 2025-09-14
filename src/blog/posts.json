@@ -2,12 +2,28 @@
   {
     "slug": "welcome",
     "title": "Welcome to My Blog",
-    "date": "2025-09-01",
+    "date": "2025-09-14",
     "summary": "A short note on what I’ll share here.",
     "content": [
       "Welcome! This blog will host short write-ups on AI, research notes, and occasional personal updates.",
       "Feel free to reach out if there’s a topic you’d like me to cover."
     ]
+  },
+  {
+    "slug": "research-update-explainable-ai",
+    "title": "Research Update: Explainable AI in Finance",
+    "date": "2025-09-01",
+    "summary": "Recent progress on interpretable models for risk classification.",
+    "content": [
+      "In this update, I summarize findings from recent experiments on model interpretability for financial risk classification.",
+      "I’ll share more detailed results and code in a follow-up post."
+    ]
+  },
+  {
+    "slug": "math-latex-demo",
+    "title": "Math & LaTeX Demo",
+    "date": "2025-09-16",
+    "summary": "Testing inline and block LaTeX rendering with KaTeX.",
+    "body": "# Math in Markdown with KaTeX\n\nInline math like $E=mc^2$ and Euler's identity $e^{i\\pi}+1=0$.\n\nBlock math:\n\n$$\\int_{-\\infty}^{\\infty} e^{-x^2} \, dx = \\sqrt{\\pi}$$\n\nA small matrix:\n\n$$\\begin{bmatrix}1 & 2 \\ 3 & 4\\end{bmatrix}$$\n\nAnd some GitHub-flavored Markdown features (lists, code):\n\n- Item one\n- Item two\n\n`code-inline` and a fenced block:\n\n```python\nimport math\nprint(math.e)\n```"
   }
 ]
-
