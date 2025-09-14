@@ -24,6 +24,6 @@
     "title": "Math & LaTeX Demo",
     "date": "2025-09-16",
     "summary": "Testing inline and block LaTeX rendering with KaTeX.",
-    "body": "# Math in Markdown with KaTeX\n\nInline math like $E=mc^2$ and Euler's identity $e^{i\\pi}+1=0$.\n\nBlock math:\n\n$$\\int_{-\\infty}^{\\infty} e^{-x^2} dx = \\sqrt{\\pi}$$\n\nA small matrix:\n\n$$\\begin{bmatrix}1 & 2 \\ 3 & 4\\end{bmatrix}$$\n\nAnd some GitHub-flavored Markdown features (lists, code):\n\n- Item one\n- Item two\n\n`code-inline` and a fenced block:\n\n```python\nimport math\nprint(math.e)\n```"
+    "body": "# Math in Markdown with KaTeX\n\nInline math like $E=mc^2$ and Euler's identity $e^{i\\pi}+1=0$.\n\nBlock math:\n\n$$\\int_{-\\infty}^{\\infty} e^{-x^2} dx = \\sqrt{\\pi}$$\n\nA small matrix:\n\n$$\\begin{bmatrix}1 & 2 \\\\ 3 & 4\\end{bmatrix}$$\n\nAnd some GitHub-flavored Markdown features (lists, code):\n\n- Item one\n- Item two\n\n`code-inline` and a fenced block:\n\n```python\nimport math\nprint(math.e)\n```"
   }
 ]
