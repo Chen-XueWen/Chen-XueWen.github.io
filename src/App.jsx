@@ -28,6 +28,7 @@ import {
   Target
 } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import './App.css'
 
 function App() {
@@ -84,17 +85,29 @@ function App() {
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-10">
               {navSections.map((section) => (
-                <button
-                  key={section}
-                  onClick={() => scrollToSection(section)}
-                  className={`capitalize text-sm font-medium tracking-wide transition-colors duration-200 ${
-                    activeSection === section 
-                      ? 'text-slate-900 border-b-2 border-slate-900 pb-1' 
-                      : 'text-slate-600 hover:text-slate-900'
-                  }`}
-                >
-                  {section}
-                </button>
+                section === 'blog' ? (
+                  <Link
+                    key={section}
+                    to="/blog"
+                    className={`capitalize text-sm font-medium tracking-wide transition-colors duration-200 ${
+                      'text-slate-600 hover:text-slate-900'
+                    }`}
+                  >
+                    {section}
+                  </Link>
+                ) : (
+                  <button
+                    key={section}
+                    onClick={() => scrollToSection(section)}
+                    className={`capitalize text-sm font-medium tracking-wide transition-colors duration-200 ${
+                      activeSection === section 
+                        ? 'text-slate-900 border-b-2 border-slate-900 pb-1' 
+                        : 'text-slate-600 hover:text-slate-900'
+                    }`}
+                  >
+                    {section}
+                  </button>
+                )
               ))}
             </div>
 
@@ -119,13 +132,24 @@ function App() {
             >
               <div className="px-6 py-4 space-y-3">
                 {navSections.map((section) => (
-                  <button
-                    key={section}
-                    onClick={() => scrollToSection(section)}
-                    className="block w-full text-left py-2 capitalize text-slate-600 hover:text-slate-900 font-medium"
-                  >
-                    {section}
-                  </button>
+                  section === 'blog' ? (
+                    <Link
+                      key={section}
+                      to="/blog"
+                      onClick={() => setIsMenuOpen(false)}
+                      className="block w-full text-left py-2 capitalize text-slate-600 hover:text-slate-900 font-medium"
+                    >
+                      {section}
+                    </Link>
+                  ) : (
+                    <button
+                      key={section}
+                      onClick={() => scrollToSection(section)}
+                      className="block w-full text-left py-2 capitalize text-slate-600 hover:text-slate-900 font-medium"
+                    >
+                      {section}
+                    </button>
+                  )
                 ))}
               </div>
             </motion.div>
