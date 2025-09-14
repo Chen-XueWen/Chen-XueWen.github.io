@@ -5,10 +5,10 @@
     "education",
     "experience",
     "research",
-    "blog",
     "achievements",
     "certifications",
-    "contact"
+    "contact",
+    "blog"
   ],
   "hero": {
     "name": "Xue Wen Tan",

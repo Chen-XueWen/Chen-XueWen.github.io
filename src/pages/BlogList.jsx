@@ -13,8 +13,8 @@ export default function BlogList() {
               Xue Wen Tan
             </Link>
             <div className="hidden md:flex space-x-10">
-              <Link to="/" className="text-sm font-medium text-slate-600 hover:text-slate-900">home</Link>
-              <Link to="/blog" className="text-sm font-medium text-slate-900 border-b-2 border-slate-900 pb-1">blog</Link>
+              <Link to="/" className="inline-flex items-center h-10 text-sm font-medium text-slate-600 hover:text-slate-900">home</Link>
+              <Link to="/blog" className="inline-flex items-center h-10 text-sm font-medium text-slate-900 border-b-2 border-slate-900 pb-1">blog</Link>
             </div>
           </div>
         </div>
@@ -47,4 +47,3 @@ export default function BlogList() {
     </div>
   )
 }
-

@@ -89,7 +89,7 @@ function App() {
                   <Link
                     key={section}
                     to="/blog"
-                    className={`capitalize text-sm font-medium tracking-wide transition-colors duration-200 ${
+                    className={`inline-flex items-center h-10 capitalize text-sm font-medium tracking-wide transition-colors duration-200 ${
                       'text-slate-600 hover:text-slate-900'
                     }`}
                   >
@@ -99,7 +99,7 @@ function App() {
                   <button
                     key={section}
                     onClick={() => scrollToSection(section)}
-                    className={`capitalize text-sm font-medium tracking-wide transition-colors duration-200 ${
+                    className={`inline-flex items-center h-10 capitalize text-sm font-medium tracking-wide transition-colors duration-200 ${
                       activeSection === section 
                         ? 'text-slate-900 border-b-2 border-slate-900 pb-1' 
                         : 'text-slate-600 hover:text-slate-900'
