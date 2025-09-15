@@ -23,6 +23,16 @@ export default function BlogPost() {
                 <Link to="/" className="inline-flex items-center h-10 text-sm font-medium text-slate-600 hover:text-slate-900 capitalize">Home</Link>
                 <Link to="/blog" className="inline-flex items-center h-10 text-sm font-medium text-slate-600 hover:text-slate-900 capitalize">Blog</Link>
               </div>
+              {/* Mobile: show a direct Home link */}
+              <div className="md:hidden">
+                <Link
+                  to="/"
+                  aria-label="Go to home"
+                  className="inline-flex items-center h-10 text-sm font-medium text-slate-600 hover:text-slate-900 capitalize"
+                >
+                  Home
+                </Link>
+              </div>
             </div>
           </div>
         </nav>
@@ -49,6 +59,16 @@ export default function BlogPost() {
             <div className="hidden md:flex space-x-10">
               <Link to="/" className="inline-flex items-center h-10 text-sm font-medium text-slate-600 hover:text-slate-900 capitalize">Home</Link>
               <Link to="/blog" className="inline-flex items-center h-10 text-sm font-medium text-slate-900 border-b-2 border-slate-900 pb-1 capitalize">Blog</Link>
+            </div>
+            {/* Mobile: show a direct Home link */}
+            <div className="md:hidden">
+              <Link
+                to="/"
+                aria-label="Go to home"
+                className="inline-flex items-center h-10 text-sm font-medium text-slate-600 hover:text-slate-900 capitalize"
+              >
+                Home
+              </Link>
             </div>
           </div>
         </div>
